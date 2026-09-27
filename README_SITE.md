@@ -6,6 +6,9 @@
 - 별도 본문 리더: `reader.html`, `reader.js`, `novel-content.js`
 - 공통 스타일: `site-v3.css`
 - 상단 풍경: `대진국/삼류연정/이미지/landscape.png`
+- 배경음악: `music.js`, `music.css`, `assets/audio/eastminster.mp3` (Kevin MacLeod, CC BY 4.0; 출처는 `assets/audio/CREDITS.md` 및 플레이어 설정에 표시)
+
+오른쪽 아래의 ‘음악 켜기’로 BGM을 재생합니다. 기본 음량은 20%이며 처음 방문할 때는 자동 재생하거나 음원을 미리 다운로드하지 않습니다. 같은 탭에서 페이지를 이동하면 음량과 재생 위치를 기억하며, 재생 중이었다면 이어 재생을 시도합니다. 브라우저가 자동 재생을 제한하면 버튼을 눌러 재개할 수 있습니다. 전체 페이지 이동 시 음악이 잠시 끊길 수 있습니다.
 
 `reader.html?chapter=1`은 첫 화를, `reader.html`은 마지막으로 읽던 화를 엽니다. 본문에는 스크롤 등장 효과를 적용하지 않아 긴 화도 즉시 표시됩니다. 이전 버전의 `app.js`, `styles.css`, `site-v3.js`~`site-v5.js`는 현재 페이지에서 사용하지 않습니다.
 

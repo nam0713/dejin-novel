@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="site-v3.css?v=6">
+  <link rel="stylesheet" href="music.css">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -128,5 +129,23 @@
   </dialog>
 
   <script src="site.js"></script>
+  <aside class="music-player" aria-label="배경음악" hidden>
+    <audio src="assets/audio/eastminster.mp3" preload="none" loop></audio>
+    <div class="music-bar">
+      <button class="music-toggle" type="button" aria-label="배경음악 재생" aria-pressed="false"><span class="music-note" aria-hidden="true">♫</span><span class="music-toggle-label">음악 켜기</span></button>
+      <details class="music-details">
+        <summary aria-label="배경음악 정보 및 음량 설정" title="음악 설정">⋯</summary>
+        <div class="music-panel">
+          <small>風流 · BACKGROUND MUSIC</small>
+          <strong>Eastminster</strong>
+          <p>빗소리와 현악 선율이 흐르는 강호.<br>이야기 곁에 조용히 놓는 음악.</p>
+          <label>음량 <input type="range" min="0" max="100" value="20" aria-label="배경음악 음량"></label>
+          <p class="music-credit">“Eastminster” · Kevin MacLeod<br><a href="https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100719" target="_blank" rel="noopener">incompetech.com</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a><br>원곡 그대로 · 반복 재생</p>
+        </div>
+      </details>
+    </div>
+    <div class="music-status" role="status" aria-live="polite"></div>
+  </aside>
+  <script src="music.js"></script>
 </body>
 </html>
