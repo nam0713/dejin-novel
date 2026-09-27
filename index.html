@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="site-v3.css">
+  <link rel="stylesheet" href="site-v3.css?v=6">
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -22,9 +22,9 @@
       <span class="brand-text"><b>삼류연정</b><small>三流戀情</small></span>
     </a>
     <nav aria-label="주요 메뉴">
-      <a href="#story">작품</a><a href="#characters">인물</a><a href="#lore">로어북</a><a href="#reader">본문</a>
+      <a href="#story">작품</a><a href="#characters">인물</a><a href="#lore">로어북</a><a href="reader.html">본문</a>
     </nav>
-    <a class="top-cta" href="#reader">읽기 시작</a>
+    <a class="top-cta" href="reader.html">읽기 시작</a>
   </header>
 
   <main>
@@ -35,7 +35,7 @@
         <h1>그녀에게는<br><em>남편이 있었다</em></h1>
         <p class="lead">대단한 영웅이 되지 못한 삼류 무인.<br>그가 끝내 놓지 못한 한 사람과, 그 뒤에 펼쳐진 강호의 이야기.</p>
         <div class="actions">
-          <a class="btn primary" href="#reader">제1화 읽기 <span>→</span></a>
+          <a class="btn primary" href="reader.html?chapter=1">제1화 읽기 <span>→</span></a>
           <a class="btn ghost" href="#characters">등장인물 보기</a>
         </div>
         <dl class="meta">
@@ -109,25 +109,9 @@
       </div>
     </section>
 
-    <section class="reader-section" id="reader">
-      <header class="reader-head reveal">
-        <p class="kicker">小說 · READER</p>
-        <h2>삼류연정 읽기</h2>
-        <p>원문 전체를 작품 전용 리더에 맞게 편집했습니다. 장면 전환과 대사를 살리고, 화별 탐색과 읽기 설정을 제공합니다.</p>
-      </header>
-      <div class="reader-shell reveal">
-        <aside class="reader-aside">
-          <div class="book-label"><small>天高 · 第一部</small><strong>그녀에게는<br>남편이 있었다</strong><span>三流戀情</span></div>
-          <nav id="chapterNav" aria-label="화 목록"></nav>
-          <div class="reader-tools" aria-label="읽기 설정">
-            <button type="button" data-size="-1" aria-label="글자 작게">A−</button>
-            <button type="button" data-size="1" aria-label="글자 크게">A＋</button>
-            <button type="button" id="themeToggle" aria-label="읽기 테마 전환">◐</button>
-          </div>
-        </aside>
-        <article class="reader-content" id="readerContent"></article>
-      </div>
-      <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+    <section class="section reading-entry" id="reader">
+      <div><p class="kicker">小說 · READ THE STORY</p><h2>이제, 이야기 속으로.</h2><p>삼류 무인 진소백의 첫 번째 연정.<br>별도의 읽기 화면에서 총 3화의 이야기를 만나보세요.</p></div>
+      <div class="actions"><a class="btn primary" href="reader.html?chapter=1">제1화부터 읽기 <span>→</span></a><a class="btn ghost" href="reader.html">이어 읽기</a></div>
     </section>
   </main>
 
@@ -143,6 +127,6 @@
     <div><small></small><h3></h3><p></p></div>
   </dialog>
 
-  <script src="site-v5.js"></script>
+  <script src="site.js"></script>
 </body>
 </html>

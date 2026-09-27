@@ -30,3 +30,48 @@
 .reveal{opacity:1!important;transform:none!important}
 .enhanced .reveal:not(.show){opacity:0!important;transform:translateY(20px)!important}
 .enhanced .reveal.show{opacity:1!important;transform:none!important}
+
+/* Landscape and a full-size book cover on every screen. */
+.hero{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:4vw;padding-inline:clamp(24px,6vw,110px)}
+.hero-bg{inset:0;background:linear-gradient(90deg,rgba(7,7,9,.87),rgba(7,7,9,.48) 58%,rgba(7,7,9,.2)),linear-gradient(180deg,rgba(7,7,9,.12) 55%,#0a090b 100%),url("대진국/삼류연정/이미지/landscape.png") center/cover no-repeat;filter:none}
+.hero h1{font-size:clamp(48px,5.5vw,88px);line-height:1.18}
+.hero .cover{position:relative;right:auto;bottom:auto;width:min(100%,500px);margin:0;opacity:1;justify-self:center}
+.hero .cover-art{aspect-ratio:auto;transform:none}
+.hero .cover-art img{height:auto;object-fit:contain;filter:none}
+.hero .lead{color:#c7bcab}.hero .meta dt{color:#a99b86}.hero .cover figcaption{color:#b6a58e}
+.reading-entry{display:flex;justify-content:space-between;align-items:center;gap:32px;border-top:1px solid var(--line)}
+.reading-entry h2{font:600 clamp(30px,4vw,52px)/1.4 var(--serif);margin:0}
+.reading-entry p:not(.kicker){color:#a99b8a;font:400 14px/2 var(--serif)}
+.reading-entry .actions{margin:0}
+.back-to-work{font-size:12px;color:#dcc9a7}
+.reader-page .topbar{background:#161518;height:66px;border-bottom:1px solid var(--line)}
+.reader-page .reader-section{padding-top:108px}
+.reader-page .reader-head{padding-inline:22px}
+.reader-page .reader-head>p:last-child{line-height:1.8}
+.reader-page .reader-content{min-width:0;overflow-wrap:anywhere}
+.reader-page .reader-shell:has(.reader-content.dark){background:#1a191b}
+.reader-page .reader-section:has(.reader-content.dark){background:#242126;color:#d5cbbb}
+.reader-page .reader-content.dark .reader-footer-nav button{color:#c9b99f}
+.reader-page .chapter h3:focus{outline:none}
+.reader-page .chapter-body>p:first-child:not(.dialogue)::first-letter{float:none;font-size:inherit;line-height:inherit;margin:0;color:inherit;font-weight:inherit}
+.reader-page .reader-aside nav{scrollbar-width:thin;scrollbar-color:#76634c #161518}
+.reader-page .reader-aside nav button b{color:#b4a99a}
+.reader-page .reader-section:has(.reader-content.dark) .reader-head>p:last-child{color:#ab9f8d}
+.reader-page .reader-section:has(.reader-content.dark) .reader-head .kicker{color:#ba7773}
+a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px solid #b99a62;outline-offset:5px}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;gap:48px;padding:112px 28px 70px}
+  .hero-copy{padding-right:0}
+  .hero .cover{width:min(76vw,440px)}
+  .hero h1{font-size:clamp(44px,8vw,72px)}
+  .hero .scroll{display:none}
+  .reading-entry{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:640px){
+  .hero{padding-inline:22px}
+  .hero h1{font-size:clamp(36px,10vw,62px)}
+  .hero .cover{width:min(84vw,400px)}
+  .reader-page .reader-aside nav button{min-width:210px}
+  .reader-page .reader-content{padding:38px 22px 70px}
+}
+@media(prefers-reduced-motion:reduce){.enhanced .reveal:not(.show){opacity:1!important;transform:none!important}}
