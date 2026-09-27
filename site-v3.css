@@ -8,7 +8,7 @@
 .character-tab:hover,.character-tab.active{background:#121115}.character-tab.active b{color:#eee3d2}.character-tab.active>span{color:#b28e57}.character-tab.active:after{right:0}
 .character-panel{animation:panelIn .35s ease}.world-note{display:flex;align-items:center;gap:24px;margin:0 0 24px;padding:18px 20px;border-left:2px solid #72542f;background:rgba(184,149,91,.045)}
 .world-note span{white-space:nowrap;font:600 9px var(--serif);letter-spacing:.18em;color:#97784b}.world-note p{margin:0;font:400 11px/1.8 var(--serif);color:#777068}
-.world-grid{grid-template-columns:repeat(3,1fr);max-width:920px}.world-grid .character-card{aspect-ratio:.76}.world-grid .char-copy p{display:block}
+.world-grid{grid-template-columns:repeat(3,1fr);max-width:920px}.world-grid .character-card{aspect-ratio:.76}
 .reader-aside nav button{position:relative;grid-template-columns:34px 1fr;padding:12px 10px;border-left:2px solid transparent}.reader-aside nav button.active{border-left-color:#9c713c}
 .reader-aside nav button .chapter-nav-copy{display:grid}.reader-aside nav button small{font:400 8px var(--sans);color:#57514b;margin-top:2px}
 .chapter header{position:relative}.chapter header:after{content:"";position:absolute;left:0;bottom:-1px;width:64px;height:1px;background:#7d1d22}
@@ -75,3 +75,68 @@ a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px s
   .reader-page .reader-content{padding:38px 22px 70px}
 }
 @media(prefers-reduced-motion:reduce){.enhanced .reveal:not(.show){opacity:1!important;transform:none!important}}
+
+/* Readable interface type; the novel's paragraph settings stay independent. */
+.brand-text b{font-size:18px}.brand-text small{font-size:14px;color:#b9ae9e}
+.topbar nav a,.top-cta,.back-to-work{font-size:16px;color:#e1d5c2}
+.topbar nav a{padding-block:12px}.top-cta{min-height:44px}
+.eyebrow,.kicker{font-size:14px;line-height:1.6;color:#c3a775}
+.hero .lead{font-size:18px;line-height:1.9;color:#e0d6c6}
+.btn{font-size:16px;min-height:50px;line-height:1.5;padding:12px 20px}
+.btn.ghost{color:#ddd2c0;background:rgba(10,9,11,.35)}
+.meta dt,.hero .meta dt{font-size:14px;color:#c7bba8}.meta dd{font-size:18px;color:#eee3d0}
+.hero .cover figcaption{font-size:14px;line-height:1.6;flex-wrap:wrap;color:#c6b79f}
+.cover figcaption small{font-size:inherit}.cover figcaption b{color:#d2c4b0}
+.scroll small{font-size:12px;color:#c7bba8}
+.story-title>p,.story-body>p,.lore-lead,.reading-entry p:not(.kicker){font-size:18px;line-height:1.95;color:#c8beaf}
+.story-body blockquote{font-size:20px;color:#e1d3bc}
+.story h2 em{color:#d16e70}
+.motifs{font-size:16px;line-height:1.7;color:#c2b6a3}.motifs i{font-size:12px;color:#ba9768}
+.section-head>p{font-size:17px;line-height:1.85;color:#c2b7a5;max-width:520px}
+.character-tab b{font-size:18px;line-height:1.5;color:#d2c7b6}
+.character-tab small{font-size:14px;line-height:1.6;color:#b4a895}
+.character-tab>span{font-size:14px;color:#b89b6c}
+.world-note span{font-size:14px;color:#c2a36f}.world-note p{font-size:16px;line-height:1.85;color:#c2b7a5}
+.char-copy small{font-size:14px;line-height:1.5;letter-spacing:0;color:#dcc08f}
+.char-copy h3{font-size:24px;line-height:1.4;word-break:keep-all}
+.char-copy p,.featured .char-copy p{font-size:16px;line-height:1.75;color:#cec4b6}
+.facts article>b{font-size:16px;color:#bd9c6b}.facts strong{font-size:18px}
+.facts span{font-size:16px;line-height:1.8;color:#c2b7a5}
+.codex small{font-size:14px;color:#c7aa7b}.codex p{font-size:16px;line-height:1.7;color:#c2b7a5}
+footer{flex-wrap:wrap;color:#b7aa97}.footer-brand b{font-size:16px;color:#d3c6b2}
+footer p,footer a{font-size:14px;line-height:1.8}
+.reader-head>p:last-child{font-size:16px;line-height:1.8}
+.book-label small,.book-label span{font-size:14px;color:#b9a88e}
+.reader-aside nav button b{font-size:16px}.reader-aside nav button span{font-size:14px;color:#bc9d71}
+.reader-aside nav button small{font-size:13px;line-height:1.5;color:#b5a895}
+.reader-tools button{font-size:18px;color:#d4c4ad;min-height:44px}
+.reader-footer-nav button{font-size:16px;min-height:44px}.reader-footer-nav span{font-size:14px}
+.chapter .chapter-meta{font-size:13px;flex-wrap:wrap;line-height:1.6}
+.reader-content.dark .chapter-meta{color:#baa589}
+#portraitDialog{overflow:auto}
+#portraitDialog>div{min-width:0}
+#portraitDialog small{font-size:14px;line-height:1.6;color:#d2b582}
+#portraitDialog h3{font-size:28px;line-height:1.4}
+#portraitDialog p{font-size:17px;line-height:1.85;color:#cec4b6}
+.dialog-close{width:44px;height:44px;top:10px;right:10px;background:#101014e6;border-radius:50%;color:#eee3d2;line-height:1}
+@media(max-width:900px){
+  .character-grid .char-copy p{display:none}
+  .character-grid .char-copy small{display:none}
+  .character-grid .char-copy h3{font-size:20px;line-height:1.45}
+  .character-grid .char-copy{left:14px;right:14px;bottom:16px}
+  .hero-bg{background-image:linear-gradient(90deg,rgba(7,7,9,.86),rgba(7,7,9,.55)),linear-gradient(180deg,transparent 55%,#0a090b 100%),url("대진국/삼류연정/이미지/landscape.png")}
+}
+@media(max-width:640px){
+  .hero .lead{font-size:17px}
+  .eyebrow{gap:10px;letter-spacing:.08em}.eyebrow i{width:24px}
+  .character-tab{padding:18px 16px}
+  .character-grid{gap:12px}
+  .character-grid .char-copy h3{font-size:18px}
+  .world-grid .character-card{aspect-ratio:.7}
+  .facts article{grid-template-columns:30px 1fr;gap:12px}
+  .codex>div{right:28px}
+  #portraitDialog[open]{grid-template-rows:minmax(180px,1fr) auto}
+  #portraitDialog>div{padding:18px 22px 24px;text-align:left}
+  #portraitDialog h3{font-size:24px}
+  .reader-page .reader-aside nav button{min-width:250px}
+}
