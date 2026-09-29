@@ -43,6 +43,9 @@
 .lore-entry h3 { margin: 9px 0 10px; font: 500 clamp(23px, 2.3vw, 30px)/1.6 var(--serif); letter-spacing: -.045em; word-break: keep-all; }
 .lore-prose { font: 400 16px/2.1 var(--serif); word-break: keep-all; overflow-wrap: anywhere; }
 .lore-prose p { margin: 0 0 1.5em; }
+.lore-illustration { margin: 24px 0 32px; }
+.lore-illustration img { display: block; width: 100%; height: auto; }
+.lore-illustration figcaption { margin-top: 12px; color: var(--muted); font: 400 12px/1.8 var(--sans); }
 .lore-prose h4 { margin: 32px 0 12px; font: 600 19px/1.6 var(--serif); }
 .lore-prose h4:first-child { margin-top: 0; }
 .lore-prose blockquote { border-left: 2px solid var(--red); padding: 4px 0 4px 22px; margin: 28px 0; color: var(--red); font-size: 17px; }
