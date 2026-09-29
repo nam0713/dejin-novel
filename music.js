@@ -9,7 +9,7 @@
   const label = player.querySelector('.music-toggle-label');
   const volume = player.querySelector('input[type="range"]');
   const status = player.querySelector('.music-status');
-  const key = 'samryu-music';
+  const key = player.dataset.musicKey || 'samryu-music';
   let saved = {};
   try { saved = JSON.parse(sessionStorage.getItem(key)) || {}; } catch (_) {}
   const initialVolume = Number.isFinite(saved.volume) ? Math.min(1, Math.max(0, saved.volume)) : 0.2;

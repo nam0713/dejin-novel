@@ -11,3 +11,14 @@ https://creativecommons.org/licenses/by/4.0/
 - The original MP3 is unmodified. The player adjusts playback volume and repeats it.
 
 The website displays these credits in the music player's settings on both pages.
+
+
+## Geummyeon Sura background music
+
+“River Flute” — Kevin MacLeod (incompetech.com)
+
+- Track: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900005
+- Source: https://incompetech.com/music/royalty-free/mp3-royaltyfree/River%20Flute.mp3
+- Licensed under Creative Commons: By Attribution 4.0 License: https://creativecommons.org/licenses/by/4.0/
+- Original audio unchanged; looped by the player.
+- Used on geummyeon.html and geummyeon-reader.html.
