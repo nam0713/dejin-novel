@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-29",
+  "reviewed_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "revision_operations": 72,
+  "revisions_by_chapter": {
+    "1": 3,
+    "2": 1,
+    "3": 2,
+    "4": 8,
+    "6": 1,
+    "7": 6,
+    "8": 4,
+    "9": 4,
+    "11": 9,
+    "12": 4,
+    "13": 6,
+    "14": 3,
+    "15": 2,
+    "16": 3,
+    "17": 6,
+    "18": 4,
+    "19": 4,
+    "20": 2
+  },
+  "files": [
+    {
+      "file": "그녀에게는 남편이 있었다 01~03 (재집필본).txt",
+      "before_nonspace": 28279,
+      "after_nonspace": 28411,
+      "sha256": "ab0151a4d49dbbcaabf2246bddc1e90718020a5fb86c2344286fe785e21675e2",
+      "backup_sha256": "d80320e2b1cb927dae1513481bebd2b01c699cf9d29215a9e2e4b5b145ab90f4"
+    },
+    {
+      "file": "그녀에게는 남편이 있었다 04~20 (재집필본).txt",
+      "before_nonspace": 142790,
+      "after_nonspace": 144940,
+      "sha256": "6b6c217e4dcc2ebc06ad458bcd28752f72bb3f453a6591c264259c82a72f27de",
+      "backup_sha256": "7afdf5947bf9405be3a9e03e2578e6173faba46adfcf9c5af08720a04860c12f"
+    }
+  ],
+  "original_sha256": {
+    "그녀에게는 남편이 있었다 01~03.txt": "63e226e62d276045978ba73989a3d28aa48d829ec838dfed60587c0a3536efb1",
+    "그녀에게는 남편이 있었다 04~20.txt": "f1f05211547260c1632ac8edb6abf9ba184f4c37d4210da88dbba09a910a15ba"
+  },
+  "checks": {
+    "chapter_sequence_1_to_20": true,
+    "no_name_or_alias_before_chapter_13": true,
+    "narrator_uses_name_after_confirmation": true,
+    "paired_dialogue_quotes": true,
+    "no_replacement_characters": true,
+    "no_exact_duplicate_paragraph_over_100_chars": true,
+    "original_files_unchanged": true
+  },
+  "chapter_nonspace_characters": {
+    "1": 6507,
+    "2": 9862,
+    "3": 12015,
+    "4": 13415,
+    "5": 5837,
+    "6": 9628,
+    "7": 9679,
+    "8": 9901,
+    "9": 7992,
+    "10": 7213,
+    "11": 9289,
+    "12": 8936,
+    "13": 8179,
+    "14": 5661,
+    "15": 6795,
+    "16": 6683,
+    "17": 10859,
+    "18": 6690,
+    "19": 8255,
+    "20": 9928
+  }
+}
