@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-29",
+  "revision_operations": 24,
+  "files": [
+    {
+      "file": "그녀에게는 남편이 있었다 01~03 (재집필본).txt",
+      "before_nonspace": 28411,
+      "after_nonspace": 28542,
+      "sha256": "e94714393baf506feb640651d31af6dc2c43518e393c5e1106d2bc391f06d1a0",
+      "chapter_count": 3,
+      "scene_separators": 12,
+      "dialogue_quote_pairs": 737
+    },
+    {
+      "file": "그녀에게는 남편이 있었다 04~20 (재집필본).txt",
+      "before_nonspace": 144940,
+      "after_nonspace": 145135,
+      "sha256": "e090c1bd5c8e3ab720c1e4d3692363a647d0a0863c94681339c84744b0157ff8",
+      "chapter_count": 17,
+      "scene_separators": 152,
+      "dialogue_quote_pairs": 2820
+    }
+  ],
+  "checks": {
+    "chapters_1_to_20_present": true,
+    "chapter_titles_and_scene_separators_preserved": true,
+    "dialogue_quotes_balanced": true,
+    "no_replacement_characters": true,
+    "no_identity_reveal_in_1_to_12": true,
+    "chapter_13_question_confirmation_narrator_order": true,
+    "exactly_logged_changes_applied": true,
+    "original_files_unchanged": true
+  },
+  "original_sha256": {
+    "그녀에게는 남편이 있었다 01~03.txt": "63e226e62d276045978ba73989a3d28aa48d829ec838dfed60587c0a3536efb1",
+    "그녀에게는 남편이 있었다 04~20.txt": "f1f05211547260c1632ac8edb6abf9ba184f4c37d4210da88dbba09a910a15ba"
+  }
+}
