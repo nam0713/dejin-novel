@@ -1,0 +1,17 @@
+{
+  "changes": 8,
+  "changed_chapters": [
+    6,
+    11,
+    12,
+    19,
+    20
+  ],
+  "chapters_1_to_3_byte_identical": true,
+  "scene_separators_preserved": true,
+  "identity_reveal_preserved": true,
+  "edit_log_reconstructs_saved_text": true,
+  "before_nonspace": 151050,
+  "after_nonspace": 151220,
+  "sha256": "510709d67857c9c416990ced0e2a0c8c9e73fed067c107416d75c629972d13f9"
+}
