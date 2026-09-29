@@ -1,0 +1,54 @@
+{
+  "mode": "built-in image_gen",
+  "corrections": [
+    {
+      "id": "6-2",
+      "prompt": "Edit the FIRST reference illustration with one targeted correction: the creature in the upper left background is far too enormous. Replace that giant silhouette with a small ground-level doglike demon beast, shoulder only as high as a horse's belly (about adult man's waist), bristly dark fur, a few bone spines on its back, missing right eye. It is behind the escort fighters farther along the road, no taller than their waists, partly obscured by dust and ink. Remove the giant shape entirely and fill upper background with pale ink mountain mist and foliage. Preserve foreground Jin shielding boy under wagon, their faces, hands, clothing, wagon, fabric bales and planted sabre EXACTLY. Preserve ink-and-light-color East Asian brush painting, ink splatters and warm paper texture. No new lettering.",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/6-2.png"
+      ]
+    },
+    {
+      "id": "10-1",
+      "prompt": "Edit the FIRST illustration with only these prop continuity corrections. Jin at left has deliberately set his sabre aside before speaking: remove sword/scabbard from his waist completely; show a single sheathed sabre resting safely against the distant house wall under the eaves, away from both people. There are TWO warm water cups: preserve cup in Jin's hand and add a modest matching cup beside Yerin's chair on a small low stool, clearly visible. Keep everything else exactly: two faces, costumes, seated spacing, courtyard, green tree, brush-ink wash style, warm textured paper. No text, no new people, no change in emotion.",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/10-1.png"
+      ]
+    },
+    {
+      "id": "13-2",
+      "prompt": "Make ONLY a weapon anatomy correction in this ink-wash illustration. Jin at right currently appears to hold a impossible double-ended weapon, with a second silver blade extending down-right from the handle. Remove that entire extra silver blade below/right of his gripping fist. He must hold ONE normal single-edged sabre: a short dark leather handle terminating at a pommel just below his fist, ONE guard, and ONE blade extending from the guard diagonally UP-LEFT toward the bamboo branch. Only the up-left blade should remain. A separate dark EMPTY scabbard can remain at his belt, clearly dark wood/leather, never shiny steel. Do at left continues pressing the bamboo branch to the spine of this single blade. Preserve every face, the gold mask only on Do's chest, poses, costumes, background and East Asian broken-ink brush painting style exactly. No other changes.",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/13-2.png"
+      ]
+    },
+    {
+      "id": "11-1",
+      "prompt": "Edit only the rescued boy's unnecessary cargo in this illustration. Remove the wooden box the boy at right is holding against his abdomen. He has just been rescued from a burning wagon and carries NO goods. Replace box with continuation of his plain dusty robe, one hand clutching Jin's forearm for support and the other held against his own chest, natural anatomy. Preserve Jin's protective arm around the boy, both faces, swords, fire, wagon and ink-wash painting style exactly. No text or added people.",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/11-1.png"
+      ]
+    },
+    {
+      "id": "20-1",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/20-1.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit this existing Korean wuxia novel brush painting. Chapter 20 occurs more than a decade later. The rugged man with the GOLD DEMON MASK HANGING ON HIS CHEST (upper left seated in the persimmon tree) is DO WOLCHEON. Make him visibly OLD, a weathered senior master: predominantly silver-gray hair mixed with dark strands, gray-white temples and loose topknot, clear deep forehead creases, crow's feet, aged lower eyelids, nasolabial folds, gray moustache and short gray chin stubble, aged sinewy hands. Preserve his recognizable angular bone structure, strong eyebrows, mischievous expression, vigorous bearing, gray ragged clothes, gold chest mask and exact pose. He must look substantially older than the black-robed Jin, not a young man with dyed silver hair. Jin in the black-and-ivory robe should read as a mature middle-aged father with modest temple graying and fine eye lines, remaining younger than Do. Preserve all composition, props, other people, autumn persimmons, gestures and background. Preserve exactly the traditional East Asian ink and light-color brush painting, broken dry brush strokes, ink splatter and warm paper. No glossy digital or anime makeover. No text."
+    },
+    {
+      "id": "20-2",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/20-2.png"
+      ],
+      "prompt": "Use case: identity-preserve. Edit this existing Korean wuxia novel brush painting. Chapter 20 occurs more than a decade later. The rugged man with the GOLD DEMON MASK HANGING ON HIS CHEST (lower left crouching beside the little girl) is DO WOLCHEON. Make him visibly OLD, a weathered senior master: predominantly silver-gray hair mixed with dark strands, gray-white temples and loose topknot, clear deep forehead creases, crow's feet, aged lower eyelids, nasolabial folds, gray moustache and short gray chin stubble, aged sinewy hands. Preserve his recognizable angular bone structure, strong eyebrows, mischievous expression, vigorous bearing, gray ragged clothes, gold chest mask and exact pose. He must look substantially older than the black-robed Jin, not a young man with dyed silver hair. Jin in the black-and-ivory robe should read as a mature middle-aged father with modest temple graying and fine eye lines, remaining younger than Do. Preserve all composition, props, other people, autumn persimmons, gestures and background. Preserve exactly the traditional East Asian ink and light-color brush painting, broken dry brush strokes, ink splatter and warm paper. No glossy digital or anime makeover. No text."
+    },
+    {
+      "id": "20-1-jin-age",
+      "prompt": "Use case: identity-preserve. Edit ONLY JIN SOBAEK, the black-and-ivory-robed teacher standing on the ground in the LOWER CENTER. He was accidentally made elderly. Restore Jin to an early-middle-aged man, approximately early forties, MUCH YOUNGER than the old master above: clean-shaven face with NO moustache or beard, predominantly black hair with at most a few inconspicuous gray strands, firm youthful cheek contours, only very subtle fine lines at eye corners. Preserve his recognizable angular face, focused expression, exact pose, hands and robes. CRITICAL: DO NOT CHANGE DO WOLCHEON, the silver-haired older man seated in the tree UPPER LEFT with gold mask at his chest; his old face, white-gray hair and gray beard must stay exactly as they are. Keep the two men distinctly different in age. Preserve all pupils, sticks, tree, composition, colors, traditional ink-and-light-color dry-brush painting and paper texture. No other changes.",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/20-1.png"
+      ]
+    }
+  ]
+}

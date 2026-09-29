@@ -1,0 +1,472 @@
+{
+  "mode": "built-in image_gen",
+  "revision": 2,
+  "style": "수묵담채 동양화; 곽문정과 도월천의 개별 참조 고정",
+  "jobs": [
+    {
+      "id": "4-1",
+      "chapter": 4,
+      "anchorIndex": 422,
+      "alt": "유자명이 다친 진소백에게 대나무 지팡이를 건네는 장면",
+      "file": "4-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Outside a humble village school at late afternoon, Jin reluctantly accepts a bamboo walking stick from thin thirtysomething teacher Yu Jamyeong as Jin's injured RIGHT leg falters on a shallow step. Yu wears clean faded plain scholar robes with tied hair and ink-stained fingers. Two men, quiet awkward kindness. Low desks and books inside, dusty light, both feet visible. Yu Jamyeong is a DIFFERENT PERSON: narrow ordinary face, modest scholar's cloth headwrap, slightly receding hairline, small tired eyes, NO heroic sharp eyebrows, NO sword and NO gold mask.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "4-2",
+      "chapter": 4,
+      "anchorIndex": 431,
+      "alt": "관문에서 부하의 다친 발목을 살피는 곽문정을 멀리서 보는 진소백",
+      "file": "4-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. SCENE: At the town gate late afternoon, Gwak crouches to inspect the swollen ankle of an adult subordinate seated beside a freight wagon, one shoe removed. In the nearer left foreground, Jin watches partly concealed behind a wall, bamboo walking stick in hand, troubled expression. Three parked carts, blue cloud escort banner without text, subdued kindness rather than heroic display.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg"
+      ]
+    },
+    {
+      "id": "5-1",
+      "chapter": 5,
+      "anchorIndex": 56,
+      "alt": "감나무 아래에서 서예린에게 물잔을 건네는 진소백",
+      "file": "5-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Moonlit small courtyard. Yerin is seated on a flat stone covered with a plain cloth, quietly recovering from tears, receiving a ceramic cup of warm water from Jin who crouches beside her with cautious distance. She wears SIMPLE closed-neck muted cream and faded plum robes, hair tied LOW with ONLY a plain wooden hairpin, NO flowers or jewelry. Green persimmon leaves, tiny unripe fruit, no orange fruit. Intimate tension, moonlight with dim kitchen lamp.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "5-2",
+      "chapter": 5,
+      "anchorIndex": 99,
+      "alt": "서예린이 떠난 마당에서 빈 잔과 헝겊을 치우는 진소백",
+      "file": "5-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: After a night visitor has left, Jin stands alone in a humble courtyard, slowly gathering a plain cloth from a flat seating stone and a nearly empty water cup. The open doorway and green-leaf persimmon tree frame an absent person's place. Warm weak kitchen light, cool night, Jin's face half hidden in profile. Negative space and mundane objects carry the emotional weight, no ghost woman, no orange fruit.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "6-1",
+      "chapter": 6,
+      "anchorIndex": 64,
+      "alt": "대나무 가지 하나에 공격이 막힌 진소백과 술꾼의 대련",
+      "file": "6-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: Late spring courtyard practice. Jin's plain single-edged sabre is angled down after being deflected. Opposite him the rugged older stranger calmly holds a short dry bamboo branch with its tip stopped just before Jin's forehead. Stranger wears frayed GRAY robe, loosely tied hair and a battered straw hat, NO sword at waist; gold demon mask hangs at chest, NEVER on face. A rope with a small training stone hangs from green persimmon branch behind. Dynamic grounded footwork, no injury or superpowers.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    },
+    {
+      "id": "6-2",
+      "chapter": 6,
+      "anchorIndex": 205,
+      "alt": "포목 꾸러미에 깔렸던 아이를 끌어안고 수레 아래로 피하는 진소백",
+      "file": "6-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Low ground-level view on narrow mountain road. Jin shields a young porter boy under a tilted wooden freight wagon, one hand protecting boy's head from the wheel. Tumbled rolls of fabric outside, Jin's sabre planted in nearby earth rather than in his hand. Far background blurred dark beast silhouette and escorts occupy danger; foreground is desperate rescue, scraped knuckles but NO gore, realistic human scale. Late afternoon, ochre dust, rugged rock wall.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "7-1",
+      "chapter": 7,
+      "anchorIndex": 92,
+      "alt": "지붕 수리가 끝난 뒤 마당의 기와 조각을 줍는 진소백",
+      "file": "7-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Late afternoon at Jin's modest rented house, after roof repairs. Jin crouches to pick up a tiny broken tile fragment beside a broom, his face absorbed in ordinary work. A ladder leans on newly patched tile roof, a carpenter carrying tools recedes through gate. Thin smoke draws properly from chimney, green summer persimmon leaves, only tiny green fruit. Wide architecture framing a small hopeful domestic act.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "7-2",
+      "chapter": 7,
+      "anchorIndex": 182,
+      "alt": "두 사람 몫의 식사를 차린 채 빈 마당에서 밤늦도록 기다리는 진소백",
+      "file": "7-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Deep summer night, Jin sits upright alone on a plain chair in an empty courtyard, looking toward closed wooden gate. Beside him a low table holds exactly TWO ceramic rice bowls, simple dried meat and a covering cloth pushed aside, untouched meal now cold. Single low oil lamp casts amber pool, green leaves above fade into indigo darkness. Large quiet empty space opposite him; no arriving woman, no orange fruit.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "8-1",
+      "chapter": 8,
+      "anchorIndex": 10,
+      "alt": "과일 좌판 그늘에서 찻집 이층의 서예린을 바라보는 진소백",
+      "file": "8-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Layered vertical street composition: Jin in shadow beside a fruit stall in foreground bottom, looking up at the half-open second-floor teahouse window. Upstairs Yerin smiles gently across a table at a clean-shaven young merchant clerk of 25 in silk scholar robes, neatly tied hair, wooden trade token at waist, pouring tea. Yerin recognizable face, restrained plum/cream robes. Busy old town reduced to brush gestures. Jin's shock contrasted with distant ordinary warmth. No text.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "8-2",
+      "chapter": 8,
+      "anchorIndex": 90,
+      "alt": "상회 뒤뜰에서 진실을 들은 심윤재와 마주 선 진소백",
+      "file": "8-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Quiet merchant warehouse backyard lined with spice crates. Jin faces Sim Yunjae, a clean-shaven slender young merchant clerk aged25, neat tied dark hair, muted tan silk scholar robe, wooden merchant token at waist. Sim braces one hand against a rough crate corner, stunned and hurt after hearing truth. Jin stands across a careful distance, lowered gaze, no triumph. Daylight stripe through doorway, no confrontation with weapons; Jin sabre sheathed. Match Sim's design to preceding teahouse scene.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "9-1",
+      "chapter": 9,
+      "anchorIndex": 29,
+      "alt": "유자명의 오래된 편지를 펼쳐 읽는 진소백",
+      "file": "9-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Inside cramped village teacher's study, Jin opens one old folded letter at a low desk beside a wooden box filled with differently sized worn letters. Thin plain-looking thirtysomething teacher Yu in clean faded scholar robe sits opposite, ink-stained fingers relaxed on table, gaze averted. Soft window light falls on paper and Jin's tense hands; books on shelf. Unreadable natural ink marks only, no legible letters, no decorative hairpin in this scene.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "9-2",
+      "chapter": 9,
+      "anchorIndex": 166,
+      "alt": "마당에 나란히 앉아 땅콩을 나누며 웃는 진소백과 방칠",
+      "file": "9-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 방칠 only. Bangchil: cheerful young junior, smooth youthful face, lively open expression, messy topknot, blue-gray/ivory plain robes from his portrait. SCENE: Warm nighttime courtyard, Jin and youthful junior Bangchil sit casually side by side on a low veranda, shelling peanuts from a small paper bag. A few shells lie by their feet. Bangchil grins with his head slightly ducked as Jin tosses a tiny peanut shell toward him, Jin finally faintly smiling. Their character faces match portraits, worn charcoal/cream robes, weapons safely sheathed. Modest lantern light, friendly reprieve from grief, not broad slapstick. Green foliage, no orange fruit.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/방칠.jpg"
+      ]
+    },
+    {
+      "id": "10-1",
+      "chapter": 10,
+      "anchorIndex": 57,
+      "alt": "따뜻한 물 두 잔을 사이에 두고 마주 앉은 진소백과 서예린",
+      "file": "10-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Tense evening conversation in modest courtyard. Jin and Yerin sit on separate plain chairs facing each other across deliberate empty space, each with one ceramic warm water cup. Yerin's fingers folded tightly in lap, Jin about to speak but stopping. Closed simple cream/plum robes for Yerin, wooden hairpin, no ornate flowers. His sabre has been put FAR away under eaves, both hands visibly empty except cup. Open vacant room behind them, unripe green leaves, muted lamplight.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "10-2",
+      "chapter": 10,
+      "anchorIndex": 126,
+      "alt": "서예린이 떠난 뒤 빗장 걸린 대문에 기대 주저앉은 진소백",
+      "file": "10-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: After a painful conversation, Jin alone sits on dirt ground with his BACK against the closed wooden courtyard gate, one knee drawn up, hands covering lower face, eyes exhausted. A heavy wooden crossbar visibly locks the gate above his shoulder within arm's reach. The untouched cup on a distant chair and dim empty courtyard, cool blue-gray night against a dying oil lamp. No weapon in hands, no woman, no melodramatic tears. Intimate low eye-level scene.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "11-1",
+      "chapter": 11,
+      "anchorIndex": 170,
+      "alt": "불붙은 수레에서 어린 짐꾼을 구해내는 진소백",
+      "file": "11-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Canyon escort ambush rescue. Jin pulls an adolescent porter away from a burning freight wagon, moving his body between the youngster and flames. Scorched back of Jin's outer robe, dust and orange sparks but no explicit burns, no gore. Wooden medicinal crates and loosened horse tack, rocky path. Action driven by rescue not victory; sabre lowered to his side if present, free arm protecting youth. Dynamic diagonal composition, ink brush smoke, orange glow contained in background.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "11-2",
+      "chapter": 11,
+      "anchorIndex": 207,
+      "alt": "오충이 상처를 돌보는 동안 진소백의 어깨를 받쳐주는 곽문정",
+      "file": "11-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. Image5 is the identity reference for 오충 only. Oh Chung: elderly veteran, gray hair in topknot, gray moustache and beard, deeply lined face, practical brown/gray robes. SCENE: After the ambush at roadside, exhausted Jin sits hunched on a stone, burned outer robe loosened for treatment but injury mostly covered by clean cloth. Gray-haired bearded veteran Oh Chung kneels behind carefully removing a charred piece of fabric with water and bandages. Gwak in dark robe supports Jin's UNINJURED shoulder as Jin pitches forward. Gwak also has a torn sleeve and wrapped arm. Quiet practical solidarity, no gore, smoking ruined cart softly distant.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/오충.jpg"
+      ]
+    },
+    {
+      "id": "12-1",
+      "chapter": 12,
+      "anchorIndex": 187,
+      "alt": "주점에서 서로의 이야기를 들은 뒤 빈 접시를 함께 옮기는 진소백과 곽문정",
+      "file": "12-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. SCENE: Small daylight tavern, Jin and Gwak sit across rough wooden table with nearly empty wine jar and two cups. Both reach to move a used plate aside for unseen innkeeper, their hands just awkwardly touch then separate. Jin sits stiffly due to bandaged healing back under robe; Gwak arm lightly bandaged. Neither smiles broadly, tentative mutual respect. Warm dusty side-light, focus on faces and hands rather than feast.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg"
+      ]
+    },
+    {
+      "id": "12-2",
+      "chapter": 12,
+      "anchorIndex": 268,
+      "alt": "다친 진소백의 옆구리에 접은 자루를 받쳐주는 사내",
+      "file": "12-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: Evening courtyard wooden low platform. Jin winces, trying not to lean injured bandaged back against wall. Rugged older stranger gently slides a folded empty sack beside Jin's flank as makeshift cushion. Frayed gray robe, gold mask hanging at chest, no sword. A wine bottle and water bowl nearby, green unripe persimmons overhead. Both seated, understated care, natural small gesture, warm evening brush light.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    },
+    {
+      "id": "13-1",
+      "chapter": 13,
+      "anchorIndex": 63,
+      "alt": "사내의 이름을 알게 된 진소백이 새 삼끈을 단 금빛 가면을 바라보는 장면",
+      "file": "13-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: Identity revelation in Jin's humble courtyard. Jin stands at left stunned, looking at the gold demon mask partly exposed at the older stranger's chest, freshly tied with cheap hemp cord. Do Wolcheon lounges calmly on low wooden platform with wine bottle held loosely. Three formally dressed martial alliance visitors stand respectfully in distant gate, one bowing. Faces of Jin and Do match references, Do in worn gray robe without sword. Quiet incongruity between ragged familiar man and deference, no text or magical aura.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    },
+    {
+      "id": "13-2",
+      "chapter": 13,
+      "anchorIndex": 166,
+      "alt": "도월천의 가지에 칼등을 댄 채 손아귀의 힘을 풀어보는 진소백",
+      "file": "13-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: Close medium full-body training scene in sunlit courtyard, Do presses a short dry bamboo branch against the BACK/SPINE of Jin's single-edged sabre, demonstrating angle and relaxed grip. Jin concentrates on unclenching his sword hand slightly, knees balanced rather than overextended. Do face calm, frayed gray robe and gold mask at chest, no sword of his own. Clear view of two hands, two weapons, feet. Green summer tree, no orange fruit, no supernatural effects.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    },
+    {
+      "id": "14-1",
+      "chapter": 14,
+      "anchorIndex": 68,
+      "alt": "진소백의 칼을 막기 위해 검을 절반 뽑은 곽문정",
+      "file": "14-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. SCENE: Abandoned roadside post-station courtyard practice duel. Jin's rising single-edged sabre is stopped by Gwak's straight sword drawn HALFWAY from its scabbard. Gwak right hand holds sword hilt, left holds scabbard; brief steel contact in front of chest. Jin surprised and breathing hard, grounded bent knees, dusty robe; Gwak composed dark robe. Broken wooden veranda and weeds, daylight. Not a lethal battle, no blood or explosive aura. Anatomically clear two men, distinct blades.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg"
+      ]
+    },
+    {
+      "id": "14-2",
+      "chapter": 14,
+      "anchorIndex": 129,
+      "alt": "대련을 마친 뒤 낡은 역참 마루에서 잠시 함께 웃는 두 사람",
+      "file": "14-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. SCENE: After practice, Jin and Gwak sit on the weathered wooden veranda of an abandoned post-station. Jin leans one hand on pillar, dusty bruised but smiling, gestures small sword trajectory with an EMPTY finger. Gwak has capped his water flask and gives a small rare smile. Both swords sheathed on floor beside respective owners. Empty training yard beyond, afternoon light, tired camaraderie, quietly earned warmth.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg"
+      ]
+    },
+    {
+      "id": "15-1",
+      "chapter": 15,
+      "anchorIndex": 131,
+      "alt": "저녁 돌다리에서 서예린의 곁에 거리를 두고 서 있는 진소백",
+      "file": "15-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Summer dusk on low stone bridge over SHALLOW river with submerged grass, NOT a huge moonlit lake. Jin and Yerin stand near stone railing with a clear arm's-length gap, Yerin recovering from tears and Jin unable to comfort her. Jin's callused palm blister bandage visible on railing, simple dark robe. Yerin subdued closed cream/plum robe, plain hairpin. Warm last daylight in stones, cool breeze in loose hair, side-on wide composition, restrained separation.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "15-2",
+      "chapter": 15,
+      "anchorIndex": 160,
+      "alt": "장부를 덮으려던 장형에게 다음 표행의 자리를 청하는 진소백",
+      "file": "15-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 장형 only. Jang Hyeong: stocky middle-aged escort chief, strong broad face and full short dark beard, thick straight eyebrows, practical dark robe. SCENE: Evening escort office. Jin stands at doorway asking for another assignment, tired but resolute, callused hands loosely held at waist, simple sabre sheathed. Stocky stern bearded chief Jang Hyeong sits behind a desk about to close a thick ledger, looking up to examine Jin's face. Warehouse ropes and crates, oil lamp, blue-gray twilight through open door. Character faces from portraits; ordinary work, no royal office. No legible writing.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/장형.jpg"
+      ]
+    },
+    {
+      "id": "16-1",
+      "chapter": 16,
+      "anchorIndex": 54,
+      "alt": "먼 길의 주막에서 방칠과 나란히 저녁을 먹는 진소백",
+      "file": "16-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 방칠 only. Bangchil: cheerful young junior, smooth youthful face, lively open expression, messy topknot, blue-gray/ivory plain robes from his portrait. SCENE: Roadside inn after an ordinary escort day. Jin and Bangchil sit at a plain wooden table eating humble rice and soup, Jin pauses with a spoon listening, younger Bangchil animated mid-question. Quiet travel-worn robes, sheathed sabres leaned safely at wall, wagon and muddy road glimpsed through window. Background travelers softly talking, amber firelight. Show return to daily life, no combat, no giant feast.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/방칠.jpg"
+      ]
+    },
+    {
+      "id": "16-2",
+      "chapter": 16,
+      "anchorIndex": 142,
+      "alt": "혼인 때 가져온 물건들을 꺼내놓고 정리할 목록 앞에서 망설이는 서예린",
+      "file": "16-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Morning private room. Yerin in modest closed cream and dusty plum robes kneels beside open small wooden chest containing two folded winter garments, three small silver ornaments, and an old comb. Two sheets of paper on low desk: inventory and unwritten letter, no readable text. She holds brush suspended, uncertain what belongs in which life. Hair simply tied wooden pin, NO elaborate jewelry worn. Cool morning window light, deliberate object still-life with human expression.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "17-1",
+      "chapter": 17,
+      "anchorIndex": 29,
+      "alt": "곽문정의 붕대에 걸린 옷소매를 조심스레 빼주는 서예린",
+      "file": "17-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. Image4 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. SCENE: Evening at married couple's house. Gwak stands half turned, wounded forearm wrapped in clean bandage, outer dusty dark robe sleeve caught against dressing. Yerin carefully pulls fabric seam away from bandage to help remove his coat, only necessary contact, both expressions guarded. No exposed torso, no romance pose, no blood. Simple cream/plum clothing and wooden pin on Yerin, warm doorway light, domestic restraint.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg"
+      ]
+    },
+    {
+      "id": "17-2",
+      "chapter": 17,
+      "anchorIndex": 138,
+      "alt": "월향루 뒷방에서 화씨와 함께 천을 개는 서예린",
+      "file": "17-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Daylit working backroom of an old inn. Yerin, sleeves rolled slightly and damp at wrists, carefully folds a clean rectangular linen cloth trying to align corners. Beside her Hwa, an older practical middle-aged woman in muted brown work robes with neatly bound hair, stacks that imperfect fold without correcting it. Piles of washed linen, a laundry tub by open courtyard doorway, no glamour. Yerin recognizable face with simple wooden pin, closed plum/cream robe. Quiet attempt at useful work.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "18-1",
+      "chapter": 18,
+      "anchorIndex": 205,
+      "alt": "접은 천을 손에 쥔 서예린과 마지막 이야기를 나누는 진소백",
+      "file": "18-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Early autumn dusk courtyard final conversation. Yerin holds a small folded plain cloth tightly in both hands, tear tracks subtle; Jin sits or stands opposite with open relaxed hands, compassionate but maintaining distance. Foliage beginning yellow, mostly green persimmons just turning pale. Both calm weary adult faces, muted cream/plum and charcoal robes, simple wooden pin. No handholding or embrace. Gate in background offers a clear way out, fragile but firm farewell.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "18-2",
+      "chapter": 18,
+      "anchorIndex": 245,
+      "alt": "서예린의 말을 들은 곽문정이 마시지 못한 찻잔을 내려놓는 장면",
+      "file": "18-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 곽문정 only. Gwak Munjeong: dignified man in his thirties, straight brows, a neat short moustache and chin stubble, restrained serious gaze, tied-back dark hair, orderly black martial robe with ivory inner collar, straight sword in scabbard. STRICT IDENTITY: he is NOT Do Wolcheon, wears NO gold mask or mask pendant, NO straw hat, no ragged wandering-drunk costume, and has no personal drinking-gourd prop. Use ONLY the Gwak portrait for his face. Image4 is the identity reference for 서예린 only. Seo Yerin: fine oval face and delicate black hair from portrait, expressive reserved eyes. For these private scenes wear closed ivory/dusty plum robe and a SIMPLE WOODEN HAIRPIN, no ornate flower crown. SCENE: Married couple's room at night. Foreground Gwak lowers a teacup without drinking, surface tea tilting slightly, fingers held carefully, his face strained rather than enraged. Across table Yerin sits with the folded plain cloth visible in her lap, quietly waiting after an admission. Restrained emotional aftermath, no violence or smashed objects. Warm candle and dark doorway, simple robes, intimate framing hands and eyes.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/곽문정.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/서예린.jpg"
+      ]
+    },
+    {
+      "id": "19-1",
+      "chapter": 19,
+      "anchorIndex": 160,
+      "alt": "주명호의 소매를 잡아 수레 옆으로 빼내는 진소백",
+      "file": "19-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Autumn freight road encounter. Jin pulls a skinny seventeen-year-old junior with overly long sheathed/low-held straight sword sideways by sleeve toward wooden grain cart, while two ragged adult bandits block each other's approach. Jin holds own single-edged sabre defensively down to side with free hand pulling boy; large bandit's blade swings past safely into empty space. Tactical protective footwork, no killing or gore, modest grounded action, ochre dust and grain sacks.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "19-2",
+      "chapter": 19,
+      "anchorIndex": 213,
+      "alt": "가을의 첫 감을 혼자 맛보는 진소백",
+      "file": "19-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. SCENE: Quiet home kitchen at autumn dusk. Jin alone takes a bite of his first ripe persimmon after washing it and cutting away the bruised part. A small plate with removed peel and a simple kitchen knife lies on table; his sabre is elsewhere. Through open door, orange fruit on courtyard persimmon tree and a few fallen leaves. Gentle unforced satisfaction on familiar tired face, warm fruit color against charcoal/cream, intimate ordinary life, not a romantic empty chair scene.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg"
+      ]
+    },
+    {
+      "id": "20-1",
+      "chapter": 20,
+      "anchorIndex": 132,
+      "alt": "감나무 위의 도월천이 나이 든 진소백의 가르침을 지켜보는 장면",
+      "file": "20-1.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: FIFTEEN YEARS LATER in autumn: Jin is now mid-forties, unmistakably same face but broader neck, crow's-feet and streaks of gray in tied hair, simple worn charcoal/cream teaching robe. In courtyard of small martial school he slowly demonstrates a wooden stick exercise to one young student, pleased when child steps correctly; several mixed-age pupils quietly behind. In upper foreground Do Wolcheon sits partly concealed on a sturdy orange-fruited persimmon branch, wine bottle paused, observing. Do is visibly much older: predominantly silver-gray hair, deep forehead and eye wrinkles, gray short beard, vigorous bearing, gray robe, gold mask at chest. Warm broad daylight, no magical spectacle. Chapter 20 age continuity: Do has visibly aged over the intervening years, with silver-gray hair, pronounced facial wrinkles and gray stubble; he remains recognizably the same rugged master, clearly older than middle-aged Jin.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    },
+    {
+      "id": "20-2",
+      "chapter": 20,
+      "anchorIndex": 345,
+      "alt": "도월천에게 막대기 균형 잡기를 배우는 진소백의 딸",
+      "file": "20-2.png",
+      "prompt": "Use case: illustration-story. Paint ONE vertical 2:3 Korean wuxia novel illustration in the SAME EAST ASIAN INK-AND-LIGHT-COLOR BRUSH PAINTING style as reference images 1 and 2. This must look visibly made with a traditional ink brush on warm absorbent paper (수묵담채 동양화): bold calligraphic strokes whose bristles separate, broad broken dry-brush masses in clothing, wet ink bleeding at edges, pale washes, expressive ink splatters, fine but economical face strokes. Leave breathing paper and unfinished brush edges; simplify backgrounds into layered ink shapes. Avoid photoreal skin, photographic depth of field/bokeh, 3D lighting, digitally airbrushed surfaces, hyper-detailed cinematic environment, glossy game/anime rendering. Black ink and paper-ivory dominate; muted ochre and subdued plum as sparse accents. No text, captions, panels, signature or watermark. The reference portraits control character identity ONLY, while the scene controls action/clothes/season. No orange persimmons unless the scene explicitly says autumn. Anatomically coherent hands, distinct character faces. INPUT ROLES: Images1–2 are brush technique/style only; do not copy their scenes. Image3 is the identity reference for 진소백 only. Jin Sobaek: protagonist, 28 until chapter19, angular YOUNG clean-shaven face and fine straight brows from his own portrait, messy loose dark topknot, worn black/ivory robes and wrist wraps, modest single-edged sabre. Never give Jin a gold mask. Image4 is the identity reference for 도월천 only. Do Wolcheon (unnamed stranger before chapter13): rugged older broad face, heavier angled brows, weathered cheekbones and unruly hair from his own portrait, loose frayed GRAY robe, wine flask, distinctive GOLD DEMON MASK dangling from hemp cord AT HIS CHEST, NEVER covering his face. No sword at waist in these scenes. NOT Gwak Munjeong; never use Gwak's orderly dress or face. SCENE: Fifteen years later, warm autumn afternoon in martial school courtyard: Do Wolcheon crouches to child height, gently loosening the wrist of Jin's FIVE-YEAR-OLD DAUGHTER so she balances a SHORT PLAIN WOODEN STICK vertically on her open palm for a fleeting moment. Girl in simple child tunic and trousers, dark hair tied in two small knots, delighted concentration. Mid-forties Jin stands close by with folded arms and soft smile, same recognizable face aged with gray streaks and fine lines, no youthful version. Do ragged gray robe, gold mask on chest not face, no sword. Orange persimmons and late afternoon sunlight; intimate hopeful ending, no lettering. Chapter 20 age continuity: Do has visibly aged over the intervening years, with silver-gray hair, pronounced facial wrinkles and gray stubble; he remains recognizably the same rugged master, clearly older than middle-aged Jin.",
+      "references": [
+        "C:/dejin-novel/대진국/삼류연정/삽화/3-1.png",
+        "C:/dejin-novel/대진국/삼류연정/삽화/1-2.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/진소백.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ]
+    }
+  ],
+  "corrections": "illustration-corrections.json"
+}

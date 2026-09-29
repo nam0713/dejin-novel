@@ -19,6 +19,7 @@ var illustrations={
     {after:"그녀는 나무비녀를 집어 들었다.",file:"3-2.png",alt:"달빛이 드는 창가에서 나무비녀를 쥔 서예린"}
   ]
 };
+Object.keys(window.SAMRYU_ILLUSTRATIONS||{}).forEach(function(number){illustrations[number]=window.SAMRYU_ILLUSTRATIONS[number]});
 function paraHTML(line){
  if(line==="⸻"||/^[-—_]{3,}$/.test(line)) return '<div class="scene-break" aria-label="장면 전환"><span>◆</span></div>';
  var cls=/^[“"‘']/.test(line)?' class="dialogue"':"";
@@ -54,6 +55,7 @@ function showChapter(i,scroll){
  Array.prototype.forEach.call(nav.children,function(el,n){el.classList.toggle("active",n===i);if(n===i)el.setAttribute("aria-current","true");else el.removeAttribute("aria-current")});
  reader.querySelectorAll(".chapter").forEach(function(el,n){el.classList.toggle("active",n===i)});
  if(nav.scrollWidth>nav.clientWidth)nav.scrollLeft=nav.children[i].offsetLeft-nav.children[0].offsetLeft;
+ if(nav.scrollHeight>nav.clientHeight)nav.scrollTop=nav.children[i].offsetTop-nav.children[0].offsetTop;
  if(scroll){
   var url=new URL(location.href);url.searchParams.set("chapter",String(i+1));history.replaceState(null,"",url);
   var heading=reader.querySelector(".chapter.active h3");heading.tabIndex=-1;heading.focus({preventScroll:true});
