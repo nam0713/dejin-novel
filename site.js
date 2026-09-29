@@ -24,7 +24,7 @@ var dialog=document.getElementById("portraitDialog");
 function renderCards(list,grid){
  if(!grid)return;
  list.forEach(function(c,i){
-  var card=document.createElement("article"); card.className="character-card reveal"+(c.featured?" featured":""); card.style.transitionDelay=Math.min(i,6)*40+"ms"; card.tabIndex=0; card.setAttribute("role","button"); card.setAttribute("aria-label",c.name+" 삽화 크게 보기");
+  var card=document.createElement("article"); card.className="character-card"; card.tabIndex=0; card.setAttribute("role","button"); card.setAttribute("aria-label",c.name+" 삽화 크게 보기");
   var img=document.createElement("img"); img.loading="lazy"; img.src=encodeURI(ASSET+c.img); img.alt=c.name+" 인물 삽화";
   var copy=document.createElement("div"); copy.className="char-copy"; copy.innerHTML="<small>"+esc(c.role)+"</small><h3>"+esc(c.name)+"</h3><p>"+esc(c.desc)+"</p>";
   card.appendChild(img);card.appendChild(copy);
@@ -38,17 +38,24 @@ renderCards(characters.world,document.getElementById("worldCharacterGrid"));
 document.querySelectorAll("[data-character-tab]").forEach(function(tab){
  tab.addEventListener("click",function(){
   var key=tab.getAttribute("data-character-tab");
-  document.querySelectorAll("[data-character-tab]").forEach(function(t){var on=t===tab;t.classList.toggle("active",on);t.setAttribute("aria-selected",on?"true":"false")});
+  document.querySelectorAll("[data-character-tab]").forEach(function(t){var on=t===tab;t.classList.toggle("active",on);t.setAttribute("aria-selected",on?"true":"false");t.tabIndex=on?0:-1});
   ["story","world"].forEach(function(k){var p=document.getElementById("panel-"+k);if(!p)return;var on=k===key;p.hidden=!on;p.classList.toggle("active",on)});
-  observeReveals();
+ });
+ tab.addEventListener("keydown",function(e){
+  var tabs=Array.from(document.querySelectorAll("[data-character-tab]")),index=tabs.indexOf(tab),next;
+  if(e.key==="ArrowRight")next=(index+1)%tabs.length;
+  else if(e.key==="ArrowLeft")next=(index+tabs.length-1)%tabs.length;
+  else if(e.key==="Home")next=0;
+  else if(e.key==="End")next=tabs.length-1;
+  else return;
+  e.preventDefault();tabs[next].click();tabs[next].focus();
  });
 });
 if(dialog){var dc=dialog.querySelector(".dialog-close");if(dc)dc.addEventListener("click",function(){dialog.close()});dialog.addEventListener("click",function(e){if(e.target===dialog)dialog.close()})}
 
-var io=("IntersectionObserver" in window)?new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add("show");io.unobserve(e.target)}})},{threshold:0}):null;
-function observeReveals(){document.querySelectorAll(".reveal:not(.show)").forEach(function(el){if(io)io.observe(el);else el.classList.add("show")})}
-observeReveals();
-document.documentElement.classList.add("enhanced");
-var topbar=document.querySelector(".topbar");function headerState(){if(topbar)topbar.classList.toggle("scrolled",window.scrollY>28)}headerState();window.addEventListener("scroll",headerState,{passive:true});
+document.querySelectorAll("[data-continue]").forEach(function(link){
+ var key=link.getAttribute("data-continue"),saved=safeGet(key+"-chapter",null),chapter=Number(saved),total=key==="geummyeon"?5:20;
+ if(saved!==null&&Number.isInteger(chapter)&&chapter>=0&&chapter<total){link.textContent="이어 읽기 · "+(chapter+1)+"화 ↗";link.href+=(link.href.indexOf("?")===-1?"?":"&")+"chapter="+(chapter+1)}
+});
 
 })();

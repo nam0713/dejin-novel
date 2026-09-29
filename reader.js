@@ -6,6 +6,10 @@ function safeGet(k,f){try{var v=localStorage.getItem(k);return v===null?f:v}catc
 function safeSet(k,v){try{localStorage.setItem(k,String(v))}catch(e){}}
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]})}
 var reader=document.getElementById("readerContent"),nav=document.getElementById("chapterNav"),bar=document.getElementById("progressBar"),active=0;
+var chapterDisclosure=document.querySelector(".chapter-disclosure"),mobileReader=window.matchMedia("(max-width: 760px)");
+function syncChapterDisclosure(){if(chapterDisclosure)chapterDisclosure.open=!mobileReader.matches}
+syncChapterDisclosure();
+mobileReader.addEventListener("change",syncChapterDisclosure);
 var illustrations={
   1:[
     {after:"진소백은 비녀를 두 손으로 들었다.",file:"1-1.png",alt:"진소백이 연화에게 은빛 연꽃 비녀를 내미는 장면"},
@@ -55,11 +59,13 @@ function renderReader(){
 }
 function showChapter(i,scroll){
  active=i;safeSet(bookKey+"-chapter",i);
+ var chapterLabel=document.getElementById("currentChapterLabel");if(chapterLabel)chapterLabel.textContent=String(i+1).padStart(2,"0")+" / "+DATA.chapters.length;
  Array.prototype.forEach.call(nav.children,function(el,n){el.classList.toggle("active",n===i);if(n===i)el.setAttribute("aria-current","true");else el.removeAttribute("aria-current")});
  reader.querySelectorAll(".chapter").forEach(function(el,n){el.classList.toggle("active",n===i)});
  if(nav.scrollWidth>nav.clientWidth)nav.scrollLeft=nav.children[i].offsetLeft-nav.children[0].offsetLeft;
  if(nav.scrollHeight>nav.clientHeight)nav.scrollTop=nav.children[i].offsetTop-nav.children[0].offsetTop;
  if(scroll){
+  if(chapterDisclosure&&mobileReader.matches)chapterDisclosure.open=false;
   var url=new URL(location.href);url.searchParams.set("chapter",String(i+1));history.replaceState(null,"",url);
   var heading=reader.querySelector(".chapter.active h3");heading.tabIndex=-1;heading.focus({preventScroll:true});
   window.scrollTo({top:0,behavior:"instant"});

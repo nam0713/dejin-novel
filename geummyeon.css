@@ -1,1 +1,19 @@
-.geummyeon-page .hero h1{font-size:clamp(58px,7vw,104px)}.book-subtitle{font:500 clamp(20px,2vw,29px)/1.7 var(--serif);color:#d1b987;margin:12px 0 24px}.reading-note{border-left:2px solid #8d6f3e;padding-left:20px}.reading-note a{color:#d1b987}.episode-section{padding-top:40px}.episode-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}.episode-list li{padding:28px 0;border-bottom:1px solid var(--line)}.episode-link{display:grid;grid-template-columns:60px 1fr 24px;gap:22px;align-items:start;text-decoration:none}.episode-number{font:400 30px var(--serif);color:#ac8854}.episode-link h3{font:600 clamp(21px,2.2vw,28px)/1.5 var(--serif);margin:0 0 10px;color:#eee2ce}.episode-link p{color:#b7aa97;font-size:15px;line-height:1.9;margin:0 0 10px}.episode-link small{color:#ac987a;font-size:13px}.episode-link:hover h3{color:#dbb97e}.source-link{display:inline-block;margin:16px 0 0 82px;color:#b2a28b;font-size:13px}.episode-link:focus-visible,.source-link:focus-visible{outline:2px solid #dbb97e;outline-offset:5px}@media(max-width:640px){.episode-link{grid-template-columns:34px 1fr 18px;gap:12px}.source-link{margin-left:46px}.episode-number{font-size:24px}.book-subtitle{font-size:20px}.geummyeon-page .hero h1{font-size:64px}}
+.reading-note { border-top: 1px solid var(--line); padding-top: 20px; }
+.episode-list { list-style: none; padding: 0; margin: 0; }
+.episode-list li { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.episode-list li:first-child { padding-top: 0; }
+.episode-link { display: grid; grid-template-columns: 58px 1fr 24px; gap: 24px; }
+.episode-number { color: var(--red); font: 400 25px/1.6 var(--serif); }
+.episode-link h3 { margin: 0 0 12px; font: 500 24px/1.6 var(--serif); letter-spacing: -.04em; }
+.episode-link p { font-size: 14px; line-height: 1.9; color: var(--muted); margin: 0 0 14px; word-break: keep-all; }
+.episode-link small { font-size: 11px; color: var(--muted); }
+.episode-link:hover h3 { color: var(--red); }
+.source-link { display: inline-block; margin: 16px 0 0 82px; font-size: 11px; color: var(--muted); border-bottom: 1px solid var(--line); padding-block: 6px; }
+.source-link:hover { color: var(--red); }
+@media (max-width: 540px) {
+  .episode-link { grid-template-columns: 28px 1fr 16px; gap: 14px; }
+  .episode-number { font-size: 20px; }
+  .episode-link h3 { font-size: 20px; }
+  .episode-link p { font-size: 13px; }
+  .source-link { margin-left: 42px; }
+}

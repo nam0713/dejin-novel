@@ -2,7 +2,7 @@
 .reader-footer-nav .afterword-next{padding:12px;text-align:right;font:500 16px var(--serif);color:#6d6256;min-height:44px}
 .reader-content.dark .reader-footer-nav .afterword-next{color:#c9b99f}
 .afterword-menu:hover,.reader-footer-nav .afterword-next:hover{color:#a33b3e}
-.afterword-page{background:#faf7f0;color:#403b35;min-height:100svh}
+.afterword-page{background:var(--paper);color:var(--ink);min-height:100svh}
 .afterword-top{max-width:1080px;margin:auto;padding:30px 36px;display:flex;justify-content:space-between;align-items:center;gap:20px;font:500 15px var(--serif)}
 .afterword-top span{font-size:12px;margin-left:10px;color:#8c8173}
 .afterword-top a:last-child{font:400 14px var(--sans);color:#736a60}
