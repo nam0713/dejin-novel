@@ -1,0 +1,386 @@
+{
+  "tool": "Built-in image_gen",
+  "worldbuildingConstraint": "붉은 태양은 무극혈신이 직접 등장하는 장면에만 허용한다. 인물 외형은 지정된 레퍼런스에 따른다.",
+  "images": [
+    {
+      "page": 2,
+      "slug": "imperial-edict",
+      "caption": "황제의 조서 — 군국과 강호의 기록을 모으다.",
+      "alt": "두루마리 조서를 펼쳐 읽는 관리와 기록을 모으는 서리들의 궁중 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A solemn imperial archive hall. A senior official unrolls an imperial decree while rows of scribes bring scroll bundles, military records and ritual registers onto low tables. View diagonally across long desks toward towering document shelves and muted red hangings. No visible emperor, no portraits of named characters. A scene of the commissioning of a national codex, not magical ritual.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/imperial-edict.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 4,
+      "slug": "emperor-mandate",
+      "caption": "천고일제 독고룡 — 제국의 천명을 세운 군주.",
+      "alt": "면류관과 검금색 곤룡포를 입은 백발의 천고일제가 시종들과 궁궐 회랑을 걷는 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Dokgo Ryong walks sideways across a palace terrace while two adult attendants walk at the SAME DEPTH and on the SAME FLOOR beside him. He is approximately 2.5 meters tall; attendants are 1.7 meters tall, so his full standing height is only about 1.47 times theirs, NEVER a building-sized giant. Medium-wide oblique composition, his full figure occupies roughly 45 percent of image height. Entirely NEW walking pose and camera; do NOT reuse the seated reference posture or throne silhouette. Preserve ONLY long straight white hair, beaded flat mianliu crown, black-and-aged-gold dragon robe, pale face partly hidden by beads. No throne, no enormous body, no halos, no sun disk.",
+      "character": "emperor",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/천고일제 독고룡.jpg"
+      ],
+      "path": "assets/lore/emperor-mandate.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 5,
+      "slug": "forbidden-cosmology",
+      "caption": "천명의 근원 — 원시천주에 관한 금설.",
+      "alt": "산맥과 강줄기, 생명이 한 거대한 형상의 흔적처럼 이어진 우주론 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A symbolic ancient cosmology mural illustrating a forbidden theory, not a literal factual diagram: vast mountain ridges resembling weathered ribs, rivers branching like veins, forests and tiny living settlements emerging among them. An immense reclining broken STONE outline is suggested by the landscape but no fleshy corpse, no gore or named deity portrait. A contemplative wide terrain panorama with layered cloud bands, organic landforms. The creator exhausted itself in making the material world. No celestial disks.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/forbidden-cosmology.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 8,
+      "slug": "imperial-court",
+      "caption": "조정의 중추 — 문서와 의례로 움직이는 제국.",
+      "alt": "넓은 전각에서 문서와 지도를 검토하는 문관과 무관, 제관들의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. The administrative center of a vast empire. In a grand open court hall, civil ministers, military officers and ritual officials confer around a long map-and-document table. Rows of tablets, scroll cases, official seals, measured formal gestures, desks receding between timber columns, small ordinary ink wash map with no readable lettering. No emperor or named hero. Convey institutions and deliberation, no battle.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/imperial-court.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 10,
+      "slug": "social-orders",
+      "caption": "신분과 명분 — 한 거리에서 교차하는 여러 질서.",
+      "alt": "관료와 상인, 무인, 농민이 성문 앞에서 서로 다른 길을 오가는 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. An imperial city gate and public square seen at human scale: an official procession passes, prosperous merchants weigh goods, traveling swordspeople stand independently at a tea stall, farmers carry baskets and craftsmen work at a shopfront. Social ranks intersect in one continuous lived street scene, not a chart or labeled hierarchy. Dignified civilian people, no humiliation or bondage spectacle. Tile roofs, carts, worn stone, subdued red canopies.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/social-orders.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 11,
+      "slug": "six-armies",
+      "caption": "대진의 군세 — 서로 다른 군대가 떠받치는 제국.",
+      "alt": "보병과 기병, 수군과 특수 병과가 집결한 대진군의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A grand imperial military assembly across a river plain: armored infantry ranks, heavy horsemen, lighter frontier cavalry, engineers tending large crossbows, transport and river warships farther away. Several distinct groups of troops converge under different simple geometric cloth standards, no letters or invented heraldic logos, no main hero. Strong horizontal sweep and variation of equipment, organized empire-wide mobilization. Do not repeat a circular encirclement composition.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/six-armies.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 12,
+      "slug": "frontier-armies",
+      "caption": "황군과 사변 — 땅의 조건에 따라 달라지는 군대.",
+      "alt": "장성과 산길을 따라 이동하는 기병과 보병, 해안의 전선을 묘사한 변경군 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A single sweeping borderland campaign panorama transitioning naturally from a northern stone wall and steppe horse patrol at left, through dry mountain passes and caravan guards in the middle distance, to forested slopes and a coastal fleet far right. Distinct troops adapted to terrain, long marching lines, not a map and not four rectangular panels. Ancient fantasy East Asian equipment; no named heroes, no red sun.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/frontier-armies.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 14,
+      "slug": "heavenly-guard",
+      "caption": "천호위와 무신장 — 지하궁에 바친 충성.",
+      "alt": "검은 두건과 쌍검 차림의 서문걸이 도열한 천호위 사이를 지나는 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Seomun Geol moves in THREE-QUARTER REAR VIEW between two ranks of veteran Heavenly Guards toward a sealed palace door. His cloak is lifted sideways by motion, his two swords carried low pointing behind him; a substantially different pose and camera from the frontal standing reference. Other guards stand on the same floor at believable similar human scale. Reference used ONLY for faceless black hood, torn dark cloak, ornate beast chest armor, forearm plates and paired swords. No exposed face or helmet; no emperor visible, no sun disk.",
+      "character": "guardian",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/불사투신 서문걸.jpg"
+      ],
+      "path": "assets/lore/heavenly-guard.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 16,
+      "slug": "court-and-jianghu",
+      "caption": "관과 강호 — 겹쳐 있는 두 질서.",
+      "alt": "관청의 관리와 문파 대표들이 탁자를 사이에 두고 마주 앉은 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. At an open provincial magistrate hall, robed officials and armed martial sect envoys negotiate across a simple long table. Official tablets and legal scrolls on one side, sheathed swords and travelers' packs on the other. Outside the gates a small town and mountain road imply overlapping jurisdictions. Restrained tension, humane distinct faces, no drawn weapons or named characters, no trial torture, no text.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/court-and-jianghu.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 18,
+      "slug": "martial-disciplines",
+      "caption": "무공의 계통 — 힘과 몸과 기예를 닦다.",
+      "alt": "권법과 검술, 창술, 경공을 각기 수련하는 무인들의 연무장 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A large martial training court painted as a coherent panoramic scene: a paired empty-hand drill, a swordsman practicing controlled forms, a spear fighter, an archer at a straw target, and one agile practitioner traversing stepping stones. An instructor meditates under a pine at the margin. Human proportions, grounded footwork, varied weapons, quiet disciplined practice. No named heroes or fantastical laser energy. Not a game character selection screen or diagram.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/martial-disciplines.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 19,
+      "slug": "martial-realms",
+      "caption": "무공의 경지 — 인간의 한계를 넘어서는 힘.",
+      "alt": "무너진 성문 앞에 선 고수와 멀리 물러선 병사들을 그린 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. Illustrate the scale of advanced martial power without claiming exact rankings: a solitary anonymous martial master stands before a shattered thick stone fortress gate; great broken masonry and cracked paving dominate the foreground, a disciplined squad remains at a wary distance. Environmental aftermath, no active explosion, no gore, no glowing aura or superhuman anatomy. The small human figure and massive stone destruction carry the idea.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/martial-realms.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 20,
+      "slug": "nonhuman-kinds",
+      "caption": "요괴의 분류 — 인간의 규범 바깥에 있는 존재들.",
+      "alt": "늙은 여우와 의식이 깃든 나무, 물가의 혼령과 오래된 기물이 함께 있는 숲의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A mysterious forest-and-ruin panorama suggesting categories of nonhuman beings: an intelligent aged fox near a shrine, an ancient tree with subtle face-like knots, a faint ghostlike ink silhouette beside a stream, a weathered ritual vessel that seems to watch. Natural spiritual ambiguity, restrained silhouettes, no cute cartoon monsters, no crowded lineup, no words, no named deity, no giant celestial disk. Emphasize varied origins rather than an army of demons.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/nonhuman-kinds.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 21,
+      "slug": "mountain-tiger-spirit",
+      "caption": "산군 — 산길을 지키는 호요.",
+      "alt": "산길의 작은 제단과 사람들 앞에 위엄 있게 앉아 있는 거대한 호랑이 요괴의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A dignified mountain tiger spirit sitting on a rocky ledge above an old forest road. A few villagers place modest offerings at a roadside stone altar while travelers pass safely below. The tiger is imposing and intelligent, a natural striped tiger with weathered dignity, not a humanoid and not the White Tiger celestial guardian. Giant pines and mist, relationship between humans and local spirit, no attack, no gore.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/mountain-tiger-spirit.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 22,
+      "slug": "demon-threat",
+      "caption": "요괴의 위협 — 마을의 경계를 지키는 퇴마군.",
+      "alt": "안개 낀 마을 경계에서 주민을 보호하며 요괴의 접근을 막는 퇴마군의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. At the edge of a rural walled village, an organized exorcist detachment holds a cordon of spears, shields and unlettered ritual streamers while villagers move behind a gate. A large indistinct beast silhouette lurks in distant mist beyond fields. Focus on threat assessment and civilian protection, not a showdown between named heroes. No massive destruction, no glowing magic circles, no diagrams or ranking text.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/demon-threat.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 24,
+      "slug": "sun-moon-sect",
+      "caption": "일월신교 — 지하에 이어지는 신앙.",
+      "alt": "지하 석실에서 촛불을 사이에 두고 의식을 치르는 신도들의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A secret underground religious gathering inside an old stone hall. Small groups of robed human worshippers stand on opposite sides of an altar, contrasting pale linen and dark garments; a few ordinary lamps and incense establish an austere ritual. No visible deity, no named leader, no face invented for Ju Wonjang, no sun or moon disk, no eclipse, no cosmic orb, no graphic logo. Convey divided sectarian beliefs through people and architectural light, not celestial symbols.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/sun-moon-sect.png",
+      "status": "complete",
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "page": 27,
+      "slug": "haedong-barana",
+      "caption": "해동과 바라나 — 산악의 왕국과 남방의 문명.",
+      "alt": "산악 해안의 왕국과 코끼리가 오가는 열대 강변 도시를 나란히 담은 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. An ancient panoramic mural juxtaposing two foreign civilizations without frames or labels: on the left, a mountainous peninsula kingdom with a fortified coastal town, archer patrols and warboats; on the right, a lush tropical river civilization with broad-leaf trees, a ceremonial elephant caravan and riverside temples. Connect them through distant mountain mist and a winding trade route. Distinct climates and architecture, no caricature or named ruler portrait, no solar disk despite the southern ruler's title.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/haedong-barana.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 29,
+      "slug": "tianzhu-pilgrimage",
+      "caption": "천축 — 순례와 학문으로 이어진 문명권.",
+      "alt": "산중 사원으로 올라가는 순례자와 강변 학당, 먼 도시를 그린 천축 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A contemplative panorama of the Tianzhu civilization: pilgrims ascend a long mountain stair toward an ancient stone monastery, while scholar-monks debate under a courtyard tree near a river below; distant agricultural city and smaller temples suggest many kingdoms linked by learning and pilgrimage. South Asian-inspired ancient stone architecture, no portrait of Chakravartin whose appearance is unspecified. No worshipped solar disk, no radiant halo, no text. Muted earth and charcoal mural style.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/tianzhu-pilgrimage.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 30,
+      "slug": "seomun-geol-portrait",
+      "caption": "불사투신 서문걸 — 끝나지 않은 군신의 맹약.",
+      "alt": "검은 두건과 쌍검 차림으로 천주궁의 깊은 문을 지키는 서문걸의 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Seomun Geol in SIDE PROFILE, low crouched guard stance on a stone bridge before the final sealed gates of the underground palace. One sword projects forward low along the bridge, the other angles back beside his flowing cloak. Whole-body gesture and horizontal composition must be entirely newly drawn, not the frontal arms-down reference pose. Face remains completely dark inside the hood. Reference used ONLY for black hood, layered torn cloak, beast-face breastplate and paired straight swords, armored forearms. Human-scale guard against immense doors, no giant body, no sun disk.",
+      "character": "guardian",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/불사투신 서문걸.jpg"
+      ],
+      "path": "assets/lore/seomun-geol-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 31,
+      "slug": "urnui-portrait",
+      "caption": "무극혈신 우르누이 — 대장성을 찢은 초원의 패왕.",
+      "alt": "거대한 체격의 무극혈신 우르누이의 칼과 활, 아래를 내려다보는 시선을 그린 벽화",
+      "prompt": "Create a NEW wide 16:9 ancient East Asian mineral-pigment mural. FIRST image is style only; SECOND is physical appearance only, NEVER copy its pose or photoreal rendering. Urnui, the overwhelming Blood God, must look terrifyingly powerful from his anatomy and face alone, even without any effects. Massive thick skeletal frame, extraordinarily broad shoulders, huge trapezius and neck, barrel chest, dense heavyweight strongman muscles, huge rough hands; mature brutal face with heavy brow, thick wild beard, piercing small red eyes looking DOWN toward viewer, long untamed black hair. NOT handsome slender hero, not ordinary soldier, not youthful, not cartoon bodybuilder. NEW pose: leaning slightly forward with one heavy hand resting on the pommel of his enormous curved saber planted beside him, other hand holding his massive bow low. Low viewpoint, dominant waist-up/three-quarter figure taking 70% of composition with head fully visible; tiny distant cavalry below emphasize presence. Black fur cloak framing broad shoulders, exposed muscular chest, dark red sash, ornate heavy belt and bracers. His characteristic black sun disk with red corona is permitted behind distant ruined wall because HE causes it. Repaint EVERYTHING with flat broken charcoal and ochre brush shapes, rough mineral pigment, weathered peeling plaster across skin and face too. Face readable and menacing despite mural simplification. No pasted portrait, no glossy 3D, no realistic character on textured background, no text. Aim for an ancient wall painting of a conqueror whose physical presence silences armies.",
+      "character": "blood",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/무극혈신 우르누이.jpg"
+      ],
+      "path": "assets/lore/urnui-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 32,
+      "slug": "dowolcheon-portrait",
+      "caption": "금면수라 도월천 — 문파 없는 방랑협객.",
+      "alt": "금면을 얼굴에 쓴 도월천이 검을 들고 돌다리를 건너는 벽화",
+      "prompt": "Generate a new WIDE 16:9 ancient East Asian mural of GOLDEN-MASK ASURA Do Wolcheon. Image1 is mural ART STYLE reference. Image2 is only appearance guidance for hair, clothes, sword and the DESIGN of golden mask, NOT its placement. CRITICAL USER CORRECTION: HE WEARS THE GOLDEN FIERCE-FACE MASK OVER HIS ENTIRE FACE, firmly fitted from forehead to chin, eyes behind mask eye slits. NO visible human face, NO mask hanging at neck, NO second mask. This is his publicly known wandering martial artist identity. New composition: masked swordsman walking across a weathered roadside stone bridge, three-quarter view, dark hair loosely tied high with flyaway strands, pale layered robes with ragged dark outer garment, long sheathed sword in hand at his side, quiet commanding presence. A few distant travelers step aside. Repaint all body, hair, mask and environment with the same flat rough ochre and charcoal mineral-pigment brushwork, chipped paint and cracked plaster across figure, muted old gold mask, restrained vermilion cloth accents. Do not paste original portrait or reproduce its seated drinking pose. Entire scene one ancient wall painting, no glossy realistic character, no text, NO sun disk, NO red sun, NO halo.",
+      "character": "wanderer",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ],
+      "path": "assets/lore/dowolcheon-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 33,
+      "slug": "power-and-scale",
+      "caption": "천하의 위계 — 성곽과 산하를 가르는 힘의 규모.",
+      "alt": "작은 무인과 성곽 너머로 산줄기와 대륙의 지형이 펼쳐지는 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. An allegorical scale panorama accompanying a power hierarchy table: an anonymous tiny martial figure stands on a ruined stone battlement in the foreground, beyond lie a city, immense mountain ranges, broad river basins and a distant coast in successive layers. Landscape and human scale dominate; no named character, no numeric ranks, no explicit combat matchup. Quiet awe and the scale of civilization and terrain, not a cataclysm. No celestial circles or glowing space imagery.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/power-and-scale.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 34,
+      "slug": "great-wall-secret",
+      "caption": "대장성 — 방벽 아래 감추어진 경맥.",
+      "alt": "산맥을 따라 뻗은 대장성과 그 아래 붉은 선으로 암시된 지맥의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A secret imperial record illustrated as an ancient mural: the Great Wall coils across immense ridgelines, its masonry rooted into strata of earth visible along a natural eroded foreground cliff. Subtle dark-red vein-like mineral lines run through the rock below the wall, suggesting the empire's hidden meridians. Tiny watchmen, vast landscape. Not a modern cutaway diagram; the exposed layers should read as painted geology. No sun, no Blood God, no battle.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/great-wall-secret.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 36,
+      "slug": "empire-as-body",
+      "caption": "역천귀일 — 하나의 몸처럼 이어진 제국.",
+      "alt": "궁궐과 성벽, 운하와 길이 거대한 연결망으로 이어지는 제국의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. An allegorical forbidden mural showing the empire as one interconnected body: a far-reaching landscape of rivers, canals, roads, walled towns and ritual terraces all visually converges toward the distant central underground palace represented by its grand gates in a mountain hollow. Branching paths resemble a circulatory system without literal organs. Subdued dark red traces woven into ochre earth; no neon network lines, no labels, no solar disks. An unsettling ordered world, not a generic city skyline.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/empire-as-body.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 37,
+      "slug": "imperial-chronicle",
+      "caption": "황조 대사기 — 이천 년의 기록.",
+      "alt": "두루마리와 죽간을 펼치고 역사를 대조하는 사관들의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. The imperial chroniclers' archive: historians at a long low desk compare aged bamboo slips, layered scrolls and old maps, shelves of tied volumes and a single bronze lamp. A long unrolled scroll leads the eye horizontally through the composition. Human activity and accumulated time, no readable dates or characters, no modern book design, no named emperor, no battlefield montage. No invented later events beyond Do Wolcheon's time.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/imperial-chronicle.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 38,
+      "slug": "codex-colophon",
+      "caption": "편찬후기 — 천명은 아직 끝나지 않았다.",
+      "alt": "완성된 책과 봉함 상자, 꺼져가는 등불이 놓인 서고의 벽화",
+      "prompt": "Use case: illustration-story. New 16:9 landscape mural illustration for a Korean fantasy lorebook. Image 1 is a STYLE reference: match its aged ochre plaster, charcoal brushwork, restrained vermilion mineral paint, peeling fresco surface and uneven cracks, solemn narrative mural composition, detailed but painterly. Other supplied images, if any, are strict CHARACTER IDENTITY references, not style references. Convert characters into this mural style while preserving face, hair, clothing, weapons and signature accessories. No letters, captions, labels, logos, modern objects, glossy CGI, neon, infographic panels. No sun or moon disk or eclipse. In this world a red sun belongs exclusively to the Blood God and is NOT a generic background decoration. A quiet final still-life mural in an imperial library: a finished thread-bound dark volume with blank covers rests beside a tied scroll bundle, an unmarked sealed wooden document chest and an almost spent bronze oil lamp; tall archive shelves recede into darkness. A pale hand of an anonymous compiler just withdraws from the desk at the edge. Worn ochre plaster, charcoal shadows, small vermilion seal-like square with NO lettering. Restraint and unresolved history, no deity portrait or celestial disk.",
+      "character": null,
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png"
+      ],
+      "path": "assets/lore/codex-colophon.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

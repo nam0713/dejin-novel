@@ -1,0 +1,27 @@
+{
+  "tool": "Built-in image_gen",
+  "worldbuildingConstraint": "붉은 태양은 무극혈신 때문에 발생한 현상이다. 무극혈신과 무관한 장면에는 넣지 않는다.",
+  "styleReferences": [
+    "assets/lore/emperor-catching-arrow.png",
+    "assets/lore/blood-god-war.png"
+  ],
+  "images": [
+    {
+      "path": "assets/lore/cheonjugung-mural.png",
+      "anchor": "#page-7",
+      "prompt": "Use case: illustration-story. Create a new wide 16:9 narrative illustration for a Korean fantasy lorebook. The supplied images are STYLE REFERENCES ONLY, not edit targets. Match their ancient weathered East Asian mural appearance extremely closely: ochre plaster, mineral pigments, charcoal black brush silhouettes, restrained vermilion accents, flaked paint and irregular hairline cracks integrated through the scene, flat painterly depth with intricately painted architecture. No photorealistic CGI, glossy lighting, neon magic, modern objects, lettering, labels or borders. Full-bleed rectangular artwork. Preserve legibility at 830px wide. Scene: Cheonjugung, the vast subterranean palace beneath the imperial capital. A solemn oblique view into immense shadowed stone halls with tiers of ancient pillars, descending stairs and ceremonial gates. The deepest distant throne has no visible occupant; its presence is conveyed through stillness and architecture, not a glowing ghost. One small armored gate guardian stands motionless before the innermost entrance, dwarfed by the palace. Faint dark-red vein-like lines are carved into the worn stone paving. Oppressive sacred quiet, very sparse figures, grand monumental scale. Do not depict a battle or the emperor catching an arrow."
+    },
+    {
+      "path": "assets/lore/dragon-locking-formation.png",
+      "anchor": "#page-13",
+      "prompt": "undefined Scene: a high oblique view of an imperial army executing the Dragon-Locking Formation in a broad stony pass. Hundreds of small disciplined armored spearmen in interlocking curved ranks surround a single distant martial artist in the open center; enormous ranks, restrained red military banners, shields, several large wooden crossbows on the perimeter. The theme is military organization containing an individual master, not a duel and not an actual dragon. Avoid fantasy glowing circles or laser beams. Readable broad geometry, landscape war-mural composition.",
+      "correctionPrompt": "Edit this illustration with one precise correction: REMOVE the dark circular sun and its red corona from the upper sky completely. This red sun belongs only to the Blood God's scenes and must not appear here. Replace that region with ordinary weathered ochre plaster sky and subtle charcoal/cloud brushwork seamlessly matching its surroundings. No sun, no moon, no eclipse, no circular celestial symbol, no glowing disk anywhere. Preserve all other subjects, positions, colors, mural texture, aspect ratio and composition exactly. Preserve the red military banners, troop formation, lone martial artist and crossbows."
+    },
+    {
+      "path": "assets/lore/four-guardians-mural.png",
+      "anchor": "#page-23",
+      "prompt": "undefined Scene: an ancient sacred mural of exactly the Four Directional Guardians in one unified panoramic composition woven through clouds, mountain ridges and flowing water: a long serpentine EAST ASIAN azure dragon with four limbs and no wings, a white tiger with dark stripes, a vermilion phoenix-like bird, and a dark tortoise entwined by a snake. The snake belongs to the tortoise guardian. Each animal must be clearly distinguishable and complete enough to identify. Restrained desaturated blue-green mineral pigment only on the dragon, chalk ivory on tiger, vermilion bird, charcoal tortoise and snake; the same ochre plaster ground as reference. No extra creatures, no emperor, no humans, no quadrants or infographic labels. Sacred and monumental, natural motifs bind the four guardians together.",
+      "correctionPrompt": "Edit this illustration with one precise correction: REMOVE the dark circular sun and its red corona from the upper sky completely. This red sun belongs only to the Blood God's scenes and must not appear here. Replace that region with ordinary weathered ochre plaster sky and subtle charcoal/cloud brushwork seamlessly matching its surroundings. No sun, no moon, no eclipse, no circular celestial symbol, no glowing disk anywhere. Preserve all other subjects, positions, colors, mural texture, aspect ratio and composition exactly. Preserve the red vermilion bird and its wings; remove only the celestial disk behind/above it."
+    }
+  ]
+}

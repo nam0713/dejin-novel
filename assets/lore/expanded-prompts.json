@@ -1,0 +1,70 @@
+{
+  "tool": "Built-in image_gen",
+  "styleReferences": [
+    "assets/lore/cheonjugung-mural.png",
+    "assets/lore/dragon-locking-formation.png"
+  ],
+  "worldbuildingConstraint": "무극혈신과 무관한 장면에는 붉은 태양을 넣지 않는다.",
+  "images": [
+    {
+      "slug": "gangnam-canal-city",
+      "page": 9,
+      "anchor": "#page-9",
+      "caption": "강남 — 운하와 상업이 빚어낸 도시.",
+      "alt": "운하와 아치형 돌다리 주변으로 상점과 배, 사람들이 모인 강남 도시의 벽화",
+      "scene": "A prosperous Gangnam canal city, intimate street-level view along a narrow waterway bending between old tile-roofed merchants' houses. Stone arched bridge, small passenger skiffs, textile and pottery stalls, pedestrians with baskets, modest red cloth awnings. Rich inhabited civilian life, layered roofs, scholarly commercial elegance, no war, no army, no giant palace, not a military supply port.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. A prosperous Gangnam canal city, intimate street-level view along a narrow waterway bending between old tile-roofed merchants' houses. Stone arched bridge, small passenger skiffs, textile and pottery stalls, pedestrians with baskets, modest red cloth awnings. Rich inhabited civilian life, layered roofs, scholarly commercial elegance, no war, no army, no giant palace, not a military supply port.",
+      "path": "assets/lore/gangnam-canal-city.png"
+    },
+    {
+      "slug": "imperial-grain-transport",
+      "page": 15,
+      "anchor": "#page-15",
+      "caption": "대운하와 관창 — 제국의 군대를 먹이는 물길.",
+      "alt": "대운하의 화물선에서 곡물 자루를 내리고 관창과 수레로 운반하는 병참 기지의 벽화",
+      "scene": "An imperial grain transfer depot along a broad straight canal viewed from an elevated bank. Large loaded barges moored beside government granaries, porters lifting grain sacks, ox carts moving toward a distant northern road, a clerk at a counting table, sparse guards with red pennants. Grand coordinated logistics rather than combat. Foreground sacks and hauling ropes, long warehouses and boats receding into distance. No ornate city bridges, no heroic central character.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. An imperial grain transfer depot along a broad straight canal viewed from an elevated bank. Large loaded barges moored beside government granaries, porters lifting grain sacks, ox carts moving toward a distant northern road, a clerk at a counting table, sparse guards with red pennants. Grand coordinated logistics rather than combat. Foreground sacks and hauling ropes, long warehouses and boats receding into distance. No ornate city bridges, no heroic central character.",
+      "path": "assets/lore/imperial-grain-transport.png"
+    },
+    {
+      "slug": "mountain-sect-gate",
+      "page": 17,
+      "anchor": "#page-17",
+      "caption": "강호의 산문 — 오래된 계보와 무공을 잇는 자리.",
+      "alt": "구름에 잠긴 산봉우리의 문파 전각과 돌계단, 마당에서 수련하는 제자들의 벽화",
+      "scene": "An unnamed old martial arts sect's mountain gate, not a specifically identified historical temple. Monumental rugged mountain peaks, ancient pines and fog banks, a zigzag stone stair leading toward tiled timber halls on ledges. A few small disciples practice disciplined sword forms in one courtyard; travelers ascend the steps. Vast landscape with restrained architecture, quiet accumulated tradition. No floating buildings, no enormous human figure, no celestial body.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. An unnamed old martial arts sect's mountain gate, not a specifically identified historical temple. Monumental rugged mountain peaks, ancient pines and fog banks, a zigzag stone stair leading toward tiled timber halls on ledges. A few small disciples practice disciplined sword forms in one courtyard; travelers ascend the steps. Vast landscape with restrained architecture, quiet accumulated tradition. No floating buildings, no enormous human figure, no celestial body.",
+      "path": "assets/lore/mountain-sect-gate.png"
+    },
+    {
+      "slug": "namgyeong-siege",
+      "page": 25,
+      "anchor": "#page-25",
+      "caption": "남경 공방전 — 성곽과 군세가 맞선 태평천국의 전쟁.",
+      "alt": "남경 성벽을 지키는 수비군과 성밖의 공성군, 연기 낀 성루를 그린 벽화",
+      "scene": "Namgyeong fortress siege during the fictional Taiping kingdom's struggle against the Daejin imperial army. Strong diagonal view from high on a wall: defenders in foreground, immense layered city walls and tiled gatehouse, attackers with ladders and siege engines beyond the moat. Vermilion cloth banners, charcoal smoke, muted fire accents. Focus on fortifications and armies sustaining a long war, no named hero portrait, no gore, no red sky or solar disk. Ancient East Asian fantasy armor, not 19th-century European guns.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. Namgyeong fortress siege during the fictional Taiping kingdom's struggle against the Daejin imperial army. Strong diagonal view from high on a wall: defenders in foreground, immense layered city walls and tiled gatehouse, attackers with ladders and siege engines beyond the moat. Vermilion cloth banners, charcoal smoke, muted fire accents. Focus on fortifications and armies sustaining a long war, no named hero portrait, no gore, no red sky or solar disk. Ancient East Asian fantasy armor, not 19th-century European guns.",
+      "path": "assets/lore/namgyeong-siege.png"
+    },
+    {
+      "slug": "hidden-market",
+      "page": 26,
+      "anchor": "#page-26",
+      "caption": "회색시장 — 정보와 금지품이 거래되는 골목.",
+      "alt": "낡은 골목의 비밀시장에서 두루마리와 유물 상자를 살펴보는 상인과 손님들의 벽화",
+      "scene": "An atmospheric hidden grey market in a dense old city alley beneath timber balconies. Hooded brokers quietly negotiate across narrow tables bearing closed scroll cases, antique ritual objects, small lacquer chests and covered trays. A messenger slips through a side door. Muted cloth lantern shades provide ordinary dim ochre light, deep charcoal recesses, sparse red hanging fabric. Human-scale secret commerce, grounded objects; no glowing crystals, no spell effects, no kidnapping, no modern signs, no text, no celestial disk.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. An atmospheric hidden grey market in a dense old city alley beneath timber balconies. Hooded brokers quietly negotiate across narrow tables bearing closed scroll cases, antique ritual objects, small lacquer chests and covered trays. A messenger slips through a side door. Muted cloth lantern shades provide ordinary dim ochre light, deep charcoal recesses, sparse red hanging fabric. Human-scale secret commerce, grounded objects; no glowing crystals, no spell effects, no kidnapping, no modern signs, no text, no celestial disk.",
+      "path": "assets/lore/hidden-market.png"
+    },
+    {
+      "slug": "eastern-island-harbor",
+      "page": 28,
+      "anchor": "#page-28",
+      "caption": "동해군도 — 섬과 항구를 잇는 바닷길.",
+      "alt": "바위섬 사이의 항구와 돛을 펼친 목선, 해안 마을을 그린 동해군도 벽화",
+      "scene": "A sweeping seaward view of the eastern island archipelago: rugged rocky islands in receding layers, a protected free port with wooden piers and densely packed roofs, several timber sailing junks with tan battened sails navigating narrow sea channels. Wind-twisted pines and charcoal waves, sparse red pennants, faded grey-green water pigment subordinate to ochre plaster. Rich maritime life, no giant sea monster or supernatural event, no continental imperial palace, no solar or lunar disk.",
+      "prompt": "Use case: illustration-story. A new standalone wide 16:9 illustration for a Korean fantasy lorebook. Reference images are STYLE REFERENCES only. Match the same ancient East Asian mural: matte ochre and aged tan plaster, black ink silhouettes, muted vermilion mineral accents, irregular peeling fresco paint and cracks across the full image, fine architectural brushwork, panoramic painterly depth. No lettering, captions, logos, modern technology, glossy CGI or neon. CRITICAL CANON: the red sun is caused exclusively by the Blood God; this scene has NO Blood God. NO SUN DISK, NO RED SUN, NO ECLIPSE, NO MOON, NO CELESTIAL CIRCLES. Ordinary diffuse sky or clouds only. Make an original scene, never copy the reference battle or palace composition. A sweeping seaward view of the eastern island archipelago: rugged rocky islands in receding layers, a protected free port with wooden piers and densely packed roofs, several timber sailing junks with tan battened sails navigating narrow sea channels. Wind-twisted pines and charcoal waves, sparse red pennants, faded grey-green water pigment subordinate to ochre plaster. Rich maritime life, no giant sea monster or supernatural event, no continental imperial palace, no solar or lunar disk.",
+      "path": "assets/lore/eastern-island-harbor.png"
+    }
+  ]
+}

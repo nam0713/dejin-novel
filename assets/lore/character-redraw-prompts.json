@@ -1,0 +1,85 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "page": 4,
+      "slug": "emperor-mandate",
+      "caption": "천고일제 독고룡 — 제국의 천명을 세운 군주.",
+      "alt": "면류관과 검금색 곤룡포를 입은 백발의 천고일제가 시종들과 궁궐 회랑을 걷는 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Dokgo Ryong walks sideways across a palace terrace while two adult attendants walk at the SAME DEPTH and on the SAME FLOOR beside him. He is approximately 2.5 meters tall; attendants are 1.7 meters tall, so his full standing height is only about 1.47 times theirs, NEVER a building-sized giant. Medium-wide oblique composition, his full figure occupies roughly 45 percent of image height. Entirely NEW walking pose and camera; do NOT reuse the seated reference posture or throne silhouette. Preserve ONLY long straight white hair, beaded flat mianliu crown, black-and-aged-gold dragon robe, pale face partly hidden by beads. No throne, no enormous body, no halos, no sun disk.",
+      "character": "emperor",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/천고일제 독고룡.jpg"
+      ],
+      "path": "assets/lore/emperor-mandate.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 14,
+      "slug": "heavenly-guard",
+      "caption": "천호위와 무신장 — 지하궁에 바친 충성.",
+      "alt": "검은 두건과 쌍검 차림의 서문걸이 도열한 천호위 사이를 지나는 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Seomun Geol moves in THREE-QUARTER REAR VIEW between two ranks of veteran Heavenly Guards toward a sealed palace door. His cloak is lifted sideways by motion, his two swords carried low pointing behind him; a substantially different pose and camera from the frontal standing reference. Other guards stand on the same floor at believable similar human scale. Reference used ONLY for faceless black hood, torn dark cloak, ornate beast chest armor, forearm plates and paired swords. No exposed face or helmet; no emperor visible, no sun disk.",
+      "character": "guardian",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/불사투신 서문걸.jpg"
+      ],
+      "path": "assets/lore/heavenly-guard.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 30,
+      "slug": "seomun-geol-portrait",
+      "caption": "불사투신 서문걸 — 끝나지 않은 군신의 맹약.",
+      "alt": "검은 두건과 쌍검 차림으로 천주궁의 깊은 문을 지키는 서문걸의 벽화",
+      "prompt": "Redraw from scratch as a WIDE 16:9 ANCIENT EAST ASIAN FRESCO for a lorebook. Image 1 controls the ART MEDIUM: rough ochre mineral pigments on crumbling plaster, charcoal brush silhouettes, flat expressive strokes, broken contours, flaked paint ACROSS THE FIGURES AND FACES, subdued red accents. Image 2 is ONLY a physical identity guide. DO NOT paste, collage, trace or transplant the reference character rendering, silhouette, pose or camera. Do not render realistic polished faces over mural backgrounds. Repaint every body, garment, face and weapon in the same rough flat brushwork as the environment. The entire composition must feel painted on one old wall. No lettering or logos. Seomun Geol in SIDE PROFILE, low crouched guard stance on a stone bridge before the final sealed gates of the underground palace. One sword projects forward low along the bridge, the other angles back beside his flowing cloak. Whole-body gesture and horizontal composition must be entirely newly drawn, not the frontal arms-down reference pose. Face remains completely dark inside the hood. Reference used ONLY for black hood, layered torn cloak, beast-face breastplate and paired straight swords, armored forearms. Human-scale guard against immense doors, no giant body, no sun disk.",
+      "character": "guardian",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/불사투신 서문걸.jpg"
+      ],
+      "path": "assets/lore/seomun-geol-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 31,
+      "slug": "urnui-portrait",
+      "caption": "무극혈신 우르누이 — 대장성을 찢은 초원의 패왕.",
+      "alt": "거대한 체격의 무극혈신 우르누이의 칼과 활, 아래를 내려다보는 시선을 그린 벽화",
+      "prompt": "Create a NEW wide 16:9 ancient East Asian mineral-pigment mural. FIRST image is style only; SECOND is physical appearance only, NEVER copy its pose or photoreal rendering. Urnui, the overwhelming Blood God, must look terrifyingly powerful from his anatomy and face alone, even without any effects. Massive thick skeletal frame, extraordinarily broad shoulders, huge trapezius and neck, barrel chest, dense heavyweight strongman muscles, huge rough hands; mature brutal face with heavy brow, thick wild beard, piercing small red eyes looking DOWN toward viewer, long untamed black hair. NOT handsome slender hero, not ordinary soldier, not youthful, not cartoon bodybuilder. NEW pose: leaning slightly forward with one heavy hand resting on the pommel of his enormous curved saber planted beside him, other hand holding his massive bow low. Low viewpoint, dominant waist-up/three-quarter figure taking 70% of composition with head fully visible; tiny distant cavalry below emphasize presence. Black fur cloak framing broad shoulders, exposed muscular chest, dark red sash, ornate heavy belt and bracers. His characteristic black sun disk with red corona is permitted behind distant ruined wall because HE causes it. Repaint EVERYTHING with flat broken charcoal and ochre brush shapes, rough mineral pigment, weathered peeling plaster across skin and face too. Face readable and menacing despite mural simplification. No pasted portrait, no glossy 3D, no realistic character on textured background, no text. Aim for an ancient wall painting of a conqueror whose physical presence silences armies.",
+      "character": "blood",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/무극혈신 우르누이.jpg"
+      ],
+      "path": "assets/lore/urnui-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "page": 32,
+      "slug": "dowolcheon-portrait",
+      "caption": "금면수라 도월천 — 문파 없는 방랑협객.",
+      "alt": "금면을 얼굴에 쓴 도월천이 검을 들고 돌다리를 건너는 벽화",
+      "prompt": "Generate a new WIDE 16:9 ancient East Asian mural of GOLDEN-MASK ASURA Do Wolcheon. Image1 is mural ART STYLE reference. Image2 is only appearance guidance for hair, clothes, sword and the DESIGN of golden mask, NOT its placement. CRITICAL USER CORRECTION: HE WEARS THE GOLDEN FIERCE-FACE MASK OVER HIS ENTIRE FACE, firmly fitted from forehead to chin, eyes behind mask eye slits. NO visible human face, NO mask hanging at neck, NO second mask. This is his publicly known wandering martial artist identity. New composition: masked swordsman walking across a weathered roadside stone bridge, three-quarter view, dark hair loosely tied high with flyaway strands, pale layered robes with ragged dark outer garment, long sheathed sword in hand at his side, quiet commanding presence. A few distant travelers step aside. Repaint all body, hair, mask and environment with the same flat rough ochre and charcoal mineral-pigment brushwork, chipped paint and cracked plaster across figure, muted old gold mask, restrained vermilion cloth accents. Do not paste original portrait or reproduce its seated drinking pose. Entire scene one ancient wall painting, no glossy realistic character, no text, NO sun disk, NO red sun, NO halo.",
+      "character": "wanderer",
+      "references": [
+        "C:/dejin-novel/assets/lore/cheonjugung-mural.png",
+        "C:/dejin-novel/대진국/삼류연정/이미지/도월천.jpg"
+      ],
+      "path": "assets/lore/dowolcheon-portrait.png",
+      "status": "complete",
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}
