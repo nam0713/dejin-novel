@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-29",
+  "operations": 55,
+  "rewritten_scene_operations": 12,
+  "files": [
+    {
+      "file": "그녀에게는 남편이 있었다 01~03 (재집필본).txt",
+      "before_nonspace": 28542,
+      "after_nonspace": 28542,
+      "sha256": "e94714393baf506feb640651d31af6dc2c43518e393c5e1106d2bc391f06d1a0",
+      "changed": false
+    },
+    {
+      "file": "그녀에게는 남편이 있었다 04~20 (재집필본).txt",
+      "before_nonspace": 145135,
+      "after_nonspace": 150573,
+      "sha256": "3b6560eabc9a8b76e2bad43596127884eeda74475b58d99722396876a297a1e4",
+      "changed": true
+    }
+  ],
+  "checks": {
+    "logged_changes_reconstruct_current_files": true,
+    "chapter_titles_and_scene_breaks_preserved": true,
+    "all_20_chapters_present": true,
+    "quotes_balanced": true,
+    "identity_reveal_order_preserved": true,
+    "original_files_unchanged": true,
+    "late_arrival_followed_by_peer_feedback": true,
+    "chapter_15_booking_to_16_departure": true,
+    "chapter_20_wife_exit_reunion_return_order": true
+  },
+  "followup_connection_corrections": 4
+}

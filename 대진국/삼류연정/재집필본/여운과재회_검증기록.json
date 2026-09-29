@@ -1,0 +1,24 @@
+{
+  "changes": 14,
+  "checks": {
+    "reconstructed_from_backup_and_log": true,
+    "chapters_4_to_20_in_order": true,
+    "scene_separators_preserved": true,
+    "double_quotes_balanced": true,
+    "no_replacement_character": true,
+    "chapters_1_to_3_unchanged": true,
+    "name_references_before_chapter13": 0
+  },
+  "files": [
+    {
+      "name": "그녀에게는 남편이 있었다 01~03 (재집필본).txt",
+      "nonspace": 28542,
+      "sha256": "e94714393baf506feb640651d31af6dc2c43518e393c5e1106d2bc391f06d1a0"
+    },
+    {
+      "name": "그녀에게는 남편이 있었다 04~20 (재집필본).txt",
+      "nonspace": 150454,
+      "sha256": "c055e9f51e7b68fce0d741bfe1d36661d06161978b0ca4c66bae9b2de9928b7d"
+    }
+  ]
+}
