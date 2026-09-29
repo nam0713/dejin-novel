@@ -46,6 +46,7 @@ function renderReader(){
   var btn=document.createElement("button");btn.type="button";btn.innerHTML='<span>'+String(ch.number).padStart(2,"0")+'</span><span class="chapter-nav-copy"><b>'+esc(ch.title)+'</b><small>약 '+ch.readMinutes+'분</small></span>';btn.addEventListener("click",function(){showChapter(i,true)});nav.appendChild(btn);
   var sec=document.createElement("section");sec.className="chapter";
   sec.innerHTML='<header><div class="chapter-meta"><span>'+esc(DATA.hanja||"三流戀情")+'</span><i>·</i><span>第 '+String(ch.number).padStart(2,"0")+' 話</span><i>·</i><span>약 '+ch.readMinutes+'분</span></div><h3>'+esc(ch.title)+'</h3></header><div class="chapter-body">'+chapterBodyHTML(ch)+'</div><nav class="reader-footer-nav" aria-label="화 이동"><button type="button" data-prev '+(i===0?"disabled":"")+'>'+(i===0?"처음 화입니다":"← 이전 화")+'</button><span>'+String(i+1).padStart(2,"0")+' / '+String(DATA.chapters.length).padStart(2,"0")+'</span><button type="button" data-next '+(i===DATA.chapters.length-1?"disabled":"")+'>'+(i===DATA.chapters.length-1?"마지막 화입니다":"다음 화 →")+'</button></nav>';
+  if(bookKey==="samryu"&&i===DATA.chapters.length-1){sec.querySelector("[data-next]").outerHTML='<a class="afterword-next" href="afterword.html">작가의 말 →</a>'}
   var prev=sec.querySelector("[data-prev]"),next=sec.querySelector("[data-next]");if(prev&&!prev.disabled)prev.addEventListener("click",function(){showChapter(i-1,true)});if(next&&!next.disabled)next.addEventListener("click",function(){showChapter(i+1,true)});
   reader.appendChild(sec);
  });
