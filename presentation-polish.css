@@ -1,0 +1,171 @@
+/* Art folios and chapter strokes. Presentation pages only; prose stays still. */
+:is(.home-page,.geummyeon-page) .contents a,
+:is(.home-page,.geummyeon-page) .episode-link {
+  position: relative;
+  background: transparent;
+}
+:is(.home-page,.geummyeon-page) :is(.contents a,.episode-link)>.brush-response { display: none; }
+:is(.home-page,.geummyeon-page) :is(.contents a,.episode-link)::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 4px;
+  background: url('assets/ui/ink-wash.png') center / 100% 28px no-repeat;
+  clip-path: inset(0 100% 0 0);
+  opacity: .74;
+  transition: clip-path .58s linear;
+  pointer-events: none;
+}
+:is(.home-page,.geummyeon-page) :is(.contents a,.episode-link):is(:hover,:focus-visible)::after { clip-path: inset(0 -1% 0 0); }
+:is(.home-page,.geummyeon-page) .contents a:is(:hover,:focus-visible) { padding-inline: 0; }
+:is(.home-page,.geummyeon-page) .contents a:is(:hover,:focus-visible) .chapter-number {
+  background: transparent;
+  color: #96372d;
+  animation: none;
+  clip-path: none;
+}
+.home-page .contents .chapter-number { transition: color .2s; }
+.geummyeon-page .episode-link::after { bottom: -20px; }
+.geummyeon-page .episode-link>span[aria-hidden="true"] {
+  grid-column: 4;
+  grid-row: 1;
+  color: #8b392e;
+  transition: transform .4s cubic-bezier(.2,.65,.2,1);
+}
+.geummyeon-page .episode-link:is(:hover,:focus-visible)>span[aria-hidden="true"] { transform: translateX(5px); }
+
+/* A folio is mounted paper, rather than a row of dark information tiles. */
+.home-page .character-tabs { gap: 20px; padding-bottom: 1px; }
+.home-page .character-tab {
+  position: relative;
+  padding: 13px 3px 16px;
+  background: transparent;
+  color: #585d4e;
+  clip-path: none;
+  font: 500 16px/1.65 var(--serif);
+}
+.home-page .character-tab::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -2px;
+  height: 5px;
+  background: url('assets/ui/ink-wash.png') center / 100% 28px no-repeat;
+  clip-path: inset(0 100% 0 0);
+  opacity: .85;
+  transition: clip-path .48s linear;
+}
+.home-page .character-tab.active { color: #92392d; background: transparent; clip-path: none; }
+.home-page .character-tab.active::after { clip-path: inset(0 0 0 0); }
+.home-page .character-tab span { margin-left: 10px; color: #655e4d; font-size: 14px; }
+.home-page .character-tab:focus-visible { outline: 2px solid #9b342b; outline-offset: 5px; }
+.home-page .character-grid { align-items: start; }
+.home-page .character-card { position: relative; align-self: start; background: transparent; }
+.home-page .portrait-mount {
+  position: relative;
+  isolation: isolate;
+  padding: 11px 11px 9px;
+  background: #eee7d5;
+  border: 1px solid #b4a383;
+  box-shadow: 2px 4px 0 #cabc9e55, 0 8px 17px -13px #393b2c80;
+  transform: perspective(1000px) rotateX(var(--folio-rx,0deg)) rotateY(var(--folio-ry,0deg)) translateY(var(--folio-lift,0px));
+  transform-origin: center 65%;
+  transition: transform .38s cubic-bezier(.2,.65,.2,1), box-shadow .38s, border-color .38s;
+}
+.home-page .portrait-mount::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid #9e8a6570;
+  pointer-events: none;
+  z-index: 2;
+}
+.home-page .portrait-mount::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 22px;
+  height: 22px;
+  background: linear-gradient(45deg,#c4b697 0%,#ddd2b9 44%,#f5edd9 49%,#b0a082 51%,var(--paper) 54%);
+  clip-path: polygon(0 0,100% 100%,100% 0);
+  pointer-events: none;
+  z-index: 3;
+}
+.home-page .character-card .portrait-mount img {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+  filter: none;
+  background: #ded4bd;
+}
+.home-page .portrait-seal {
+  position: absolute;
+  z-index: 4;
+  right: 15px;
+  bottom: 15px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 36px;
+  color: #f6ecd4;
+  background: #9b3b2ecf;
+  border: 1px solid #783326;
+  box-shadow: inset 0 0 0 2px #edc1a233;
+  font: 500 22px/1 var(--serif);
+  clip-path: polygon(0 3%,95% 0,100% 96%,3% 100%);
+  pointer-events: none;
+}
+.home-page .character-card:is(:hover,:focus-visible) .portrait-mount {
+  --folio-lift: -5px;
+  border-color: #8b5239;
+  box-shadow: 2px 5px 0 #cabc9e55, 0 19px 26px -18px #393b2c90;
+}
+.home-page .character-card .char-copy {
+  padding: 18px 2px 15px;
+  min-height: 0;
+  background: transparent;
+}
+.home-page .character-card .char-copy::before { display: none; }
+.home-page .character-card .char-copy::after {
+  inset: auto auto 0 0;
+  width: 42%;
+  height: 1px;
+  background: #9d89634d;
+  clip-path: none;
+}
+.home-page .character-card .char-copy small { color: #6b5d47; font-size: 14px; line-height: 1.7; }
+.home-page .character-card .char-copy h3 { margin-block: 6px 8px; color: #253027; font-size: 22px; line-height: 1.6; }
+.home-page .character-card .char-copy h3::after { color: #943e30; }
+.home-page .character-card .char-copy p { display: block; color: #424c3e; font-size: 15px; line-height: 1.9; }
+.home-page .character-card:focus-visible { outline: 2px solid #9b342b; outline-offset: 7px; }
+.home-page .world-grid .portrait-mount { padding: 14px; }
+.home-page .world-grid .char-copy h3 { font-size: clamp(21px,2vw,27px); }
+
+@media (min-width:1060px) {
+  .home-page .character-grid:not(.world-grid) .character-card:nth-child(4n+2),
+  .home-page .character-grid:not(.world-grid) .character-card:nth-child(4n+4) { margin-top: 18px; }
+  .home-page .world-grid { gap: 40px; }
+  .home-page .world-grid .character-card:nth-child(2) { margin-top: 28px; }
+}
+@media (max-width:760px) {
+  .home-page .character-tabs { gap: 16px; }
+  .home-page .character-tab { font-size: 15px; }
+  .home-page .character-tab span { margin-left: 7px; }
+  .home-page .portrait-mount { padding: 8px; }
+  .home-page .world-grid .portrait-mount { padding: 8px; }
+  .home-page .character-card .char-copy h3 { font-size: 22px; }
+}
+@media (hover:none), (pointer:coarse) {
+  .home-page .character-card .portrait-mount { transform: none; }
+}
+@media (prefers-reduced-motion:reduce) {
+  :is(.home-page,.geummyeon-page) :is(.contents a,.episode-link)::after,
+  .home-page .character-tab::after,
+  .home-page .portrait-mount,
+  .geummyeon-page .episode-link>span[aria-hidden="true"] { transition: none; }
+  .home-page .character-card .portrait-mount,
+  .geummyeon-page .episode-link:is(:hover,:focus-visible)>span[aria-hidden="true"] { transform: none; }
+}

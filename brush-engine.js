@@ -136,12 +136,13 @@
       heading.classList.add('brush-heading');heading.appendChild(svg);observed.push({element:heading,run:()=>play(svg,1050)});
     });
     const frameBitmaps=frameStrokes.map((s,i)=>bake(dry,s,670,1000,i,'#a78d60'));
-    const sceneAssets=reduced.matches ? Promise.resolve(null) : loadImage('assets/ui/ink-landscape.png').then(async source=>{
+    const sceneAssets=reduced.matches||!document.querySelector('.ink-hero:not(.cinematic-hero),.lore-masthead:not(.cinematic-hero)') ? Promise.resolve(null) : loadImage('assets/ui/ink-landscape.png').then(async source=>{
       const bitmaps=sceneStrokes.map((s,i)=>bake(dry,s,1600,900,i,null,source));
       await Promise.all(bitmaps.map(loadImage));return bitmaps;
     }).catch(()=>null);
     const [,sceneBitmaps]=await Promise.all([Promise.all(frameBitmaps.map(loadImage)),sceneAssets]);
     function frame(image) {
+      if(image.closest('.world-atlas,.home-page #lore .landscape'))return;
       if(reduced.matches||image.dataset.brushDone||!image.naturalWidth)return;
       image.dataset.brushDone='true';
       const wrap=document.createElement('div');wrap.className='brush-portrait';image.before(wrap);wrap.appendChild(image);
@@ -155,7 +156,7 @@
         if(!entry.isIntersecting)return;observed.find(job=>job.element===entry.target)?.run();observer.unobserve(entry.target);
       }),{threshold:.08});observed.forEach(job=>observer.observe(job.element));
     } else observed.forEach(job=>job.run());
-    document.querySelectorAll('.ink-hero,.lore-masthead').forEach(hero=>{
+    document.querySelectorAll('.ink-hero:not(.cinematic-hero),.lore-masthead:not(.cinematic-hero)').forEach(hero=>{
       if(reduced.matches||!sceneBitmaps)return;
       hero.dataset.brushPhase='painting';
       const scene=painting(sceneBitmaps,sceneStrokes,1600,900,tint(dry,'#111e17'));

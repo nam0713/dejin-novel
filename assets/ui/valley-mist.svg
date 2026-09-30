@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="300" viewBox="0 0 1600 300">
+  <defs>
+    <filter id="haze" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="wisp" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+    <linearGradient id="fade"><stop stop-color="#dce0d5" stop-opacity="0"/><stop offset=".24" stop-color="#dce0d5" stop-opacity=".35"/><stop offset=".58" stop-color="#dce0d5" stop-opacity=".75"/><stop offset=".83" stop-color="#dce0d5" stop-opacity=".4"/><stop offset="1" stop-color="#dce0d5" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path d="M0 166 C150 118 225 185 395 147 S620 92 805 138 S1085 196 1230 135 S1440 102 1600 143 L1600 195 C1430 160 1330 209 1165 190 S1010 151 800 181 S575 157 405 183 S175 203 0 194Z" fill="url(#fade)" filter="url(#haze)"/>
+  <path d="M60 143 C195 125 270 152 430 132 S700 130 825 146 S1100 127 1290 151 S1430 138 1540 146" fill="none" stroke="url(#fade)" stroke-width="10" filter="url(#wisp)"/>
+  <path d="M145 203 C400 174 455 207 645 186 S990 207 1110 185 S1360 187 1510 195" fill="none" stroke="url(#fade)" stroke-width="15" filter="url(#haze)"/>
+</svg>

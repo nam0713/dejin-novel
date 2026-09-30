@@ -140,7 +140,7 @@
 .lore-page .lore-prose { color: #323b34; font-size: 16px; line-height: 2.2; }
 .lore-page .lore-prose h4 { color: #242f28; }
 .lore-page .lore-illustration { margin-block: 31px 37px; }
-.lore-page .lore-illustration img { height: auto; aspect-ratio: auto; border: 1px solid #b9aa8a; }
+.lore-page .lore-illustration img { height: auto; border: 1px solid #b9aa8a; }
 .lore-page .lore-illustration figcaption { padding-top: 2px; font: 400 14px/1.8 var(--serif); color: #5c594d; }
 .lore-page .lore-prose blockquote { border-left: 3px solid var(--red); background: #ded2b943; padding: 18px 24px; margin-block: 32px; color: #833d2c; }
 .lore-page .lore-prose .lore-label { color: var(--red); font: 500 14px/1.8 var(--serif); }

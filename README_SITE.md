@@ -6,7 +6,7 @@
 - 별도 본문 리더: `reader.html`, `reader.js`, `novel-content.js`
 - 공통 스타일: `site.css`
 - 웹 로어북: `lore.html`, `lore.css`, `lore.js`
-- 디자인 조사 및 적용 근거: `DESIGN_REFERENCES.md`
+- 디자인 조사 및 적용 근거: `DESIGN_REFERENCES.md`, 산수 감상과 장면 연출 원자료: `CINEMATIC_REFERENCES.md`
 - 세계관 풍경: `대진국/삼류연정/이미지/landscape.png`
 - 배경음악: `music.js`, `music.css`, `assets/audio/eastminster.mp3` (Kevin MacLeod, CC BY 4.0; 출처는 `assets/audio/CREDITS.md` 및 플레이어 설정에 표시)
 
@@ -23,27 +23,34 @@
 
 ## 주요 기능
 
-토탈워 삼국지의 실제 UI 제작자인 Anna Jasinski의 [먹 배경과 UI 작업](https://annajasinski.artstation.com/projects/q9w5Pz), [Creative Assembly 공식 아트](https://creativeassembly.artstation.com/projects/v1Be3v), [아트 디렉터 인터뷰](https://gamesbeat.com/how-creative-assembly-conceived-the-art-for-total-war-three-kingdoms/), [SEGA 공식 소개](https://asia.sega.com/totalwar-three-kingdoms/kr/)를 조사했습니다. 이후 붓그림 움직임을 보강하면서 [CA 기술 아티스트의 flow map 설명](https://mcvuk.com/business-news/creative-assembly-there-are-many-definitions-of-technical-art-and-all-of-them-are-correct/), [HKUST의 가상 붓 연구](https://cse.hkust.edu.hk/VCB/CGA%20Brush%202004.pdf), [UW의 수채화 재현 연구](https://grail.cs.washington.edu/wp-content/uploads/2015/08/curtis-1997-cgw.pdf)를 직접 확인했습니다. 자료별 근거와 초기·현재 디자인의 차이는 `DESIGN_REFERENCES.md`에 기록합니다.
+토탈워 삼국지의 실제 UI 제작자인 Anna Jasinski의 [먹 배경과 UI 작업](https://annajasinski.artstation.com/projects/q9w5Pz), [Creative Assembly 공식 아트](https://creativeassembly.artstation.com/projects/v1Be3v), [아트 디렉터 인터뷰](https://gamesbeat.com/how-creative-assembly-conceived-the-art-for-total-war-three-kingdoms/), [SEGA 공식 소개](https://asia.sega.com/totalwar-three-kingdoms/kr/)를 조사했습니다. 이후 붓그림 움직임을 보강하면서 [CA 기술 아티스트의 flow map 설명](https://mcvuk.com/business-news/creative-assembly-there-are-many-definitions-of-technical-art-and-all-of-them-are-correct/), [HKUST의 가상 붓 연구](https://cse.hkust.edu.hk/VCB/CGA%20Brush%202004.pdf), [UW의 수채화 재현 연구](https://grail.cs.washington.edu/wp-content/uploads/2015/08/curtis-1997-cgw.pdf)를 직접 확인했습니다. 산수화 속을 감상하는 다음 단계의 원자료는 [Met의 두루마리 설명](https://www.metmuseum.org/essays/chinese-handscrolls), [Princeton의 산수화 교육자료](https://static.artmuseum.princeton.edu/asian-art/china/resources/landscape-painting/), [고궁박물원의 회화 애니메이션](https://theme.npm.edu.tw/exh107/uptheriver/en/page-4.html), [teamLab의 연속된 물의 선](https://art.team-lab.cn/w/uowp/)입니다. 초기·이후 디자인의 차이는 `DESIGN_REFERENCES.md`, 장면 연출의 조사 근거와 제작 판단은 `CINEMATIC_REFERENCES.md`에 구분해 기록합니다.
 
 - 공통 색·메뉴·낙관: `ink-theme.css`
 - 작품 페이지·차례·인물록: `ink-components.css`
 - 로어북 소개와 읽기 면: `ink-lore.css`
 - 원래 독서 테마: `site.css`, 리더의 모바일 배치 보정: `ink-reader.css`, 작가의 말 전용 스타일: `afterword.css`
-- 소개 화면의 탐색 반응: `ink-motion.css`, `ink-motion.js`, 원화를 유지하는 붓 덧그림과 재생: `brush-engine.js`
-- 직접 생성한 수묵 배경과 붓획: `assets/ui/ink-landscape.png`, `assets/ui/ink-wash.png`
-- 내장 이미지 생성 도구의 제작 프롬프트: `assets/ui/ink-prompts.json`
+- 소개 화면의 탐색 반응: `ink-motion.css`, `ink-motion.js`, 제목 붓선·이미지 테두리: `brush-engine.js`
+- 먼 산·안개·투명 전경·작품별 환경 움직임: `cinematic.css`, `cinematic.js`
+- 한 폭의 풍경에서 다섯 기록 선택: `world-atlas.css`, `world-atlas.js`
+- 인물의 종이 장정과 목차 한 획 반응: `presentation-polish.css`, `presentation-polish.js`
+- 사이트용 수묵 배경·붓획·투명 전경: `assets/ui/ink-landscape.png`, `assets/ui/ink-wash.png`, `assets/ui/ink-foreground.png`
+- 내장 이미지 생성 도구의 제작 프롬프트: `assets/ui/ink-prompts.json`, `assets/ui/cinematic-prompts.json`
 
 삼류연정·금면수라의 본문 리더는 `site.css`의 원래 색과 글꼴, 야간 테마로 복원했습니다. 소개용 먹물 테마와 움직임을 리더에 불러오지 않습니다. 로어북 내용은 균일한 종이 면에 표시하며 표지의 장식과 분리합니다. 소개의 보조 문구는 14px, 일반 문단은 16~17px를 기준으로 하고, 밝은 글자에는 고정된 짙은 받침을 두어 배경에 묻히지 않게 합니다. 원문, 삽화, 인물 탭·확대, 저장된 읽기 위치, 검색과 음악 기능을 유지합니다.
 
-두 작품의 표지는 제목·핵심 소개·읽기 버튼으로 간소화했습니다. 제목·소개·산수·표지·인물화는 처음부터 계속 표시합니다. 그림을 다시 가렸다가 공개하던 이전 방식을 교체하고, 원화 위에 먹 결을 더하는 붓 덧그림을 사용합니다. 직접 만든 곡선과 가변 너비 외곽에 고정된 붓결을 한 번 준비한 뒤, 간단한 SVG 마스크를 거의 일정한 속도로 진행합니다. 산수 획은 약 1.3~1.45초씩 차례로 그리며 앞부분에 작은 붓결이 함께 이동합니다. 표지·인물·풍경의 테두리는 네 변을 750ms·850ms·750ms·850ms씩 그리며, 간격을 포함한 전체 시간은 3.35초입니다. 자동 재생은 첫 표시 때만 합니다. 기존 테두리와 원화는 유지하며 인물 탭을 누를 때 그림을 다시 가리지 않습니다. Canvas에서 획을 준비하고 SVG로 재생하는 양식화한 효과이며 유체 시뮬레이션은 아닙니다.
+두 작품의 표지는 제목·핵심 소개·읽기 버튼으로 간소화했습니다. 제목·소개·산수·표지·인물화는 처음부터 계속 표시합니다. 첫 화면은 먼 산, 느리게 흐르는 안개, 새로 제작한 투명 수묵 전경을 겹친 장면입니다. 안개는 고정 질감의 transform으로 흐르고, 가까운 전경과 원경은 포인터·스크롤에 서로 다른 폭으로 반응합니다. 삼류연정에는 가는 비, 금면수라에는 마른 잎, 로어북 표지에는 먼 새가 움직입니다. 글자와 탐색 버튼은 움직이지 않고 고정된 대비를 유지합니다. 환경 Canvas는 보이는 장면만 하나의 requestAnimationFrame 루프에서 계산하며, 화면 밖이나 숨겨진 탭에서는 정지합니다.
 
-산수의 먹 결은 첫 방문 시 자동으로 한 번 그려지고 그대로 유지합니다. 별도의 장식 재생 버튼은 두지 않습니다. 현재 탐색 구역의 메뉴와 차례 항목은 먹 받침·낙관으로 반응합니다. 로어북 36점과 본편·외전 장면 삽화는 버튼으로 확대하고 Escape로 닫을 수 있습니다. 운영체제의 ‘동작 줄이기’에서는 이동 장식을 숨깁니다. JavaScript나 장식 자산 로드가 실패해도 정적 산수와 원화는 유지됩니다. 다른 사이트나 연구 자료의 그림·텍스처·코드는 가져오지 않았습니다.
+제목 아래의 붓선과 표지·인물·풍경의 테두리 획은 유지합니다. 획 질감은 Canvas에서 한 번 준비해 간단한 SVG 마스크로 재생하며, 원화를 지우거나 가림막을 덮지 않습니다. 테두리는 네 변을 750ms·850ms·750ms·850ms씩 그리며, 간격을 포함한 전체 시간은 3.35초입니다. 자동 재생은 첫 표시 때만 하고 별도의 재생 버튼은 두지 않습니다. 인물 탭을 눌러도 이미 본 그림을 다시 가리지 않습니다. 인물록은 종이 장정·얇은 이중 테두리·낙관·접힌 모서리를 사용하고, 설명을 밝은 종이 위 먹색으로 배치합니다. 정밀 포인터에서는 초상만 얕게 반응하며 글은 그대로 있습니다. 차례는 읽는 시간의 우측 배치를 유지한 채 가는 먹획으로 선택에 반응합니다. 금면수라의 ‘삽화 2점’ 문구는 다시 표시하지 않습니다.
+
+메인 세계관 소개는 산수화와 열린 기록 면 하나로 구성합니다. 대진국·천주궁·강호·대운하·대초원 다섯 표식을 선택하면 해당 기록의 제목·짧은 소개·실제 로어북 링크가 바뀝니다. 그림의 표식 위치는 감상을 위한 구도이며 공식 지리 지도 좌표가 아닙니다. 클릭과 방향키·Home·End로 선택할 수 있으며 페이지의 세로 스크롤을 가로 탐색으로 바꾸지 않습니다. 로어북 36점과 본편·외전 장면 삽화는 버튼으로 확대하고 Escape로 닫을 수 있습니다. 운영체제의 ‘동작 줄이기’에서는 환경 입자와 포인터 이동을 멈추고, 안개와 그림은 정적으로 남기며 탐색 전환을 즉시 처리합니다. 새 연출 JavaScript나 장식 자산 로드가 실패해도 정적 산수·원화·일반 링크와 원래 인물 확대 기능은 유지됩니다. 다른 사이트나 연구 자료의 그림·텍스처·코드는 가져오지 않았습니다.
 
 ## 기능 목록
 
 - 작품명과 표지를 중심으로 한 출판물 스타일의 반응형 화면
 - 작품 소개에서 바로 고를 수 있는 본편 20화 차례
 - 등장인물 10명 갤러리 및 확대 보기
+- 원경·안개·수묵 전경과 작품별 환경 움직임을 겹친 소개 장면
+- 산수화 속 표식으로 펼치는 다섯 세계관 기록과 로어북 연결
 - 대진국 로어북 독립 페이지: 권별 차례, 본문 검색
 - `novel-content.js`의 화별 본문을 표시하는 독립 웹 리더
 - 글자 크기, 다크 리딩 테마, 마지막 읽던 화 저장
@@ -75,6 +82,7 @@ GitHub Pages를 `main / (root)` 기준으로 활성화하면 별도 빌드 없�
 ## 금면수라 외전집
 
 - 작품 페이지: `geummyeon.html` — 금면수라 / 천하제일인의 몇가지 이야기
+- 차례는 삼류연정처럼 읽는 시간을 제목 오른쪽에 배치하며, ‘삽화 2점’ 보조 문구를 표시하지 않습니다.
 - 독립 리더: `geummyeon-reader.html`, 공통 동작 `reader.js`
 - 본문·삽화 위치: `geummyeon-content.js` (5화, 화당 2점)
 - 표지·삽화: `assets/geummyeon/`, 생성 기록: `geummyeon-image-prompts.json`
