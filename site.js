@@ -28,7 +28,7 @@ function renderCards(list,grid){
   var img=document.createElement("img"); img.loading="lazy"; img.src=encodeURI(ASSET+c.img); img.alt=c.name+" 인물 삽화";
   var copy=document.createElement("div"); copy.className="char-copy"; copy.innerHTML="<small>"+esc(c.role)+"</small><h3>"+esc(c.name)+"</h3><p>"+esc(c.desc)+"</p>";
   card.appendChild(img);card.appendChild(copy);
-  function open(){if(!dialog)return;var di=dialog.querySelector("img"),ds=dialog.querySelector("small"),dh=dialog.querySelector("h3"),dp=dialog.querySelector("p");if(di){di.src=encodeURI(ASSET+c.img);di.alt=c.name+" 인물 삽화"}if(ds)ds.textContent=c.role;if(dh)dh.textContent=c.name;if(dp)dp.textContent=c.desc;if(dialog.showModal)dialog.showModal()}
+  function open(){if(!dialog)return;var di=dialog.querySelector("img"),ds=dialog.querySelector("small"),dh=dialog.querySelector("h3"),dp=dialog.querySelector("p");if(di){di.src=encodeURI(ASSET+c.img);di.alt=c.name+" 인물 삽화"}if(ds)ds.textContent=c.role;if(dh)dh.textContent=c.name;if(dp)dp.textContent=c.desc;if(dialog.showModal){dialog.showModal();document.documentElement.classList.add("portrait-is-open")}}
   card.addEventListener("click",open); card.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();open()}});
   grid.appendChild(card);
  });
@@ -51,7 +51,7 @@ document.querySelectorAll("[data-character-tab]").forEach(function(tab){
   e.preventDefault();tabs[next].click();tabs[next].focus();
  });
 });
-if(dialog){var dc=dialog.querySelector(".dialog-close");if(dc)dc.addEventListener("click",function(){dialog.close()});dialog.addEventListener("click",function(e){if(e.target===dialog)dialog.close()})}
+if(dialog){var dc=dialog.querySelector(".dialog-close");if(dc)dc.addEventListener("click",function(){dialog.close()});dialog.addEventListener("click",function(e){if(e.target===dialog||e.target.classList.contains("portrait-gallery"))dialog.close()});dialog.addEventListener("close",function(){document.documentElement.classList.remove("portrait-is-open")})}
 
 document.querySelectorAll("[data-continue]").forEach(function(link){
  var key=link.getAttribute("data-continue"),saved=safeGet(key+"-chapter",null),chapter=Number(saved),total=key==="geummyeon"?5:20;

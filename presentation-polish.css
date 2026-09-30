@@ -169,3 +169,88 @@
   .home-page .character-card .portrait-mount,
   .geummyeon-page .episode-link:is(:hover,:focus-visible)>span[aria-hidden="true"] { transform: none; }
 }
+
+/* Portrait viewing uses the whole ink space, with a hanging scroll and free copy. */
+html.portrait-is-open { overflow:hidden; }
+#portraitDialog.portrait-viewer {
+  inset:0; margin:0; width:100%; height:100dvh; max-width:none; max-height:none;
+  padding:68px 36px 40px; border:0; background:transparent; box-shadow:none;
+  color:#efe5d0; overflow:auto;
+}
+#portraitDialog.portrait-viewer[open] { display:block; }
+#portraitDialog.portrait-viewer::backdrop {
+  background:linear-gradient(100deg,#0e1816e8,#111b18f5 64%,#101915eb),url('assets/ui/ink-landscape.png') center/cover;
+}
+#portraitDialog.portrait-viewer .portrait-gallery {
+  display:grid; grid-template-columns:auto minmax(210px,330px); align-items:center; justify-content:center;
+  gap:clamp(44px,7vw,112px); min-height:100%; margin:auto; padding:0; max-width:1120px;
+  background:transparent; color:inherit;
+}
+#portraitDialog .portrait-scroll {
+  position:relative; margin:0; padding:17px 0;
+  width:min(49vw,calc(74dvh * .69),552px); height:auto; aspect-ratio:69 / 100;
+}
+#portraitDialog .portrait-silk {
+  display:flex; align-items:center; justify-content:center; width:100%; height:100%;
+  padding:15px 17px; background:linear-gradient(90deg,#7d7258,#c5b58c 4%,#a59a78 7%,#b9aa82 93%,#766b51),#a89a76;
+  box-shadow:0 15px 35px #0005,inset 0 0 0 1px #dccba351;
+}
+#portraitDialog.portrait-viewer .portrait-silk img {
+  display:block; width:100%; height:100%; max-height:none; object-fit:contain;
+  padding:6px; background:#e8dfc8; border:1px solid #6e604980;
+}
+#portraitDialog .portrait-roller {
+  position:absolute; left:-13px; right:-13px; height:14px;
+  background:linear-gradient(#bbaa77,#7c673f 25%,#443b2c 80%,#2a2921);
+  border-radius:3px; box-shadow:0 3px 6px #0005;
+}
+#portraitDialog .portrait-roller::before,#portraitDialog .portrait-roller::after {
+  content:''; position:absolute; top:-2px; bottom:-2px; width:8px;
+  background:linear-gradient(90deg,#69512e,#c6af74,#7a613b); border-radius:3px;
+}
+#portraitDialog .portrait-roller::before { left:-4px; }
+#portraitDialog .portrait-roller::after { right:-4px; }
+#portraitDialog .portrait-roller-top { top:10px; }
+#portraitDialog .portrait-roller-bottom { bottom:10px; }
+#portraitDialog .portrait-biography { position:relative; padding:0 0 45px; background:transparent; align-self:center; }
+#portraitDialog .portrait-heading-mark { display:block; margin-bottom:24px; color:#c0a873; font:400 27px/1.5 'Nanum Brush Script',var(--serif); letter-spacing:.2em; }
+#portraitDialog.portrait-viewer small { display:block; color:#ddccb0; font:400 14px/1.9 var(--serif); }
+#portraitDialog.portrait-viewer h3 { margin:15px 0 21px; color:#f5eddc; font:400 clamp(48px,5.5vw,76px)/1.2 'Nanum Brush Script',var(--serif); word-break:keep-all; text-wrap:balance; }
+#portraitDialog .portrait-biography-rule { display:block; width:150px; height:5px; margin:0 0 25px; background:#b59a61; clip-path:polygon(0 43%,7% 10%,27% 21%,45% 5%,67% 25%,83% 27%,100% 51%,94% 77%,74% 87%,57% 72%,33% 95%,15% 72%,0 65%); transform-origin:left center; }
+#portraitDialog.portrait-viewer p { margin:0; color:#e5dfcf; font:400 16px/2.1 var(--serif); word-break:keep-all; }
+#portraitDialog .portrait-imprint { display:flex; flex-direction:column; align-items:center; justify-content:center; width:38px; height:50px; margin-top:34px; border:1px solid #af4939; outline:1px solid #af493988; outline-offset:-5px; color:#ca6754; font:400 21px/1 'Nanum Brush Script',var(--serif); transform:rotate(-5deg); }
+#portraitDialog.portrait-viewer .dialog-close {
+  position:fixed; top:23px; right:29px; display:flex; align-items:center; justify-content:center; gap:7px;
+  width:auto; min-width:85px; height:48px; padding:0 7px; border:0; background:transparent;
+  color:#e4d5b6; cursor:pointer; font:400 14px/1.5 var(--serif);
+}
+#portraitDialog .dialog-close svg { width:26px; height:26px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; }
+#portraitDialog .dialog-close:hover { color:#fff7e4; }
+#portraitDialog .dialog-close:focus-visible { outline:1px solid #d5b675; outline-offset:3px; }
+@media(prefers-reduced-motion:no-preference) {
+  #portraitDialog[open] .portrait-scroll { animation:portrait-hanging .65s cubic-bezier(.2,.7,.3,1) both; }
+  #portraitDialog[open] .portrait-biography-rule { animation:portrait-line .75s cubic-bezier(.2,.7,.3,1) both; }
+  @keyframes portrait-hanging { from { transform:translateY(-16px); } to { transform:translateY(0); } }
+  @keyframes portrait-line { from { transform:scaleX(.08); } to { transform:scaleX(1); } }
+}
+@media(max-width:760px) {
+  #portraitDialog.portrait-viewer { padding:72px 28px 35px; }
+  #portraitDialog.portrait-viewer .portrait-gallery { grid-template-columns:1fr; gap:32px; min-height:0; max-width:480px; }
+  #portraitDialog .portrait-scroll { justify-self:center; width:min(72vw,calc(52dvh * .69)); height:auto; }
+  #portraitDialog .portrait-silk { padding:12px; }
+  #portraitDialog .portrait-biography { padding:0 4px; }
+  #portraitDialog .portrait-heading-mark { margin-bottom:10px; font-size:22px; }
+  #portraitDialog.portrait-viewer h3 { font-size:46px; margin:10px 0 15px; }
+  #portraitDialog .portrait-biography-rule { margin-bottom:15px; }
+  #portraitDialog.portrait-viewer p { font-size:15px; line-height:1.9; }
+  #portraitDialog .portrait-imprint { margin-top:21px; }
+  #portraitDialog.portrait-viewer .dialog-close { right:17px; top:13px; }
+}
+@media(max-height:550px) and (min-width:761px) {
+  #portraitDialog.portrait-viewer { padding-top:56px; }
+  #portraitDialog .portrait-scroll { height:78dvh; width:calc(78dvh * .69); }
+  #portraitDialog .portrait-heading-mark { margin-bottom:9px; }
+  #portraitDialog.portrait-viewer h3 { font-size:45px; margin:10px 0; }
+  #portraitDialog.portrait-viewer p { font-size:14px; }
+  #portraitDialog .portrait-imprint { margin-top:15px; }
+}
