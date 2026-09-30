@@ -66,18 +66,6 @@
   font: 400 16px/1.9 var(--serif);
 }
 .lore-page .lore-subtitle span { display: block; margin: 8px 0 0; color: #e2dac7; letter-spacing: .12em; font-size: 14px; overflow-wrap: anywhere; }
-.lore-page .lore-open-record {
-  display: inline-flex;
-  gap: 38px;
-  align-items: center;
-  min-height: 44px;
-  margin-top: 32px;
-  padding: 11px 0;
-  border-bottom: 1px solid #b8a47c;
-  color: #e2dac7;
-  font: 400 14px/1.6 var(--serif);
-}
-.lore-page .lore-open-record:hover { color: #d6b583; }
 .lore-page .lore-edition { display: flex; flex-direction: column; align-items: center; gap: 23px; align-self: center; padding: 22px 18px; background: #171b1be8; }
 .lore-page .lore-edition > span {
   color: #e2dac7;
@@ -182,7 +170,6 @@
   .lore-page .lore-edition > span { writing-mode: horizontal-tb; font-size: 18px; }
   .lore-page .lore-edition > b { width: 35px; height: 39px; font-size: 15px; }
   .lore-page .lore-edition p { display: none; }
-  .lore-page .lore-open-record { margin-top: 25px; font-size: 14px; gap: 30px; }
   .lore-page .lore-intro { display: flex; gap: 17px; padding-block: 27px 29px; }
   .lore-page .lore-intro > p { font-size: 16px; line-height: 2; }
   .lore-page .lore-intro-mark { font-size: 18px; }
