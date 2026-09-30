@@ -8,12 +8,9 @@
 .episode-link p { font-size: 14px; line-height: 1.9; color: var(--muted); margin: 0 0 14px; word-break: keep-all; }
 .episode-link small { font-size: 11px; color: var(--muted); }
 .episode-link:hover h3 { color: var(--red); }
-.source-link { display: inline-block; margin: 16px 0 0 82px; font-size: 11px; color: var(--muted); border-bottom: 1px solid var(--line); padding-block: 6px; }
-.source-link:hover { color: var(--red); }
 @media (max-width: 540px) {
   .episode-link { grid-template-columns: 28px 1fr 16px; gap: 14px; }
   .episode-number { font-size: 20px; }
   .episode-link h3 { font-size: 20px; }
   .episode-link p { font-size: 13px; }
-  .source-link { margin-left: 42px; }
 }

@@ -85,8 +85,14 @@
 .companion p:not(.kicker) { color: #f1e8d4; font-size: 16px; line-height: 1.9; }
 .companion small { color: #e2dac7; font-size: 14px; line-height: 1.7; }
 .companion .text-link { color: #ded3b9; border-color: #aa967155; }
-.episode-list li { padding: 30px 0; border-color: #b5a58177; }
-.episode-link { grid-template-columns: 64px 1fr 24px; gap: 26px; }
+.episode-list li { padding: 20px 0; border-color: #b5a58177; }
+.episode-link { grid-template-columns: 64px minmax(0,1fr) auto 24px; gap: 8px 26px; align-items: baseline; }
+.episode-link>div { display: contents; }
+.episode-link .episode-number { grid-column: 1; grid-row: 1; }
+.episode-link h3 { grid-column: 2; grid-row: 1; margin: 0; }
+.episode-link p { grid-column: 2 / -1; grid-row: 2; margin: 0; }
+.episode-link small { grid-column: 3; grid-row: 1; white-space: nowrap; }
+.episode-link>span:last-child { grid-column: 4; grid-row: 1; }
 .episode-number { color: #746044; font-size: 34px; }
 .episode-link h3 { font-size: 25px; }
 .episode-link p { font-size: 16px; line-height: 1.95; color: #404a40; }
@@ -141,7 +147,7 @@
   .companion .text-link { grid-column: 2; justify-self: start; margin-top: -6px; }
   .companion h2 { font-size: 43px; }
   .companion p:not(.kicker) { font-size: 16px; }
-  .episode-link { grid-template-columns: 34px 1fr 15px; gap: 15px; }
+  .episode-link { grid-template-columns: 34px minmax(0,1fr) auto 15px; gap: 8px 15px; }
   .episode-number { font-size: 25px; }
   .episode-link h3 { font-size: 22px; }
 }
@@ -167,7 +173,7 @@
   .companion .text-link { grid-column: 1/-1; justify-self: end; }
 }
 
-.contents-note, .contents-note .text-link, .world-note, .reading-note, .episode-link small, .source-link { font-size: 14px; color: #5c594d; line-height: 1.8; }
+.contents-note, .contents-note .text-link, .world-note, .reading-note, .episode-link small { font-size: 14px; color: #5c594d; line-height: 1.8; }
 .companion .text-link { font-size: 15px; }
 .story-pull cite, .character-tab span { font-size: 14px; }
 .lore-body .text-link, .lore-body .text-link span { font-size: 15px; }
