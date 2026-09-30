@@ -147,18 +147,6 @@
       const wrap=document.createElement('div');wrap.className='brush-portrait';image.before(wrap);wrap.appendChild(image);
       const border=painting(frameBitmaps,frameStrokes,670,1000);border.svg.classList.add('brush-frame');wrap.appendChild(border.svg);play(border.svg,border.duration);
     }
-    function repaintFrame(image) {
-      if(!image||reduced.matches)return;
-      frame(image);
-      const wrap=image.parentElement;
-      if(!wrap.classList.contains('brush-portrait'))return;
-      wrap.querySelector('.brush-live-frame')?.remove();
-      const border=painting(frameBitmaps,frameStrokes,670,1000);
-      border.svg.classList.add('brush-frame','brush-live-frame');wrap.appendChild(border.svg);
-      play(border.svg,border.duration,()=>{
-        border.svg.classList.add('brush-drying');setTimeout(()=>border.svg.remove(),1000);
-      });
-    }
     document.querySelectorAll('.character-card img,.landscape img,.opening-art img').forEach(image=>{
       observed.push({element:image,run:()=>{if(image.complete)frame(image);else image.addEventListener('load',()=>frame(image),{once:true});}});
     });
@@ -169,27 +157,12 @@
     } else observed.forEach(job=>job.run());
     document.querySelectorAll('.ink-hero,.lore-masthead').forEach(hero=>{
       if(reduced.matches||!sceneBitmaps)return;
-      {
-        const replay=document.createElement('button');replay.type='button';replay.className='brush-replay';
-        replay.setAttribute('aria-label','먹그림 다시 그리기');replay.title='먹그림 다시 그리기';
-        const icon=node('svg',{viewBox:'0 0 24 24',width:24,height:24,'aria-hidden':'true'},replay);
-        node('path',{d:'M15.5 3.5 20.5 8.5 10 19 5 14Z M5 14C6 18 3 20 2 21c4 0 7-1 8-3',fill:'none',stroke:'currentColor','stroke-width':1.5,'stroke-linejoin':'round'},icon);
-        (hero.querySelector('.opening-art')||hero).appendChild(replay);
-        let resting=null;
-        function draw(manual) {
-          if(reduced.matches||hero.dataset.brushPhase==='painting')return;
-          hero.querySelector('.brush-drying')?.remove();hero.dataset.brushPhase='painting';replay.disabled=true;replay.setAttribute('aria-busy','true');
-          const scene=painting(sceneBitmaps,sceneStrokes,1600,900,tint(dry,'#111e17'));
-          scene.svg.classList.add('brush-scene');hero.prepend(scene.svg);
-          if(manual)repaintFrame(hero.querySelector('.opening-art img'));
-          play(scene.svg,scene.duration,()=>{
-            hero.dataset.brushPhase='settled';replay.disabled=false;replay.removeAttribute('aria-busy');
-          if(!resting||!resting.isConnected){resting=scene.svg;resting.classList.add('brush-resting');}
-            else{scene.svg.classList.add('brush-drying');setTimeout(()=>scene.svg.remove(),1000);}
-          },scene.tracks,hero);
-        }
-        replay.addEventListener('click',()=>draw(true));draw(false);
-      }
+      hero.dataset.brushPhase='painting';
+      const scene=painting(sceneBitmaps,sceneStrokes,1600,900,tint(dry,'#111e17'));
+      scene.svg.classList.add('brush-scene');hero.prepend(scene.svg);
+      play(scene.svg,scene.duration,()=>{
+        hero.dataset.brushPhase='settled';scene.svg.classList.add('brush-resting');
+      },scene.tracks,hero);
     });
     document.querySelectorAll('.contents a,.episode-link,.topbar nav a').forEach(link=>{
       const svg=line(link.closest('.topbar')?'#dfc18b':'#282e26');svg.classList.add('brush-response');link.appendChild(svg);

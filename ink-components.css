@@ -37,7 +37,7 @@
 :is(.home-page, .geummyeon-page) .ink-hero { min-height: 640px; padding-block: 60px 70px; align-content: center; }
 :is(.home-page, .geummyeon-page) .ink-hero .edition-line { margin: 0; padding-block: 14px; }
 :is(.home-page, .geummyeon-page) .ink-hero .opening-copy { padding-top: 28px; }
-:is(.home-page, .geummyeon-page) .ink-hero .opening-art { display: block; grid-row: 1 / span 3; width: min(100%,330px); padding: 0; }
+:is(.home-page, .geummyeon-page) .ink-hero .opening-art { display: block; grid-row: 1 / span 2; width: min(100%,330px); padding: 0; }
 .section { position: relative; padding-block: 85px; border-top: 0; }
 .section::before { content: ""; position: absolute; top: -4px; left: 0; right: 0; height: 8px; background: url('assets/ui/ink-wash.png') 50% 50%/100% 24px no-repeat; opacity: .42; }
 .ink-hero+.section::before { display: none; }
@@ -107,7 +107,7 @@
 @media (max-width:760px) {
   .ink-hero::before { background: linear-gradient(180deg,#121917f7 0%,#121917ed 58%,#12191766 88%),url('assets/ui/ink-landscape.png') 55% 50%/cover; }
   :is(.home-page, .geummyeon-page) .ink-hero { min-height: 0; padding-block: 36px 58px; }
-  :is(.home-page, .geummyeon-page) .ink-hero .opening-art { grid-row: 3; width: 100%; padding-top: 28px; }
+  :is(.home-page, .geummyeon-page) .ink-hero .opening-art { grid-row: 2; width: 100%; padding-top: 28px; }
   .ink-hero { grid-template-columns: minmax(0,1fr) 40%; column-gap: 5%; padding-top: 36px; padding-bottom: 58px; min-height: 0; }
   .hero-label { grid-column: 1/-1; margin-bottom: 18px; }
   .ink-hero .masthead { grid-column: 1/-1; }
@@ -146,7 +146,7 @@
   .episode-link h3 { font-size: 22px; }
 }
 @media (max-width:430px) {
-  :is(.home-page, .geummyeon-page) .ink-hero .opening-art { grid-row: 4; width: 185px; padding-top: 0; }
+  :is(.home-page, .geummyeon-page) .ink-hero .opening-art { grid-row: 3; width: 185px; padding-top: 0; }
   .hero-label { font-size: 9px; letter-spacing: .08em; gap: 10px; }
   .hero-label .hero-seal { flex-shrink: 0; }
   .ink-hero { grid-template-columns: minmax(0,1fr); }
