@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f7f5ef">
+  <meta name="theme-color" content="#171b1b">
   <meta name="description" content="천고 天高 제1부 · 삼류연정 三流戀情 — 그녀에게는 남편이 있었다. 작품 전용 아카이브와 웹 리더.">
   <meta property="og:title" content="삼류연정 三流戀情 | 천고 天高">
   <meta property="og:description" content="삼류 무인 진소백의 연정과 대진국 강호의 이야기.">
@@ -14,8 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css?v=1">
   <link rel="stylesheet" href="music.css?v=3">
-  <link rel="stylesheet" href="ink-reader.css?v=3">
-  <link rel="stylesheet" href="illustration-viewer.css?v=2">
+  <link rel="stylesheet" href="ink-theme.css?v=1">
+  <link rel="stylesheet" href="ink-components.css?v=2">
+  <link rel="stylesheet" href="ink-reader.css?v=1">
+  <link rel="stylesheet" href="ink-motion.css?v=1">
 </head>
 <body class="reader-page">
   <a class="skip-link" href="#readerContent">본문으로 건너뛰기</a>
@@ -26,18 +28,18 @@
   <main>
     <section class="reader-section" id="reader">
       <header class="reader-head">
-        <h1>삼류연정</h1><p>읽던 화는 자동으로 저장됩니다.</p>
+        <div class="reader-heading"><p class="reader-kicker">天高 · 第一部</p><h1>삼류연정</h1></div><p class="reader-head-note">읽던 화는 자동으로 저장됩니다.</p>
       </header>
       <div class="reader-shell">
         <aside class="reader-aside">
           <div class="book-label"><small>天高 · 第一部</small><strong>그녀에게는<br>남편이 있었다</strong><span>三流戀情</span></div>
-          <details class="chapter-disclosure" open><summary>차례 <span id="currentChapterLabel"></span></summary><nav id="chapterNav" aria-label="화 목록"></nav></details>
-          <a class="afterword-menu" href="afterword.html">작가의 말 <span aria-hidden="true">→</span></a>
           <div class="reader-tools" aria-label="읽기 설정">
             <button type="button" data-size="-1" aria-label="글자 작게">A−</button>
             <button type="button" data-size="1" aria-label="글자 크게">A＋</button>
             <button type="button" id="themeToggle" aria-label="읽기 테마 전환">◐</button>
           </div>
+          <details class="chapter-disclosure" open><summary>차례 <span id="currentChapterLabel"></span></summary><nav id="chapterNav" aria-label="화 목록"></nav></details>
+          <a class="afterword-menu" href="afterword.html">작가의 말 <span aria-hidden="true">→</span></a>
         </aside>
         <article class="reader-content" id="readerContent"><p>본문을 불러오는 중입니다. 표시되지 않으면 원문으로 읽어 주세요: <a href="대진국/삼류연정/그녀에게는 남편이 있었다 01~03.txt">1~3화</a> · <a href="대진국/삼류연정/재집필본/그녀에게는 남편이 있었다 04~20 (재집필본).txt">4~20화</a></p></article>
       </div>
@@ -45,7 +47,7 @@
     </section>
   </main>
   <footer><div class="footer-brand"><span>天高</span><b>삼류연정 三流戀情</b></div><a href="index.html">작품 소개로 돌아가기</a><a href="#top">위로 ↑</a></footer>
-  <script src="novel-content.js?v=36"></script>
+  <script src="novel-content.js?v=35"></script>
   <script src="chapter-illustrations.js?v=2"></script>
   <script src="reader.js?v=8"></script>
   <aside class="music-player" aria-label="배경음악" hidden>
@@ -66,6 +68,6 @@
     <div class="music-status" role="status" aria-live="polite"></div>
   </aside>
   <script src="music.js?v=2"></script>
-  <script src="illustration-viewer.js?v=1"></script>
+  <script src="ink-motion.js?v=1"></script>
 </body>
 </html>

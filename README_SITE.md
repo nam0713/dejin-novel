@@ -23,15 +23,21 @@
 
 ## 주요 기능
 
-토탈워 삼국지의 실제 UI 제작자인 Anna Jasinski의 [먹 배경과 UI 작업](https://annajasinski.artstation.com/projects/q9w5Pz), [Creative Assembly 공식 아트](https://creativeassembly.artstation.com/projects/v1Be3v), [아트 디렉터 인터뷰](https://gamesbeat.com/how-creative-assembly-conceived-the-art-for-total-war-three-kingdoms/), [SEGA 공식 소개](https://asia.sega.com/totalwar-three-kingdoms/kr/)를 조사했습니다. 넓은 먹 면과 농담, 붓끝, 낙관을 웹 UI에 적용했습니다.
+토탈워 삼국지의 실제 UI 제작자인 Anna Jasinski의 [먹 배경과 UI 작업](https://annajasinski.artstation.com/projects/q9w5Pz), [Creative Assembly 공식 아트](https://creativeassembly.artstation.com/projects/v1Be3v), [아트 디렉터 인터뷰](https://gamesbeat.com/how-creative-assembly-conceived-the-art-for-total-war-three-kingdoms/), [SEGA 공식 소개](https://asia.sega.com/totalwar-three-kingdoms/kr/)를 조사했습니다. 이후 붓그림 움직임을 보강하면서 [CA 기술 아티스트의 flow map 설명](https://mcvuk.com/business-news/creative-assembly-there-are-many-definitions-of-technical-art-and-all-of-them-are-correct/), [HKUST의 가상 붓 연구](https://cse.hkust.edu.hk/VCB/CGA%20Brush%202004.pdf), [UW의 수채화 재현 연구](https://grail.cs.washington.edu/wp-content/uploads/2015/08/curtis-1997-cgw.pdf)를 직접 확인했습니다. 자료별 근거와 초기·현재 디자인의 차이는 `DESIGN_REFERENCES.md`에 기록합니다.
 
 - 공통 색·메뉴·낙관: `ink-theme.css`
 - 작품 페이지·차례·인물록: `ink-components.css`
-- 로어북: `ink-lore.css`, 리더: `ink-reader.css`, 작가의 말: `ink-afterword.css`
+- 로어북 소개와 읽기 면: `ink-lore.css`
+- 원래 독서 테마: `site.css`, 리더의 모바일 배치 보정: `ink-reader.css`, 작가의 말 배치 보정: `ink-afterword.css`
+- 소개 화면의 탐색 반응: `ink-motion.css`, `ink-motion.js`, 방향성 붓 마스크와 재생: `brush-engine.js`
 - 직접 생성한 수묵 배경과 붓획: `assets/ui/ink-landscape.png`, `assets/ui/ink-wash.png`
 - 내장 이미지 생성 도구의 제작 프롬프트: `assets/ui/ink-prompts.json`
 
-소설·로어북 본문은 밝고 균일한 종이 면으로 유지합니다. 먹빛 외곽과 독서 면의 색 변수를 분리해 야간 읽기를 지원합니다. 원문, 삽화, 인물 탭·확대, 저장된 읽기 위치, 검색과 음악 기능을 유지합니다.
+삼류연정·금면수라의 본문 리더는 `site.css`의 원래 색과 글꼴, 야간 테마로 복원했습니다. 소개용 먹물 테마와 움직임을 리더에 불러오지 않습니다. 로어북 내용은 균일한 종이 면에 표시하며 표지의 장식과 분리합니다. 소개의 보조 문구는 14px, 일반 문단은 16~17px를 기준으로 하고, 밝은 글자에는 고정된 짙은 받침을 두어 배경에 묻히지 않게 합니다. 원문, 삽화, 인물 탭·확대, 저장된 읽기 위치, 검색과 음악 기능을 유지합니다.
+
+두 작품의 표지는 제목·핵심 소개·장르와 완결 정보·읽기 버튼으로 간소화했습니다. 제목과 글자는 처음부터 표시하고, 산수·붓자국·이미지 공개 마스크만 움직입니다. 직접 만든 SVG 획을 방향에 따라 그리며 필압을 나타내는 외곽, 고정된 섬유 결, 한 박자 늦은 불규칙한 가장자리 번짐을 사용합니다. 산수에는 마른 붓의 빈틈을 남기고, 표지와 인물화는 재생이 끝나면 기존 원화를 온전히 보여 줍니다. 이는 양식화한 SVG 효과이며 유체 시뮬레이션은 아닙니다.
+
+붓 모양 아이콘으로 먹그림을 다시 재생할 수 있습니다. 현재 탐색 구역의 메뉴와 차례 항목은 먹 받침·낙관으로 반응합니다. 로어북 36점과 본편·외전 장면 삽화는 버튼으로 확대하고 Escape로 닫을 수 있습니다. 운영체제의 ‘동작 줄이기’에서는 완성된 그림을 즉시 표시하고, JavaScript가 없으면 정적 산수와 원화가 유지됩니다. 새 산수의 로드가 실패해도 기존 배경을 유지합니다. 다른 사이트나 연구 자료의 그림·텍스처·코드는 가져오지 않았습니다.
 
 ## 기능 목록
 

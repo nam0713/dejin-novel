@@ -1,0 +1,96 @@
+/* Illustration controls inherit the page's reading palette. */
+.ink-art-trigger {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: zoom-in;
+}
+.ink-art-trigger > img { display: block; }
+.ink-art-trigger::after {
+  content: "↗";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line, #d2d2c6);
+  background: var(--paper, #f7f5ef);
+  color: var(--ink, #262923);
+  font: 18px/1 var(--sans, sans-serif);
+  opacity: .95;
+  pointer-events: none;
+}
+.ink-art-trigger:hover::after,
+.ink-art-trigger:focus-visible::after {
+  border-color: var(--red, #993d2f);
+  color: var(--red, #993d2f);
+}
+.ink-art-trigger:focus-visible {
+  outline: 2px solid var(--red, #993d2f);
+  outline-offset: 5px;
+}
+.ink-art-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(1180px, calc(100vw - 32px));
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 52px 20px 18px;
+  border: 1px solid var(--line, #d2d2c6);
+  background: var(--paper, #f7f5ef);
+  color: var(--ink, #262923);
+  box-shadow: 0 20px 70px #0006;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.ink-art-dialog::backdrop { background: #101713e6; }
+.ink-art-dialog[open] { display: grid; gap: 12px; }
+.ink-art-dialog > img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: max(48px, calc(100dvh - 154px));
+  margin: auto;
+  object-fit: contain;
+}
+.ink-art-dialog > p {
+  margin: 0;
+  max-height: 4.8em;
+  overflow: auto;
+  overflow-wrap: anywhere;
+  text-align: center;
+  font: 400 14px/1.6 var(--serif, serif);
+  color: var(--muted, #696c63);
+}
+.ink-art-close {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: 400 14px/1.5 var(--sans, sans-serif);
+}
+.ink-art-close:hover { color: var(--red, #993d2f); }
+.ink-art-close:focus-visible {
+  outline: 2px solid var(--red, #993d2f);
+  outline-offset: -3px;
+}
+html:has(.ink-art-dialog[open]) { overflow: hidden; }
+
+@media (max-width: 760px) {
+  .ink-art-dialog { padding: 52px 10px 16px; }
+  .ink-art-trigger::after { right: 8px; bottom: 8px; }
+}

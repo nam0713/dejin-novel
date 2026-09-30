@@ -1,0 +1,62 @@
+[
+  {
+    "file": "novel-content.js",
+    "sha256": "a27aef8e78942a91caea2758da176072e0f233485246710ef9f16462042f824b"
+  },
+  {
+    "file": "geummyeon-content.js",
+    "sha256": "8fb0a8899065298e5461b5f06eb4f40d265d5a1e3f5bbd497ae60c67a4e5932b"
+  },
+  {
+    "file": "chapter-illustrations.js",
+    "sha256": "9b479fa19309908fb25ac640da2a9c1e1f0d97c447b0136cd3d06ea458cb827f"
+  },
+  {
+    "file": "reader.js",
+    "sha256": "226acf7ce883c02ebb813229d3b912225c704e3a3f96ad2e05d104f6f466ca6d"
+  },
+  {
+    "file": "reader.html",
+    "sha256": "9eae5a86814f0016bc3e3332988bd940c309f434102a27489a5d4ceba8d9523e"
+  },
+  {
+    "file": "geummyeon-reader.html",
+    "sha256": "88e0175bcefc0fc41e27fd93124b5976eff82ee82b273a8bd3f74fa39dd14c28"
+  },
+  {
+    "file": "대진국\\삼류연정\\그녀에게는 남편이 있었다 01~03.txt",
+    "sha256": "1b881ae3f0200a19a8f95841c752c7309607269e272c8179e3db9a42ef7c6719"
+  },
+  {
+    "file": "대진국\\삼류연정\\재집필본\\그녀에게는 남편이 있었다 01~03 (재집필본).txt",
+    "sha256": "4b7664e2339ef2ad0394841f1b2290f3d5e6806ec7e78e20de327175850415ee"
+  },
+  {
+    "file": "대진국\\삼류연정\\재집필본\\그녀에게는 남편이 있었다 04~20 (재집필본).txt",
+    "sha256": "c399daa9c5cb17f2319c11a24b79d0ce0c97fe1393369023a9a4a09c192d1981"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\도월천vs백령.txt",
+    "sha256": "f52c70d73de622a0315834e2db5b1f7a5c5245dcac11dff3921aa9fb95ee76f5"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\도월천의옛사랑_돌아오는날.txt",
+    "sha256": "81bfa873a4d691a0a872f5c8643134a91e9d964e0bde42e7fc894b5b63aa6690"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\도월천의최후.txt",
+    "sha256": "df89390e798b0686872cffa8fad78c8d2f2d7410d35cd8894ba337edf341d6dd"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\도월천의출사_내게남은검.txt",
+    "sha256": "0001ba52566fcee0c07dcf2ce8816e4fdc905f1bca6f26ac5d5e9164178ecadf"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\무생로.txt",
+    "sha256": "568c53293a9a92ea7e46769639b67b27ff8c0484e79ba737a40c0abe2ed9a17c"
+  },
+  {
+    "file": "대진국\\삼류연정\\금면수라외전\\설계대비_수정내역.txt",
+    "sha256": "981a25329aad87ae6bd318a58464f19835080db88e36c6c55f642383f70551c5"
+  }
+]
