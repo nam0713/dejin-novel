@@ -1,0 +1,15 @@
+{
+  "tool": "Built-in image_gen",
+  "images": [
+    {
+      "slug": "ink-landscape",
+      "prompt": "Use case: stylized-concept. Asset: original ultrawide 16:9 website backdrop, no text. A cinematic ancient East Asian shan shui landscape drawn exclusively with expressive black sumi ink, charcoal-gray washes and subtle warm gray strokes on near-black paper. Layered misty mountain ridges concentrated on the RIGHT HALF; tiny silhouettes of a distant Chinese walled city and pine trees near the bottom right, abstract smoky ink pooling through the lower edge. Left half mostly calm dark negative space for readable UI titles. Powerful loose dry-brush ridges, translucent wet-ink blooms, rich organic ink gradients, subtle actual paper fibers, beautiful atmospheric depth. Palette near-black (#171b1b), muted gray green, warm pale ink (#ece5d5). No vivid colors, no people or named characters, no sun or moon disk, no red sun, no calligraphy, no lettering, no logos, no frame, no game screenshot. A sophisticated modern interpretation of ink painting, not an antique brown mural, not realistic photography.",
+      "path": "assets/ui/ink-landscape.png"
+    },
+    {
+      "slug": "ink-wash",
+      "prompt": "Use case: stylized-concept. Asset: original transparent ink brush texture for a website interface. One very wide horizontal black Chinese calligraphy ink sweep, thick continuous center with fine frayed dry-brush edges and organic wet ink bleeding. Length across most of image, stroke tapers at both ends, small black splashes close to the stroke, no distant floating noise. Dense pure black middle, varied partially translucent rough fiber edges. Composition one horizontal mark in 16:9 canvas with generous transparent margins. Black ink ONLY on fully TRANSPARENT background, no paper sheet, no colors, no gray checkerboard, no writing or characters, no logos, no additional objects. Used behind UI headlines and section boundaries, readable clean central area.",
+      "path": "assets/ui/ink-wash.png"
+    }
+  ]
+}

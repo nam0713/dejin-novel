@@ -1,0 +1,200 @@
+/* The imperial archive: ink landscapes outside, a clear paper reading surface inside. */
+.lore-page {
+  --paper: #ece5d5;
+  --paper-deep: #e2dac8;
+  --ink: #171b1b;
+  --muted: #65645b;
+  --red: #9b342b;
+  --line: #c8beaa;
+  --lore-gold: #998361;
+  background: var(--paper);
+}
+.lore-page .publication { padding-bottom: 0; }
+.lore-page .lore-masthead {
+  position: relative;
+  isolation: isolate;
+  min-height: 540px;
+  margin-inline: calc(-1 * var(--gutter));
+  padding: 66px var(--gutter) 62px;
+  overflow: hidden;
+  border: 0;
+  color: var(--paper);
+  background: #171b1b url("assets/ui/ink-landscape.png") center 58% / cover no-repeat;
+}
+.lore-page .lore-masthead::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, #171b1bf2 0%, #171b1bcb 32%, #171b1b4d 75%, #171b1b85 100%), linear-gradient(0deg, #171b1bde, transparent 45%);
+}
+.lore-page .lore-masthead::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 6px;
+  background: var(--lore-gold);
+  opacity: .55;
+}
+.lore-page .lore-masthead-copy { position: relative; max-width: 660px; }
+.lore-page .lore-masthead .eyebrow {
+  margin-bottom: 25px;
+  color: #c4b38f;
+  font: 400 13px/1.8 var(--serif);
+  letter-spacing: .3em;
+}
+.lore-page .lore-masthead h1 {
+  font: 600 clamp(52px, 6.6vw, 94px)/1.18 var(--serif);
+  letter-spacing: -.065em;
+  text-shadow: 0 3px 28px #171b1b70;
+}
+.lore-page .lore-masthead h1 span { display: block; margin-top: 7px; }
+.lore-page .lore-subtitle {
+  margin-top: 26px;
+  color: #d2c9b5;
+  font: 400 14px/1.9 var(--serif);
+}
+.lore-page .lore-subtitle span { display: block; margin: 8px 0 0; color: #aa9d80; letter-spacing: .16em; font-size: 11px; }
+.lore-page .lore-open-record {
+  display: inline-flex;
+  gap: 38px;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 32px;
+  padding: 11px 0;
+  border-bottom: 1px solid #b8a47c;
+  color: var(--paper);
+  font: 400 13px/1.6 var(--serif);
+}
+.lore-page .lore-open-record:hover { color: #d6b583; }
+.lore-page .lore-edition { display: flex; flex-direction: column; align-items: center; gap: 23px; align-self: center; padding: 5px 8px; }
+.lore-page .lore-edition > span {
+  color: #ece5d5a1;
+  writing-mode: vertical-rl;
+  font: 400 clamp(23px, 2.2vw, 33px)/1.5 var(--serif);
+  letter-spacing: .2em;
+}
+.lore-page .lore-edition > b {
+  display: grid;
+  place-items: center;
+  width: 47px;
+  height: 48px;
+  background: #923a2e;
+  border: 2px solid #cf72552e;
+  outline: 1px solid #a74b399c;
+  outline-offset: 3px;
+  color: #ead7bd;
+  font: 500 18px/1 var(--serif);
+  transform: rotate(-3deg);
+}
+.lore-page .lore-edition p { margin: 0; color: #c4b89d; text-align: center; font: 400 10px/1.9 var(--serif); }
+.lore-page .lore-intro { gap: 27px; padding: 33px 0 38px; border-bottom: 1px solid var(--line); }
+.lore-page .lore-intro > p { flex: 1; max-width: 720px; color: #55594f; font: 400 14px/2.1 var(--serif); }
+.lore-page .lore-intro-mark { flex-shrink: 0; writing-mode: vertical-rl; color: var(--red); font: 500 21px/1.5 var(--serif); letter-spacing: .13em; }
+.lore-page .lore-intro-edition { color: #81745e; writing-mode: vertical-rl; font: 400 10px/1.6 var(--serif); letter-spacing: .06em; }
+.lore-page .lore-layout { grid-template-columns: 230px minmax(0, 1fr); gap: clamp(36px, 5vw, 75px); padding-top: 45px; border: 0; }
+.lore-page .lore-sidebar {
+  top: 30px;
+  padding: 21px 17px 24px 20px;
+  border-left: 3px solid #262b26;
+  background: #e2dac864;
+  max-height: calc(100dvh - 60px);
+}
+.lore-page .lore-search { margin-bottom: 23px; }
+.lore-page .lore-search label { color: var(--ink); font: 500 13px/1.7 var(--serif); letter-spacing: .05em; }
+.lore-page .lore-search-field { border-color: #85775e; background: #f1ebdda6; }
+.lore-page .lore-search input { padding: 12px 8px; font-size: 13px; }
+.lore-page .lore-search input::placeholder { color: #716b5d; }
+.lore-page .lore-index summary { font: 500 18px/1.8 var(--serif); }
+.lore-page .lore-index summary span { color: #82715a; font: 400 10px var(--serif); }
+.lore-page .lore-index li { border-top-color: #c8beaa8c; }
+.lore-page .lore-index a { position: relative; min-height: 44px; gap: 7px; grid-template-columns: 31px 1fr auto; padding: 9px 4px; }
+.lore-page .lore-index a b { font: 500 12px/1.7 var(--serif); }
+.lore-page .lore-index a small { color: #81745e; font: 400 9px var(--serif); }
+.lore-page .lore-index a span { font-size: 9px; }
+.lore-page .lore-index a:hover { background: #c8beaa38; }
+.lore-page .lore-index a[aria-current="location"] { background: #9b342b0c; }
+.lore-page .lore-index a[aria-current="location"]::before { content: ""; position: absolute; left: -24px; top: 12px; width: 3px; height: 21px; background: var(--red); }
+.lore-page .lore-sidebar-note { padding-top: 17px; border-top: 1px solid #c8beaa8c; font: 400 10px/1.9 var(--sans); }
+.lore-page .lore-content { padding-top: 0; }
+.lore-page .lore-volume { scroll-margin-top: 30px; }
+.lore-page .lore-volume + .lore-volume { border-top: 0; padding-top: 0; margin-top: 78px; }
+.lore-page .lore-volume-heading {
+  position: relative;
+  padding: 27px 31px 29px;
+  margin-bottom: 36px;
+  overflow: hidden;
+  background: #202623;
+  color: var(--paper);
+  border-bottom: 3px solid var(--lore-gold);
+}
+.lore-page .lore-volume-heading::after { content: ""; position: absolute; right: 24px; top: 28px; bottom: 28px; width: 4px; background: var(--red); }
+.lore-page .lore-volume-heading p { margin-bottom: 10px; color: #c0ae87; font: 400 11px/1.8 var(--serif); letter-spacing: .16em; }
+.lore-page .lore-volume-heading h2 { font: 500 clamp(27px, 3vw, 38px)/1.5 var(--serif); }
+.lore-page .lore-entry { padding-top: 30px; }
+.lore-page .lore-entry:first-of-type { border-top: 0; padding-top: 0; }
+.lore-page .lore-entry + .lore-entry { margin-top: 52px; }
+.lore-page .lore-entry-heading { margin-bottom: 30px; }
+.lore-page .lore-entry-original { color: #8a7156; letter-spacing: .12em; font-size: 12px; }
+.lore-page .lore-entry h3 { font-weight: 600; margin-top: 10px; }
+.lore-page .lore-prose { color: #323b34; font-size: 16px; line-height: 2.2; }
+.lore-page .lore-prose h4 { color: #242f28; }
+.lore-page .lore-illustration { margin-block: 31px 37px; }
+.lore-page .lore-illustration img { height: auto; aspect-ratio: auto; border: 1px solid #b9aa8a; }
+.lore-page .lore-illustration figcaption { padding-top: 2px; font: 400 11px/1.8 var(--serif); color: #716653; }
+.lore-page .lore-prose blockquote { border-left: 3px solid var(--red); background: #ded2b943; padding: 18px 24px; margin-block: 32px; color: #833d2c; }
+.lore-page .lore-prose .lore-label { color: var(--red); font: 500 12px/1.8 var(--serif); }
+.lore-page .lore-prose .lore-note { border-color: #bbae98; color: #65645b; padding: 19px 0 0; }
+.lore-page .lore-table-wrap thead { background: #ded4bf; border-top: 2px solid #3a4339; }
+.lore-page .lore-table-wrap caption { color: #726854; font-family: var(--serif); }
+.lore-page .lore-table-wrap th, .lore-page .lore-table-wrap td { border-color: #c7baa0; }
+.lore-page .lore-table-wrap tbody tr:nth-child(even) { background: #e4dccb4a; }
+.lore-page .lore-back-index { margin-top: 2px; color: #796d58; font-family: var(--serif); }
+.lore-page .lore-colophon { margin: 25px 0 0; padding: 36px 0 40px; border-top: 2px solid #3a4339; color: #76654b; letter-spacing: .09em; }
+@media (max-width: 1000px) {
+  .lore-page .lore-layout { grid-template-columns: 205px minmax(0, 1fr); gap: 34px; }
+  .lore-page .lore-sidebar { padding-inline: 17px 12px; }
+  .lore-page .lore-index a { grid-template-columns: 31px 1fr; }
+  .lore-page .lore-index a[aria-current="location"]::before { left: -21px; }
+}
+@media (max-width: 760px) {
+  .lore-page .lore-masthead { min-height: 460px; padding-block: 43px 42px; gap: 17px; background-position: 60% center; }
+  .lore-page .lore-masthead::before { background: linear-gradient(90deg, #171b1bf2, #171b1b94 68%, #171b1b8f), linear-gradient(0deg, #171b1bcb, transparent 65%); }
+  .lore-page .lore-masthead h1 { font-size: clamp(44px, 11vw, 67px); line-height: 1.3; }
+  .lore-page .lore-masthead .eyebrow { font-size: 10px; letter-spacing: .16em; margin-bottom: 23px; }
+  .lore-page .lore-subtitle { font-size: 12px; margin-top: 22px; }
+  .lore-page .lore-subtitle span { font-size: 9px; letter-spacing: .08em; }
+  .lore-page .lore-edition { display: flex; padding: 0; gap: 19px; }
+  .lore-page .lore-edition > span { font-size: 21px; }
+  .lore-page .lore-edition > b { width: 35px; height: 39px; font-size: 15px; }
+  .lore-page .lore-edition p { display: none; }
+  .lore-page .lore-open-record { margin-top: 25px; font-size: 12px; gap: 30px; }
+  .lore-page .lore-intro { display: flex; gap: 17px; padding-block: 27px 29px; }
+  .lore-page .lore-intro > p { font-size: 12px; line-height: 2; }
+  .lore-page .lore-intro-mark { font-size: 18px; }
+  .lore-page .lore-intro-edition { display: none; }
+  .lore-page .lore-layout { display: block; padding-top: 25px; padding-bottom: 28px; }
+  .lore-page .lore-sidebar { position: static; max-height: none; padding: 18px 17px 20px; border-left-width: 2px; }
+  .lore-page .lore-search { margin-bottom: 16px; }
+  .lore-page .lore-search input { font-size: 16px; }
+  .lore-page .lore-index summary { padding-block: 13px; font: 500 14px/1.8 var(--serif); }
+  .lore-page .lore-index a { min-height: 47px; grid-template-columns: 33px 1fr auto; }
+  .lore-page .lore-index a b { font-size: 13px; }
+  .lore-page .lore-index a small { display: block; }
+  .lore-page .lore-index a[aria-current="location"]::before { left: -19px; }
+  .lore-page .lore-sidebar-note { margin-top: 14px; padding-top: 13px; }
+  .lore-page .lore-content { padding-top: 31px; }
+  .lore-page .lore-volume-heading { padding: 22px 23px 24px; margin-bottom: 27px; }
+  .lore-page .lore-volume-heading::after { right: 19px; top: 23px; bottom: 23px; width: 3px; }
+  .lore-page .lore-volume-heading h2 { font-size: 27px; }
+  .lore-page .lore-entry-original { font-size: 11px; letter-spacing: .06em; }
+  .lore-page .lore-entry h3 { font-size: 25px; line-height: 1.55; }
+  .lore-page .lore-entry-heading { margin-bottom: 25px; }
+  .lore-page .lore-prose { font-size: 16px; line-height: 2.1; }
+  .lore-page .lore-prose blockquote { padding: 14px 17px; }
+  .lore-page .lore-illustration { margin-block: 26px 31px; }
+  .lore-page .lore-illustration figcaption { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lore-page { scroll-behavior: auto; }
+}

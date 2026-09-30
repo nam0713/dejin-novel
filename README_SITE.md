@@ -23,6 +23,18 @@
 
 ## 주요 기능
 
+토탈워 삼국지의 실제 UI 제작자인 Anna Jasinski의 [먹 배경과 UI 작업](https://annajasinski.artstation.com/projects/q9w5Pz), [Creative Assembly 공식 아트](https://creativeassembly.artstation.com/projects/v1Be3v), [아트 디렉터 인터뷰](https://gamesbeat.com/how-creative-assembly-conceived-the-art-for-total-war-three-kingdoms/), [SEGA 공식 소개](https://asia.sega.com/totalwar-three-kingdoms/kr/)를 조사했습니다. 넓은 먹 면과 농담, 붓끝, 낙관을 웹 UI에 적용했습니다.
+
+- 공통 색·메뉴·낙관: `ink-theme.css`
+- 작품 페이지·차례·인물록: `ink-components.css`
+- 로어북: `ink-lore.css`, 리더: `ink-reader.css`, 작가의 말: `ink-afterword.css`
+- 직접 생성한 수묵 배경과 붓획: `assets/ui/ink-landscape.png`, `assets/ui/ink-wash.png`
+- 내장 이미지 생성 도구의 제작 프롬프트: `assets/ui/ink-prompts.json`
+
+소설·로어북 본문은 밝고 균일한 종이 면으로 유지합니다. 먹빛 외곽과 독서 면의 색 변수를 분리해 야간 읽기를 지원합니다. 원문, 삽화, 인물 탭·확대, 저장된 읽기 위치, 검색과 음악 기능을 유지합니다.
+
+## 기능 목록
+
 - 작품명과 표지를 중심으로 한 출판물 스타일의 반응형 화면
 - 작품 소개에서 바로 고를 수 있는 본편 20화 차례
 - 등장인물 10명 갤러리 및 확대 보기

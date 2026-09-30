@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f7f5ef">
+  <meta name="theme-color" content="#171b1b">
   <meta name="description" content="금면수라 — 천하제일인의 몇가지 이야기. 도월천 외전 다섯 편.">
   <meta property="og:title" content="금면수라 金面修羅 | 천고 天高">
   <meta property="og:description" content="도월천의 출사와 결전, 옛사랑과 마지막 날을 담은 외전집.">
@@ -14,6 +14,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css?v=1">
   <link rel="stylesheet" href="music.css?v=3">
+  <link rel="stylesheet" href="ink-theme.css?v=1">
+  <link rel="stylesheet" href="ink-components.css?v=1">
+  <link rel="stylesheet" href="ink-reader.css?v=1">
 </head>
 <body class="reader-page">
   <a class="skip-link" href="#readerContent">본문으로 건너뛰기</a>
@@ -24,17 +27,17 @@
   <main>
     <section class="reader-section" id="reader">
       <header class="reader-head">
-        <h1>금면수라</h1><p>읽던 화는 자동으로 저장됩니다.</p>
+        <div class="reader-heading"><p class="reader-kicker">天高 · 外傳</p><h1>금면수라</h1></div><p class="reader-head-note">읽던 화는 자동으로 저장됩니다.</p>
       </header>
       <div class="reader-shell">
         <aside class="reader-aside">
           <div class="book-label"><small>天高 · 外傳</small><strong>천하제일인의<br>몇가지 이야기</strong><span>金面修羅</span></div>
-          <details class="chapter-disclosure" open><summary>차례 <span id="currentChapterLabel"></span></summary><nav id="chapterNav" aria-label="화 목록"></nav></details>
           <div class="reader-tools" aria-label="읽기 설정">
             <button type="button" data-size="-1" aria-label="글자 작게">A−</button>
             <button type="button" data-size="1" aria-label="글자 크게">A＋</button>
             <button type="button" id="themeToggle" aria-label="읽기 테마 전환">◐</button>
           </div>
+          <details class="chapter-disclosure" open><summary>차례 <span id="currentChapterLabel"></span></summary><nav id="chapterNav" aria-label="화 목록"></nav></details>
         </aside>
         <article class="reader-content" id="readerContent"><p>본문을 불러오는 중입니다. <a href="geummyeon.html#chapters">외전 목록과 원문 보기</a></p></article>
       </div>
@@ -42,7 +45,7 @@
     </section>
   </main>
   <footer><div class="footer-brand"><span>天高</span><b>금면수라 金面修羅</b></div><a href="geummyeon.html">작품 소개로 돌아가기</a><a href="#top">위로 ↑</a></footer>
-  <script src="geummyeon-content.js?v=15"></script>
+  <script src="geummyeon-content.js?v=16"></script>
   <script src="reader.js?v=8"></script>
   <aside class="music-player" data-music-key="geummyeon-music" aria-label="배경음악" hidden>
     <audio src="assets/audio/river-flute.mp3" preload="none" loop></audio>

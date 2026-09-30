@@ -1,0 +1,77 @@
+/* Shared ink, paper and seal language. Reading surfaces keep their own palette. */
+:root {
+  --paper: #ece5d5;
+  --paper-deep: #dfd5c0;
+  --ink: #202524;
+  --muted: #67685e;
+  --red: #9b342b;
+  --line: #c7bca5;
+  --ink-surface: #171b1b;
+  --ink-light: #f1eadb;
+  --gold: #aa9671;
+  --brush: "Nanum Brush Script", "Noto Serif KR", Batang, serif;
+}
+html { background: var(--ink-surface); scroll-padding-top: 24px; }
+body { background: var(--paper); }
+body:not(.reader-page)::before {
+  content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  opacity: .2;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.74' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.22' filter='url(%23grain)'/%3E%3C/svg%3E");
+}
+main, .topbar, footer { position: relative; }
+.topbar {
+  max-width: none; min-height: 84px; padding-inline: max(var(--gutter), calc((100vw - 1280px) / 2));
+  background: var(--ink-surface); color: var(--ink-light); border-bottom: 1px solid #aa96712c;
+  gap: 30px; z-index: 2;
+}
+.brand { gap: 13px; }
+.brand-seal {
+  display: grid; place-content: center; width: 43px; height: 45px; color: #eee3ce;
+  border: 2px solid #9b342b; background: #9b342b; font: 600 20px/1 var(--serif);
+  box-shadow: inset 0 0 0 2px #171b1b80; letter-spacing: -.09em;
+  clip-path: polygon(2% 0, 95% 2%, 100% 96%, 3% 100%, 0 4%);
+}
+.brand-text b { font: 500 13px/1.5 var(--serif); letter-spacing: .06em; }
+.brand-text small { color: #aaa99b; font-size: 10px; }
+.topbar nav { gap: clamp(16px, 2vw, 32px); }
+.topbar nav a { position: relative; color: #d3d1c5; font-size: 12px; white-space: nowrap; }
+.topbar nav a::after { content: ""; position: absolute; bottom: 2px; left: 0; right: 0; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .2s; }
+.topbar nav a:hover { color: #fff8e6; }
+.topbar nav a:hover::after, .topbar nav a:focus-visible::after { transform: scaleX(1); }
+.top-cta { border: 1px solid #aa96715c; padding: 12px 18px; color: #eee5d1; font-size: 12px; }
+.top-cta:hover { color: #fff4d4; border-color: var(--gold); background: #aa967110; }
+.back-to-work { color: #ded5c1; }
+.btn { position: relative; border: 0; border-radius: 0; min-height: 52px; font-size: 13px; padding: 15px 25px; transition: background-color .2s, color .2s; }
+.btn.primary { color: #f5ecdc; background: var(--red); border: 0; clip-path: polygon(0 6%,98% 0,100% 92%,2% 100%); }
+.btn.primary:hover { background: #b24335; }
+.text-link { border-bottom-color: #9b342b55; font-weight: 500; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline-color: #b25842; }
+.topbar a:focus-visible { outline-color: #dfbe8b; }
+footer {
+  max-width: none; padding: 40px max(var(--gutter),calc((100vw - 1280px) / 2)) 100px;
+  color: #aaa99b; background: var(--ink-surface); border-top: 1px solid #aa967133;
+}
+.footer-brand span { color: #c1906b; }
+.footer-brand b { color: #ded7c5; font-family: var(--serif); }
+.music-player .music-bar { background: #171b1bf2; color: #ebe4d4; border-color: #aa96715c; box-shadow: 0 4px 20px #0002; }
+.music-player .music-toggle, .music-player .music-details>summary { color: #e1d7c2; }
+.music-player .music-panel { background: #ebe3d1; color: #272c28; border-color: #b8a789; }
+.music-player .music-panel p, .music-player .music-panel label { color: #5a6058; }
+::selection { background: #9b342b; color: #f7eddc; }
+@media (max-width: 1000px) { .topbar { gap: 20px; } .brand-text small { display: none; } .topbar nav { gap: 16px; } }
+@media (max-width: 760px) {
+  .topbar { min-height: 80px; padding-block: 16px 10px; gap: 12px; }
+  .topbar nav { border-color: #aa967133; padding-top: 12px; gap: 15px; justify-content: space-between; overflow-x: auto; }
+  .topbar nav a { font-size: 11px; }
+  .brand-seal { width: 36px; height: 38px; font-size: 18px; }
+  .brand-text b { font-size: 11px; }
+  .top-cta { padding: 9px 12px; font-size: 11px; }
+  footer { flex-wrap: wrap; padding-top: 32px; gap: 12px 20px; }
+  footer p { width: 100%; order: 3; margin: 0; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+@media (max-width:430px) {
+  .music-player .music-toggle-label { display: none; }
+  .music-player .music-toggle { gap: 0; padding-inline: 10px; }
+}
+@media (max-width:360px) { .topbar .brand-text { display: none; } }
