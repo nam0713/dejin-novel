@@ -1,0 +1,14 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Use case: identity-preserve. Asset type: chapter 8 Korean wuxia novel illustration. Input image 1 (8-2.png) is the EDIT TARGET: merchant-store back courtyard, Jin Sobaek standing on the LEFT, Shim Yoonjae leaning against a wooden crate on the RIGHT. Input image 2 (8-1.png) is the IDENTITY AND CLOTHING REFERENCE: Shim Yoonjae is ONLY the clean, tidy young adult man in the UPPER RIGHT at the teahouse table pouring tea, NOT the foreground sword-carrying man and NOT the woman. Correct only the RIGHT-HAND merchant Shim Yoonjae in image 1 so he is unmistakably the same man as the upper-right tea-pouring man in image 2, seen at another angle a short time later. Match his facial bone structure: adult age 25-26, narrow mature oval face, straight prominent nose and distinct straight nose bridge, restrained elongated eyes, defined but slim jaw and chin, clean-shaven, refined educated merchant rather than a teenage fighter. Match his tightly gathered, tidy dark hair and high neat topknot with its dark blue-gray ribbon; remove the long messy teen-like fringe currently in image 1 and retain only the small subtle strands shown on the tea reference. Keep his current shocked, disbelieving emotional expression and upward gaze toward the left man; identity must stay the same despite expression and viewing angle. Match his same-day pale gray silk sleeves/robe and blue-gray sleeveless outer vest from the teahouse reference, keeping his wooden trading-company badge at his waist and his ordinary clean unarmored hands. Preserve the right character's exact leaning position, body scale, hand braced on the rear crate corner, and placement. Preserve the LEFT swordsman Jin Sobaek's face, untidy hair, clothing, sword, pose, proportions and identity unchanged; do not transfer his face onto the merchant. Preserve the merchant courtyard, wooden crates, sacks, door, composition, portrait aspect ratio and framing. Preserve the existing traditional Eastern ink-and-brush painting style on aged warm ivory hanji paper, dry broken brush strokes and ink washes, muted sepia, black and limited blue-gray palette; not photorealistic, not glossy anime, no new figures, no text or watermark. This is a targeted continuity correction, not a whole scene redesign.",
+  "generatedSource": "C:/Users/82102/.codex/generated_images/01a0e952-5b75-7200-b8b7-9d4dc32ba1f2/exec-e9bf6e15-0752-4937-8aac-c6247d8572a2.png",
+  "timestampKST": "20260930_214127",
+  "reference": "대진국/삼류연정/삽화/8-1.png",
+  "original": "대진국/삼류연정/삽화/8-2.png",
+  "savedAsset": "C:\\dejin-novel\\대진국\\삼류연정\\삽화\\8-2-v2.png",
+  "backup": "C:\\dejin-novel\\대진국\\삼류연정\\재집필본\\삽画일치보정_수정전_20260930_214127",
+  "changes": "8화 두 번째 삽화 오른쪽 심윤재의 얼굴·머리·장삼을 첫 번째 삽화의 심윤재에 맞춤. 진소백·구도·놀란 표정·동양화 붓질 유지.",
+  "cacheBefore": "chapter-illustrations.js?v=2",
+  "cacheAfter": "chapter-illustrations.js?v=3",
+  "assetSha256": "b04d040de7991cf0b829f68bdbe86ea66b4b3d251ec3645ef3f31905cbb1438b"
+}

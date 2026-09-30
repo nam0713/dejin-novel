@@ -1,20 +1,20 @@
 /* Brush motion lives on presentation pages. Text is never faded, masked or moved. */
 .ink-hero { --hero-shade: linear-gradient(90deg,#121917fc 0%,#121917f2 48%,#12191777 78%,#12191730); }
-.ink-hero.brush-has-scene::before { background-image: var(--hero-shade); }
-.lore-masthead.brush-has-scene { background-image: none; }
-.brush-scene { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -3; pointer-events: none; }
-.lore-masthead .brush-scene { z-index: -2; }
+.ink-hero::before { background-position: center; }
+.lore-page .lore-masthead { background-position: center; }
+.brush-scene { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; opacity: .58; mask-image: linear-gradient(90deg,transparent 42%,#0008 62%,#000 100%); transition: opacity .9s linear; }
+.lore-masthead .brush-scene { z-index: 0; }
+.lore-masthead-copy, .lore-edition { z-index: 1; }
+.brush-scene.brush-resting { opacity: .36; }
+.brush-scene.brush-drying { opacity: 0; }
 .brush-draw { stroke-dashoffset: 1; }
-.brush-wet { opacity: 0; }
-.is-painting .brush-draw { animation: brush-direction var(--brush-time,800ms) cubic-bezier(.22,.65,.25,1) var(--brush-delay,0ms) both; }
-.is-painting .brush-wet { animation: brush-capillary 1050ms ease-out var(--brush-delay,200ms) both; }
-.is-painting .brush-finish { animation: brush-settle 420ms ease-out var(--brush-delay,1500ms) both; }
+.is-painting .brush-draw { animation: brush-direction var(--brush-time,1050ms) linear var(--brush-delay,0ms) both; }
 .is-settled .brush-draw { stroke-dashoffset: 0; }
-.is-settled .brush-finish { opacity: 1; }
-.is-settled .brush-wet { opacity: .3; }
 .brush-portrait { display: block; position: relative; isolation: isolate; }
 .brush-portrait>img { display: block; }
-.brush-veil { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.brush-frame { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: .85; transition: opacity .9s linear; }
+.brush-live-frame { opacity: 1; }
+.brush-live-frame.brush-drying { opacity: 0; }
 .brush-heading { position: relative; }
 .brush-heading>.brush-line { position: absolute; bottom: -7px; left: 0; width: 260px; max-width: 70%; height: 26px; pointer-events: none; }
 .masthead.brush-heading { padding-bottom: 10px; }
@@ -28,6 +28,7 @@
 .opening-art .brush-replay { top: -18px; right: -18px; }
 .brush-replay:hover, .brush-replay:focus-visible { color: #fff6dc; background: #6f2b23; }
 .brush-replay:focus-visible { outline: 2px solid #f2dfb5; outline-offset: 3px; }
+.brush-replay:disabled { cursor: default; border-color: #a78d60; }
 .brush-ready .topbar nav a::after { display: none; }
 .topbar nav a.ink-current { color: #f2d49e; font-weight: 600; }
 .brush-response { position: absolute; bottom: -6px; left: 0; width: 100%; height: 15px; pointer-events: none; opacity: 0; transition: opacity .15s; }
@@ -57,12 +58,11 @@
 .character-card:hover .char-copy::before, .character-card:focus-visible .char-copy::before { opacity: 1; }
 .ink-reading-progress { position: fixed; inset: 0 0 auto; height: 2px; z-index: 80; pointer-events: none; background: #aa513b; transform: scaleX(var(--ink-progress,0)); transform-origin: left; }
 @keyframes brush-direction { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
-@keyframes brush-capillary { from { opacity: 0; } 40% { opacity: .16; } to { opacity: .3; } }
-@keyframes brush-settle { from { opacity: 0; } to { opacity: 1; } }
 @keyframes seal-pressure { from { transform: scale(1.08) rotate(-3deg); } 55% { transform: scale(.96) rotate(-2deg); } to { transform: scale(1) rotate(-2deg); } }
 @keyframes button-brush { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 -1% 0 0); } }
 @media (max-width:760px) {
   .ink-hero { --hero-shade: linear-gradient(180deg,#121917f7 0%,#121917ed 64%,#12191766 88%); }
+  .brush-scene { mask-image: linear-gradient(180deg,transparent 48%,#0006 66%,#000 100%); }
   :is(.home-page,.geummyeon-page) .section-heading h2 { font-size: 44px; gap: 14px; }
   :is(.home-page,.geummyeon-page) .section-heading h2 small { font-size: 14px; padding: 5px 7px; }
   .section-heading h2 small { order: 2; }
@@ -71,9 +71,6 @@
 }
 @media (prefers-reduced-motion:reduce) {
   .brush-draw { stroke-dashoffset: 0; }
-  .brush-finish { opacity: 1; }
-  .brush-static-fill { opacity: 1; }
-  .brush-wet { opacity: 0; }
-  .brush-veil, .brush-replay { display: none; }
+  .brush-scene, .brush-front, .brush-replay { display: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
