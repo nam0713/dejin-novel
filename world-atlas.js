@@ -19,6 +19,10 @@
   const panel = archive.querySelector('.archive-record');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const status = archive.querySelector('.archive-status');
+  const chooser = archive.querySelector('.archive-chooser');
+  const summary = chooser && chooser.querySelector('summary');
+  const currentVolume = archive.querySelector('.archive-current-volume');
+  const mobile = matchMedia('(max-width: 760px)');
   const make = (tag, className, text) => {
     const el = document.createElement(tag);
     el.className = className;
@@ -74,6 +78,23 @@
     return button;
   });
   nav.append(list);
+  function layoutChooser() {
+    if (!chooser) return;
+    const focused = document.activeElement;
+    chooser.open = !mobile.matches;
+    list.setAttribute('aria-orientation', mobile.matches ? 'horizontal' : 'vertical');
+    if (mobile.matches && nav.contains(focused)) summary.focus({ preventScroll: true });
+    else if (!mobile.matches && focused === summary) buttons[active].focus({ preventScroll: true });
+  }
+  function updateChooser(index) {
+    if (currentVolume) currentVolume.textContent = '제' + (index + 1) + '권 · ' + records[index].name;
+    if (!chooser || !mobile.matches) return;
+    const needsFocus = chooser.contains(document.activeElement);
+    chooser.open = false;
+    if (needsFocus) summary.focus({ preventScroll: true });
+  }
+  layoutChooser();
+  mobile.addEventListener('change', layoutChooser);
   panel.setAttribute('role', 'tabpanel');
   panel.setAttribute('aria-labelledby', buttons[0].id);
   panel.tabIndex = 0;
@@ -83,7 +104,7 @@
     buttons.forEach(button => button.classList.remove('is-pending'));
     list.removeAttribute('aria-busy');
     status.textContent = '';
-    if (index === active) return;
+    if (index === active) { updateChooser(index); return; }
     buttons[index].classList.add('is-pending');
     list.setAttribute('aria-busy', 'true');
     try {
@@ -111,6 +132,7 @@
       panel.querySelector('.archive-caption').textContent = record.caption;
       panel.querySelector('.archive-link').href = 'lore.html#vol-' + (index + 1);
       panel.querySelector('.archive-link-label').textContent = '제' + (index + 1) + '권 읽기';
+      updateChooser(index);
       list.removeAttribute('aria-busy');
       status.textContent = record.name + ' 펼침';
       if (reduced.matches || !incoming.animate) { previous.remove(); return; }

@@ -1,5 +1,7 @@
 /* An open codex: a volume index beside its own painted record. */
 .world-atlas { display:grid; grid-template-columns:210px minmax(0,1fr); gap:36px; margin:12px 0 0; }
+.archive-chooser { min-width:0; }
+.archive-summary { display:none; }
 .archive-index { position:relative; padding:19px 0 12px; min-width:0; }
 .archive-index::before { content:''; position:absolute; top:0; bottom:0; right:-18px; width:1px; background:linear-gradient(transparent,#88775570 8%,#88775570 92%,transparent); }
 .archive-index-heading { display:flex; align-items:center; gap:11px; margin:0 0 18px; padding:0 14px; color:#273027; }
@@ -30,12 +32,26 @@
 .archive-copy h3 { margin:0 0 12px; color:#222b22; font:400 clamp(37px,3.9vw,48px)/1.15 'Nanum Brush Script',var(--serif); }
 .archive-excerpt { margin:0; max-width:650px; color:#424a3d; font:400 15px/1.95 var(--sans); word-break:keep-all; }
 .archive-link { display:flex; align-items:center; justify-content:space-between; gap:24px; width:fit-content; min-width:155px; min-height:44px; margin:17px 0 0; padding:6px 0; border-bottom:1px solid #9b623c; color:#663226; font:600 14px/1.6 var(--sans); }
-.archive-link>span:last-child { font-size:22px; transition:transform .2s; }
+.archive-link>span:last-child { color:#936f3e; font-size:22px; transition:transform .2s; }
 .archive-link:hover>span:last-child { transform:translateX(5px); }
 .archive-link:focus-visible { outline:2px solid #8b3727; outline-offset:4px; }
 .archive-status { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
 .archive-fallback { padding:0 14px; display:grid; gap:12px; font:500 14px/1.7 var(--serif); }
-.world-atlas + .lore-body { margin-top:30px; }
+/* Finish the selected record before offering the complete book. */
+#lore .lore-complete {
+  position:relative; display:flex; align-items:center; justify-content:space-between; gap:32px;
+  margin:clamp(54px,6vw,80px) 0 0; padding:32px 0 16px;
+}
+#lore .lore-complete::before {
+  content:''; position:absolute; left:0; right:0; top:0; height:3px;
+  background:#59614b; opacity:.45;
+  clip-path:polygon(0 50%,5% 30%,18% 44%,27% 19%,43% 44%,51% 24%,72% 46%,86% 27%,100% 54%,94% 76%,78% 57%,63% 80%,48% 66%,34% 79%,15% 65%,3% 82%);
+}
+.lore-complete-copy { display:flex; align-items:center; gap:20px; min-width:0; }
+.lore-complete-seal { display:grid; place-items:center; flex-shrink:0; width:44px; height:53px; color:#923a2a; border:1px solid #923a2a80; outline:1px solid #923a2a60; outline-offset:-5px; font:400 31px/1 'Nanum Brush Script',var(--serif); transform:rotate(-3deg); }
+#lore .lore-complete h3 { margin:0 0 7px; color:#263026; font:400 36px/1.1 'Nanum Brush Script',var(--serif); }
+#lore .lore-complete p { margin:0; max-width:none; color:#58604f; font:400 14px/1.8 var(--serif); word-break:keep-all; }
+.lore-complete-link { flex-shrink:0; min-width:190px; margin:0; }
 @media(max-width:1050px) {
   .world-atlas { grid-template-columns:190px minmax(0,1fr); gap:28px; }
   .archive-index::before { right:-14px; }
@@ -43,18 +59,35 @@
   .archive-volume-name { font-size:14px; }
 }
 @media(max-width:760px) {
-  .world-atlas { grid-template-columns:1fr; gap:22px; }
+  .world-atlas { grid-template-columns:1fr; gap:26px; }
+  .archive-summary { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:14px 2px 17px; border-bottom:1px solid #8a785c80; list-style:none; cursor:pointer; }
+  .archive-summary::-webkit-details-marker { display:none; }
+  .archive-summary-label { display:block; margin-bottom:5px; color:#71654f; font:400 11px/1.5 var(--serif); letter-spacing:.05em; }
+  .archive-current-volume { display:block; color:#273027; font:600 17px/1.6 var(--serif); }
+  .archive-chevron { width:9px; height:9px; margin-right:6px; border-right:1.5px solid #78552c; border-bottom:1.5px solid #78552c; transform:rotate(45deg); flex-shrink:0; }
+  .archive-chooser[open] .archive-chevron { transform:rotate(225deg); }
+  .archive-summary:focus-visible { outline:2px solid #8b3727; outline-offset:4px; }
   .archive-index { padding:0; }
   .archive-index::before { display:none; }
-  .archive-index-heading { padding:0; margin-bottom:14px; }
+  .archive-index-heading { display:none; }
+  .archive-volumes { margin-top:13px; padding-bottom:7px; }
   .archive-volumes { grid-template-columns:repeat(3,minmax(0,1fr)); gap:5px 7px; }
   .archive-volume { min-height:46px; padding:9px 7px; gap:6px; }
   .archive-ordinal { font-size:10px; }
   .archive-volume-name { font-size:13px; line-height:1.5; }
-  .archive-copy { padding-left:48px; }
+  .archive-copy { padding:25px 0 0; }
+  .archive-folio { margin-bottom:7px; }
   .archive-copy h3 { font-size:39px; }
-  .archive-seal { width:32px; height:40px; }
-  .archive-caption { font-size:11px; }
+  .archive-seal { display:none; }
+  .archive-caption { font-size:11px; line-height:1.9; margin-top:12px; }
+  .archive-excerpt { font-size:15px; line-height:1.95; }
+  .archive-link { margin-top:21px; }
+  #lore .lore-complete { align-items:stretch; flex-direction:column; gap:23px; margin-top:52px; padding-top:29px; padding-bottom:0; }
+  .lore-complete-copy { gap:16px; }
+  .lore-complete-seal { width:36px; height:46px; font-size:26px; }
+  #lore .lore-complete h3 { font-size:32px; margin-bottom:8px; }
+  #lore .lore-complete p { font-size:13px; }
+  .lore-complete-link { align-self:flex-start; margin:0 0 0 52px; }
 }
 @media(max-width:480px) {
   .archive-volumes { grid-template-columns:repeat(2,minmax(0,1fr)); }

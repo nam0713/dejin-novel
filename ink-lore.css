@@ -55,8 +55,8 @@
   letter-spacing: .3em;
 }
 .lore-page .lore-masthead h1 {
-  font: 600 clamp(52px, 6.6vw, 94px)/1.18 var(--serif);
-  letter-spacing: -.065em;
+  font: 400 clamp(74px, 8.5vw, 120px)/1.08 var(--brush);
+  letter-spacing: -.04em;
   text-shadow: 0 3px 28px #171b1b70;
 }
 .lore-page .lore-masthead h1 span { display: block; margin-top: 7px; }
@@ -162,7 +162,7 @@
 @media (max-width: 760px) {
   .lore-page .lore-masthead { display: block; min-height: 460px; padding-block: 43px 42px; background-position: 60% center; }
   .lore-page .lore-masthead::before { background: linear-gradient(90deg, #171b1bf2, #171b1be8 58%, #171b1b8f), linear-gradient(0deg, #171b1bcb, transparent 65%); }
-  .lore-page .lore-masthead h1 { font-size: clamp(44px, 11vw, 67px); line-height: 1.3; }
+  .lore-page .lore-masthead h1 { font-size: clamp(62px, 15vw, 100px); line-height: 1.08; }
   .lore-page .lore-masthead .eyebrow { font-size: 14px; letter-spacing: .12em; margin-bottom: 23px; }
   .lore-page .lore-subtitle { font-size: 16px; margin-top: 22px; }
   .lore-page .lore-subtitle span { font-size: 14px; letter-spacing: .08em; }

@@ -77,3 +77,10 @@
 확인한 시각 요소는 넓은 종이 여백, 가장자리를 먹으로 받친 정보 영역, 절제한 금색 강조, 큰 인물과 작은 선택 항목의 위계다. 사이트에서는 실제 지도를 대신하는 임의 표식을 없애고, 얇은 권별 차례와 붉은 붓획 선택 표시, 크게 전시한 해당 권의 그림을 사용한다. 개혁 나무의 노드 구조는 이 로어북의 목차에 맞지 않아 재현하지 않았다. 인물 확대는 큰 초상과 별도의 여백에 놓은 설명이라는 위계를 취하고, 이 사이트의 전통 장정에 맞춰 축봉과 비단 가장자리로 구성했다. 게임의 아트·UI 자산은 사이트에 사용하지 않았다.
 
 권별 삽화: emperor-mandate / imperial-court / six-armies / mountain-sect-gate / four-guardians-mural / sun-moon-sect / haedong-barana / seomun-geol-portrait / great-wall-secret. 모두 기존 assets/lore 삽화이며, 각 권의 실제 소재를 묘사한다. 붉은 태양을 새 장면에 추가하지 않았다.
+
+
+## 세계관 소개의 여백과 모바일 차례 — 2026-10-01
+
+[Met — Chinese Handscrolls](https://www.metmuseum.org/essays/chinese-handscrolls)에서 부분을 펼쳐 감상하는 두루마리 형식을 다시 확인하고, [중국 회화·서예 전시 작품 목록](https://www.metmuseum.org/ko/exhibitions/chinese-painting-and-calligraphy-selections-from-the-collection-medium/exhibition-objects)의 전시 전체와 개별 작품으로 이동하는 문서 구조를 참고했다. 다음은 그 사이트가 권장한 값이 아닌 이 사이트의 제작 판단이다.
+
+선택한 권의 그림과 소개를 충분히 읽은 뒤 전체 기록으로 넘어가도록, 전체 보기에는 독립한 제목과 여백·먹선을 둔다. 긴 반복 소개는 한 문장으로 줄인다. 모바일에서는 차례를 현재 권의 이름으로 접고 필요할 때 아홉 권을 펼치며, 전체 보기 링크는 권별 읽기와 같은 밑선 링크로 통일한다. 소개 문단을 낙관 옆의 좁은 칸에 넣지 않고 그림과 같은 왼쪽 선에 정렬한다. 화면 캡처 검증은 DESIGN_REFERENCES.md에 별도 기록한다.
