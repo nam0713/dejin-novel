@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "usage": "미리 제작하여 저장만 함. 사이트 미삽입.",
+  "covers": [
+    {
+      "volume": 2,
+      "title": "태평천국",
+      "subtitle": "역적은 천하를 꿈꾸었다",
+      "filename": "02-태평천국.png",
+      "concept": "남경 성곽과 강을 향해 진군하는 반란군. 기존 삼류연정 표지의 수묵·한지·세로 서예 구성. 太平天國 / 천고 · 제2부. 붉은 태양 없음."
+    },
+    {
+      "volume": 3,
+      "title": "야행퇴마",
+      "filename": "03-야행퇴마.png",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/이미지/표지.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Finished flat front cover of a Korean wuxia novel series, portrait 2:3, high resolution, not a book mockup.\nImage 1 is ONLY the established series style reference; create NEW artwork, do not copy its scene or objects. Traditional East Asian ink-wash and restrained watercolor on warm ivory fibrous paper. Expressive dry-brush edges, delicate mist, intricate ancient architecture dissolving into unpainted paper. Match the series layout: four large traditional Chinese calligraphy characters stacked vertically at upper left, smaller legible Korean subtitle in ONE vertical column down the right margin. Black title ink with restrained deep cinnabar within brush strokes. Small Korean series label along bottom. Generously space all text and leave quiet paper behind it. No additional words.\nAvoid red sun, red moon, any red celestial orb, generic round enso decoration, photorealism, anime, 3D, neon, Western fantasy armor, watermark, arbitrary plum blossoms. Red sun belongs exclusively to a different character's power and must not be used here. Distinct composition and atmosphere while maintaining a cohesive collectible cover series.\nScene: an ancient narrow village lane at midnight, crooked tile eaves, distant mountain temple, pine silhouettes. One solitary anonymous wandering exorcist in the middle distance walks toward a tiny warm lantern. Long eerie nonhuman shadows across wet stone and ghostlike silhouettes barely suggested through ink mist, not a crowd of explicit monsters. Foreground yellowed Daoist paper talismans curl on a cracked stone bridge. Transparent deep muted indigo-grey ink creates darkness, ivory paper margins remain bright. A pale ivory crescent moon partly obscured by mist, never red. Quiet supernatural dread and contemplative beauty, sophisticated asymmetrical composition.\nMain title verbatim \"夜行退魔\", stacked 夜 / 行 / 退 / 魔.\nSubtitle verbatim \"밤에는 사람이 아닌 것이 걷는다\".\nSmall label verbatim \"천고 · 제3부\".\nEnsure precise Korean and traditional Chinese text with no omitted characters."
+    },
+    {
+      "volume": 4,
+      "title": "불사투신",
+      "filename": "04-불사투신.png",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/이미지/표지.jpg",
+        "C:/dejin-novel/대진국/삼류연정/이미지/불사투신 서문걸.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Finished flat front cover of a Korean wuxia novel series, portrait 2:3, high resolution, not a book mockup.\nImage 1 is ONLY the established series style reference; create NEW artwork, do not copy its scene or objects. Traditional East Asian ink-wash and restrained watercolor on warm ivory fibrous paper. Expressive dry-brush edges, delicate mist, intricate ancient architecture dissolving into unpainted paper. Match the series layout: four large traditional Chinese calligraphy characters stacked vertically at upper left, smaller legible Korean subtitle in ONE vertical column down the right margin. Black title ink with restrained deep cinnabar within brush strokes. Small Korean series label along bottom. Generously space all text and leave quiet paper behind it. No additional words.\nAvoid red sun, red moon, any red celestial orb, generic round enso decoration, photorealism, anime, 3D, neon, Western fantasy armor, watermark, arbitrary plum blossoms. Red sun belongs exclusively to a different character's power and must not be used here. Distinct composition and atmosphere while maintaining a cohesive collectible cover series.\nImage 2 is ONLY the physical appearance reference of Seomun Geol: face concealed by black hood/headwrap, ragged dark cloak, layered black armor, beast-face chest ornament, two long swords with weathered red ties. Redraw completely in a new pose, composition, and painterly ink medium; do not paste the original.\nScene: Seomun Geol is a steadfast imposing guardian at the base of colossal weathered imperial palace doors. Three-quarter view, figure mid-right, weary yet unbroken, both swords lowered, cloak swept into expressive rough ink strokes. Temple stairs curve upward behind him into pale mist, centuries of weathering on stone, fragments of battle standards in the lower foreground, faint amber light between the closed doors. His oath outlives death, expressed through duty, ancient stone and scale, no gore. Black, warm grey, ivory and restrained dark cinnabar cloth accents. Quiet left paper for title and clear subtitle margin.\nMain title verbatim \"不死鬪神\", stacked 不 / 死 / 鬪 / 神. Use traditional 鬪 exactly, not simplified 斗 or 闘.\nSubtitle verbatim \"맹세는 죽음보다 오래 남는다\".\nSmall label verbatim \"천고 · 제4부\".\nEnsure precise Korean and traditional Chinese text with no omitted characters."
+    },
+    {
+      "volume": 5,
+      "title": "역천귀일",
+      "filename": "05-역천귀일.png",
+      "refs": [
+        "C:/dejin-novel/대진국/삼류연정/이미지/표지.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Finished flat front cover of a Korean wuxia novel series, portrait 2:3, high resolution, not a book mockup.\nImage 1 is ONLY the established series style reference; create NEW artwork, do not copy its scene or objects. Traditional East Asian ink-wash and restrained watercolor on warm ivory fibrous paper. Expressive dry-brush edges, delicate mist, intricate ancient architecture dissolving into unpainted paper. Match the series layout: four large traditional Chinese calligraphy characters stacked vertically at upper left, smaller legible Korean subtitle in ONE vertical column down the right margin. Black title ink with restrained deep cinnabar within brush strokes. Small Korean series label along bottom. Generously space all text and leave quiet paper behind it. No additional words.\nAvoid red sun, red moon, any red celestial orb, generic round enso decoration, photorealism, anime, 3D, neon, Western fantasy armor, watermark, arbitrary plum blossoms. Red sun belongs exclusively to a different character's power and must not be used here. Distinct composition and atmosphere while maintaining a cohesive collectible cover series.\nScene: visionary bird's-eye panorama of the entire fictional Daejin empire. Sinuous mountain ranges, Great Wall, branching rivers, canals, ancient roads and countless palace roofs converge toward ONE far central imperial hall. Foreground shattered jade disc and ancient imperial seal on weathered stone. Delicate pale-gold dragon-vein lines connect the landscape, converging on one tiny white-gold point within the distant hall. No character or face. Upper landscape dissolves into weightless ink clouds and blank ivory sky, as if the physical world were gathering into one and being unmade. Vast, sacred, beautiful, terrifying finale. Restrained muted gold, warm black ink, cinnabar only in calligraphy and seal. No sun or moon disc, no round enso, no glowing game effects. Clear quiet paper behind left calligraphy and right subtitle.\nMain title verbatim \"逆天歸一\", stacked 逆 / 天 / 歸 / 一.\nSubtitle verbatim \"모든 것은 하나로 돌아간다\".\nSmall label verbatim \"천고 · 제5부\".\nEnsure precise Korean and traditional Chinese text with no omitted characters."
+    }
+  ],
+  "status": "4장 제작 완료. 사이트 미삽입.",
+  "resolution": "1024 × 1536 px PNG"
+}
