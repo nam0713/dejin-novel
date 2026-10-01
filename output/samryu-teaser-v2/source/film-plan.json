@@ -1,0 +1,18 @@
+{
+  "duration": 40,
+  "fps": 30,
+  "palette": "black ink, diluted charcoal, calm ivory, sparse cinnabar plum",
+  "shots": [
+    {"start": 0, "end": 5.2, "scene": "hairpin", "movement": "ink forms from the wrapped wrist toward the silver flower; slow macro push"},
+    {"start": 5.2, "end": 9.2, "scene": "proposal", "movement": "match the offering gesture; accelerate toward the two faces"},
+    {"start": 9.2, "end": 13.0, "scene": "seo", "text": "그녀에게는", "movement": "separate portrait and distant wash; sweep foreground branch"},
+    {"start": 13.0, "end": 16.4, "scene": "jin", "text": "남편이 있었다.", "movement": "restrained reaction; ink descends into the collar"},
+    {"start": 16.4, "end": 21.2, "scene": "world", "movement": "open into mist; accelerate along the canal toward the bridge"},
+    {"start": 21.2, "end": 24.4, "scene": "training", "movement": "diagonal sabre reveal and forward camera move"},
+    {"start": 24.4, "end": 26.8, "scene": "training-detail", "movement": "a closer camera cut following the robe and blade"},
+    {"start": 26.8, "end": 33.0, "scene": "walker", "text": "나는 남들보다 늦을 뿐이야.", "movement": "near branch, separate full-body figure, distant village travel at different speeds"},
+    {"start": 33.0, "end": 40.0, "scene": "title", "text": "삼류연정 / 三流戀情 / 한 사람의 강호", "movement": "large brush gestures form an ink mass, then handwritten title is traced within it"}
+  ],
+  "excluded_overlays": ["watermark", "logo", "seal", "music credit", "chapter count", "fixed caption panel"],
+  "method": "newly generated ink paintings, layered camera animation, procedural brush masks and particles, cinematic audio edit"
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "aspect": "landscape",
+    "file": "삼류연정-먹그림-티저-landscape.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frames": 1200,
+    "seconds": 40.0,
+    "bytes": 21890043,
+    "full_decode": "passed",
+    "audio": {
+      "input_i": "-16.34",
+      "input_tp": "-1.46",
+      "input_lra": "12.00",
+      "input_thresh": "-27.19",
+      "output_i": "-17.63",
+      "output_tp": "-2.48",
+      "output_lra": "8.90",
+      "output_thresh": "-28.16",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.37"
+    }
+  },
+  {
+    "aspect": "portrait",
+    "file": "삼류연정-먹그림-티저-portrait.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "frames": 1200,
+    "seconds": 40.0,
+    "bytes": 19663143,
+    "full_decode": "passed",
+    "audio": {
+      "input_i": "-16.34",
+      "input_tp": "-1.46",
+      "input_lra": "12.00",
+      "input_thresh": "-27.19",
+      "output_i": "-17.63",
+      "output_tp": "-2.48",
+      "output_lra": "8.90",
+      "output_thresh": "-28.16",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.37"
+    }
+  }
+]

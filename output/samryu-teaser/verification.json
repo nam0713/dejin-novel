@@ -1,0 +1,48 @@
+[
+  {
+    "aspect": "landscape",
+    "file": "삼류연정-티저-landscape.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frames": 1080,
+    "seconds": 36.0,
+    "bytes": 25272634,
+    "full_decode": "passed",
+    "audio": {
+      "input_i": "-17.96",
+      "input_tp": "-1.47",
+      "input_lra": "5.70",
+      "input_thresh": "-28.13",
+      "output_i": "-17.90",
+      "output_tp": "-1.50",
+      "output_lra": "4.60",
+      "output_thresh": "-28.01",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.10"
+    }
+  },
+  {
+    "aspect": "portrait",
+    "file": "삼류연정-티저-portrait.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "frames": 1080,
+    "seconds": 36.0,
+    "bytes": 23926310,
+    "full_decode": "passed",
+    "audio": {
+      "input_i": "-17.96",
+      "input_tp": "-1.47",
+      "input_lra": "5.70",
+      "input_thresh": "-28.13",
+      "output_i": "-17.90",
+      "output_tp": "-1.50",
+      "output_lra": "4.60",
+      "output_thresh": "-28.01",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.10"
+    }
+  }
+]
