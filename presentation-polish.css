@@ -213,7 +213,6 @@ html.portrait-is-open { overflow:hidden; }
 #portraitDialog .portrait-roller-top { top:10px; }
 #portraitDialog .portrait-roller-bottom { bottom:10px; }
 #portraitDialog .portrait-biography { position:relative; padding:0 0 45px; background:transparent; align-self:center; }
-#portraitDialog .portrait-heading-mark { display:block; margin-bottom:24px; color:#c0a873; font:400 27px/1.5 'Nanum Brush Script',var(--serif); letter-spacing:.2em; }
 #portraitDialog.portrait-viewer small { display:block; color:#ddccb0; font:400 14px/1.9 var(--serif); }
 #portraitDialog.portrait-viewer h3 { margin:15px 0 21px; color:#f5eddc; font:400 clamp(48px,5.5vw,76px)/1.2 'Nanum Brush Script',var(--serif); word-break:keep-all; text-wrap:balance; }
 #portraitDialog .portrait-biography-rule { display:block; width:150px; height:5px; margin:0 0 25px; background:#b59a61; clip-path:polygon(0 43%,7% 10%,27% 21%,45% 5%,67% 25%,83% 27%,100% 51%,94% 77%,74% 87%,57% 72%,33% 95%,15% 72%,0 65%); transform-origin:left center; }
@@ -239,7 +238,6 @@ html.portrait-is-open { overflow:hidden; }
   #portraitDialog .portrait-scroll { justify-self:center; width:min(72vw,calc(52dvh * .69)); height:auto; }
   #portraitDialog .portrait-silk { padding:12px; }
   #portraitDialog .portrait-biography { padding:0 4px; }
-  #portraitDialog .portrait-heading-mark { margin-bottom:10px; font-size:22px; }
   #portraitDialog.portrait-viewer h3 { font-size:46px; margin:10px 0 15px; }
   #portraitDialog .portrait-biography-rule { margin-bottom:15px; }
   #portraitDialog.portrait-viewer p { font-size:15px; line-height:1.9; }
@@ -249,7 +247,6 @@ html.portrait-is-open { overflow:hidden; }
 @media(max-height:550px) and (min-width:761px) {
   #portraitDialog.portrait-viewer { padding-top:56px; }
   #portraitDialog .portrait-scroll { height:78dvh; width:calc(78dvh * .69); }
-  #portraitDialog .portrait-heading-mark { margin-bottom:9px; }
   #portraitDialog.portrait-viewer h3 { font-size:45px; margin:10px 0; }
   #portraitDialog.portrait-viewer p { font-size:14px; }
   #portraitDialog .portrait-imprint { margin-top:15px; }

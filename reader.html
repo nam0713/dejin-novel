@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css?v=1">
-  <link rel="stylesheet" href="music.css?v=3">
+  <link rel="stylesheet" href="music.css?v=4">
   <link rel="stylesheet" href="ink-reader.css?v=3">
   <link rel="stylesheet" href="illustration-viewer.css?v=2">
 </head>
@@ -51,11 +51,11 @@
   <aside class="music-player" aria-label="배경음악" hidden>
     <audio src="assets/audio/eastminster.mp3" preload="none" loop></audio>
     <div class="music-bar">
-      <button class="music-toggle" type="button" aria-label="배경음악 재생" aria-pressed="false"><span class="music-note" aria-hidden="true">♫</span><span class="music-toggle-label">음악 켜기</span></button>
+      <button class="music-toggle" type="button" aria-label="배경음악 재생" aria-pressed="false"><svg class="music-instrument" viewBox="0 0 32 36" fill="none" aria-hidden="true"><path d="M12 3c-3 5-2 7-5 10L5 28c3 3 12 5 19 1l-1-16c-4-3-3-6-5-10Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><g stroke="currentColor" stroke-width=".8"><path class="music-string" d="m12 7-3 21"/><path class="music-string" d="m15 7-1 22"/><path class="music-string" d="m18 7 2 22"/></g><path d="m9 23 11 1M12 5h6" stroke="currentColor" stroke-width="1.4"/><circle class="music-state" cx="26" cy="7" r="2.5"/></svg><span class="music-toggle-label">음악 켜기</span></button>
       <details class="music-details">
-        <summary aria-label="배경음악 정보 및 음량 설정" title="음악 설정">⋯</summary>
+        <summary aria-label="배경음악 정보 및 음량 설정" title="음악 설정"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 5h18M3 12h18M3 19h18" stroke="currentColor" stroke-width="1.2"/><path d="M8 2v6m8 1v6m-6 1v6" stroke="currentColor" stroke-width="2.5"/></svg></summary>
         <div class="music-panel">
-          <small>風流 · BACKGROUND MUSIC</small>
+          <small>풍류 · 風流</small>
           <strong>Eastminster</strong>
           <p>빗소리와 현악 선율이 흐르는 강호.<br>이야기 곁에 조용히 놓는 음악.</p>
           <label>음량 <input type="range" min="0" max="100" value="20" aria-label="배경음악 음량"></label>
@@ -65,7 +65,7 @@
     </div>
     <div class="music-status" role="status" aria-live="polite"></div>
   </aside>
-  <script src="music.js?v=2"></script>
+  <script src="music.js?v=3"></script>
   <script src="illustration-viewer.js?v=1"></script>
 </body>
 </html>

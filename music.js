@@ -9,6 +9,8 @@
   const label = player.querySelector('.music-toggle-label');
   const volume = player.querySelector('input[type="range"]');
   const status = player.querySelector('.music-status');
+  const details = player.querySelector('.music-details');
+  const settings = details.querySelector('summary');
   const key = player.dataset.musicKey || 'samryu-music';
   let saved = {};
   try { saved = JSON.parse(sessionStorage.getItem(key)) || {}; } catch (_) {}
@@ -32,6 +34,7 @@
     toggle.setAttribute('aria-pressed', String(playing));
     toggle.setAttribute('aria-label', playing ? '배경음악 일시정지' : '배경음악 재생');
     label.textContent = playing ? '음악 끄기' : '음악 켜기';
+    toggle.title = label.textContent;
     player.classList.toggle('is-playing', playing);
     save();
   }
@@ -80,6 +83,15 @@
     save();
   });
   window.addEventListener('pagehide', save);
+  document.addEventListener('click', function (event) {
+    if (!player.contains(event.target)) details.open = false;
+  });
+  player.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && details.open) {
+      details.open = false;
+      settings.focus();
+    }
+  });
   document.addEventListener('visibilitychange', function () {
     if (document.hidden) save();
   });
